@@ -14,11 +14,13 @@ A more important reason to use these functions is, that they strip dots (.) from
 
 Also the following methods return the code when no translation is found whereas i18n would return an empty string. 
 
-## `t9n(code, prefix='')`
+## `T9n.get(code, prefix='')`
 
-Get your localized text in Javascript. Prefix would be something like "error.accounts".
+Get your localized text in Javascript. The optionally prefix would be something like "error.accounts".
 
-Example: `i9n('store.purchase');`.
+Examples:
+    `T9n.get('store.purchase');`
+    `T9n.get('User not found', 'error.accounts');`
 
 
 ## `{{t9n code prefix}}`
@@ -26,6 +28,20 @@ Example: `i9n('store.purchase');`.
 Get your localized text in Handlebars. Prefix would be something like "error.accounts".
 
 Example: `{{t9n "store.purchase"}}`.
+
+
+## `T9n.map language, yourMap`
+
+Define translations. In contrast to the i18n package if you call this method several times sub maps (like 'store' in the example below) are not overwritten but there keys are merged with the map you specify.
+There is a pull request (https://github.com/subhog/meteor-just-i18n/pulls) adding this functionality to just-i18n, as soon as it is merged this will be obsolete.
+
+Example:
+
+    T9n.map 'en',
+      hello: 'world'
+      store:
+        purchase: 'buy now'
+        basket: 'basket'
 
 
 # License
