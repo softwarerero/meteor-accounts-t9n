@@ -1,9 +1,10 @@
 if Meteor.isClient
   if Package.ui
-    Handlebars = Package.ui.Handlebars
-
-  Handlebars.registerHelper 't9n', (x, prefix='') ->
-    T9n.get(x, prefix)
+    Package.ui.Handlebars.registerHelper 't9n', (x, prefix='') ->
+      T9n.get(x, prefix)
+  else
+    Handlebars.registerHelper 't9n', (x, prefix='') ->
+      T9n.get(x, prefix)
 
 class T9n
 
@@ -11,10 +12,7 @@ class T9n
     _get(x, prefix)
 
   @map: (language, map) ->
-    if not i18n._maps[language]
-      i18n._maps[language] = {}
-    _extend(i18n._maps[language], map)
-    i18n._dep.changed()
+    i18n.map(language, map)
 
   _get = (x, prefix='') ->
     prefix = (if prefix then prefix + '.' else '')
