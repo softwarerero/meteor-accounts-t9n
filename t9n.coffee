@@ -1,5 +1,5 @@
 if Meteor.isClient
-  if Package.ui and Handlebars is undefined
+  if Package.ui
     Package.ui.Handlebars.registerHelper 't9n', (x, prefix='') ->
       T9n.get(x, prefix)
   else
