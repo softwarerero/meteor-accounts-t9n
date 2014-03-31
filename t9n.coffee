@@ -2,13 +2,12 @@ if Meteor.isClient
   if Package.ui
     Handlebars = Package.ui.Handlebars
 
-  Handlebars.registerHelper 't9n', (x, prefix='') ->
-    T9n.get(x, prefix)
+  Handlebars.registerHelper 't9n', (x) ->
+    T9n.get(x)
 
   # backward compatibility with just-i18n, 
-  Handlebars.registerHelper 'i18n
-  ', (x, prefix='') ->
-    T9n.get(x, prefix)
+  Handlebars.registerHelper 'i18n', (x) ->
+    T9n.get(x)
 
 class T9n
 
@@ -16,18 +15,16 @@ class T9n
   @defaultLanguage: 'en'
   @language: ''
   @dep: new Deps.Dependency()
-  
   @missingPrefix = ">"
   @missingPostfix = "<"
   
-  @get: (x) ->
-    @t9n x
-    
   @map: (language, map) ->
     if(!@maps[language]) 
       @maps[language] = {}
     @registerMap(language, '', false, map)
     @dep.changed()
+
+  @get: (x) -> @t9n x
 
   @t9n: (label) ->
     @dep.depend()
