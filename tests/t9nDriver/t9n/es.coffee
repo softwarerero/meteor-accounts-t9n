@@ -21,4 +21,4 @@ es =
       "Need to set a username or email": "Tienes que especificar un usuario o un email"
       "Signups forbidden": "Registraciones prohibidos"
 
-i18n.map "es", es
+T9n.map "es", es

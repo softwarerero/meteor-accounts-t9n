@@ -21,4 +21,4 @@ pl =
       "Need to set a username or email": "Wymagane ustawienie nazwy użytkownika lub adresu email"
       "Signups forbidden": "Rejestracja zabroniona"
 
-i18n.map "pl", pl
+T9n.map "pl", pl
