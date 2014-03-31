@@ -6,7 +6,8 @@ if Meteor.isClient
     T9n.get(x, prefix)
 
   # backward compatibility with just-i18n, 
-  Handlebars.registerHelper 'i18n', (x, prefix='') ->
+  Handlebars.registerHelper 'i18n
+  ', (x, prefix='') ->
     T9n.get(x, prefix)
 
 class T9n
