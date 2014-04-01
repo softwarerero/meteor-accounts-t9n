@@ -1,39 +1,43 @@
 # Translations for the meteor account's error messages
 
-In Version 0.0.1 only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway. 
+In Version 0.0.3 only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway. 
 
+This package is inspired by just-i18n and included this as a dependency before version 0.0.3.
 
 # API
 
-To initialize this package with your language use the functionality of https://github.com/subhog/meteor-just-i18n.
+##  Set a current language for translations: 
+`T9n.language = "es"`
 
-To get a translation use the following methods instead of the ones provided by i18n.
-They will spare a letter and allow for easy future unuse of the translations here when the accounts packages themselves brings translations, which will not be to soon (https://github.com/meteor/meteor/issues/1833). 
+##  Set a default language to look up if nothing is found for the current language (defaults to "en"): 
+`T9n.defaultLanguage = "en"`
 
-A more important reason to use these functions is, that they strip dots (.) from the error text, which i18n would interprete as a sub-map, and that's usually not what we want.
 
-Also the following methods return the code when no translation is found whereas i18n would return an empty string. 
+## Get a translation in Javascript:
 
-## `T9n.get(code, prefix='')`
-
-Get your localized text in Javascript. The optionally prefix would be something like "error.accounts".
+`T9n.get(code)`
 
 Examples:
-    `T9n.get('store.purchase');`
-    `T9n.get('User not found', 'error.accounts');`
+* `T9n.get('name');`
+* `T9n.get('store.purchase');`
+* `T9n.get('error.accounts.User not found');`
 
+## Get a localized text in Handlebars. 
 
-## `{{t9n code prefix}}`
-
-Get your localized text in Handlebars. Prefix would be something like "error.accounts".
+`{{t9n code}}`
 
 Example: `{{t9n "store.purchase"}}`.
 
+If a translation is not found the key is displayed. To spot not translated keys a prefix and a postfix can surround
+the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You can change the pre- and postfix: 
 
-## `T9n.map language, yourMap`
+`T9n.missingPrefix = ">"`
+`T9n.missingPostfix = "<"`
 
-Define translations. In contrast to the i18n package if you call this method several times sub maps (like 'store' in the example below) are not overwritten but there keys are merged with the map you specify.
-There is a pull request (https://github.com/subhog/meteor-just-i18n/pulls) adding this functionality to just-i18n, as soon as it is merged this will be obsolete.
+
+## Define translations.
+
+`T9n.map language, yourMap`
 
 Example:
 
@@ -43,6 +47,19 @@ Example:
         purchase: 'buy now'
         basket: 'basket'
 
+
+# Backwards compatibility with just-i18n
+As former versions used just-i18n we implement part of its API to allow for an easy migration from pre 0.0.3 versions. 
+These functions should not be used for new development, they should rather be regarded as deprecated.
+ 
+## Get a translation in Javascript:
+
+`i18n(code)`
+
+## Get a localized text in Handlebars. 
+
+`{{i18n code}}`
+ 
 
 # License
 
