@@ -16,3 +16,7 @@ equals(i18n("error.accounts.Signups forbidden"), "Registraciones prohibidos")
 
 T9n.language = "none"
 equals(T9n.get("non existant key"), ">non existant key<")
+equals(T9n.get('name'), 'Name')
+equals(T9n.get('error.anError'), 'An Error')
+
+console.log i18n('error.anError')

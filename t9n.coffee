@@ -42,6 +42,7 @@ class T9n
         @registerMap(language, prefix + key, true, value)        
         
 @T9n = T9n
+@t9n = (x) -> T9n.get(x)
 
 # this global function offers backward compatibility with just-i18n, 
 # but it is born deprecated 
