@@ -1,7 +1,8 @@
 {
   "packages": {
-     "accounts-t9n": {
+    "accounts-t9n": {
       "path": "/Users/sun/daten/suncom/proj/2014/meteor-modules/meteor-accounts-t9n"
-    }
+    },
+    "just-i18n": {}
   }
 }

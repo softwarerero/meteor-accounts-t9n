@@ -5,10 +5,6 @@ if Meteor.isClient
   Handlebars.registerHelper 't9n', (x) ->
     T9n.get(x)
 
-  # backward compatibility with just-i18n, 
-  Handlebars.registerHelper 'i18n', (x) ->
-    T9n.get(x)
-
 class T9n
 
   @maps: {}
@@ -43,7 +39,3 @@ class T9n
         
 @T9n = T9n
 @t9n = (x) -> T9n.get(x)
-
-# this global function offers backward compatibility with just-i18n, 
-# but it is born deprecated 
-@i18n = (x) -> T9n.get(x)
