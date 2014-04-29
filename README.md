@@ -1,6 +1,7 @@
 # Translations for the meteor account's error messages
 
-In Version 0.0.3 only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway. 
+In Version 0.0.5 only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
+The translations have moved to accounts-entry, but translations can be added here for other accounts related modules.
 
 This package is inspired by just-i18n and included this as a dependency before version 0.0.3.
 
@@ -47,19 +48,6 @@ Example:
         purchase: 'buy now'
         basket: 'basket'
 
-
-# Backwards compatibility with just-i18n
-As former versions used just-i18n we implement part of its API to allow for an easy migration from pre 0.0.3 versions. 
-These functions should not be used for new development, they should rather be regarded as deprecated.
- 
-## Get a translation in Javascript:
-
-`i18n(code)`
-
-## Get a localized text in Handlebars. 
-
-`{{i18n code}}`
- 
 
 # License
 
