@@ -51,6 +51,10 @@ class T9n
       for key, value of map
         @registerMap(language, prefix + key, true, value)        
 
+  @getLanguage: () ->
+    @depLanguage.depend()
+    return @language
+
   @setLanguage: (language) ->
     if(!@maps[language]) 
       return;
