@@ -11,6 +11,7 @@ class T9n
   @defaultLanguage: 'en'
   @language: ''
   @dep: new Deps.Dependency()
+  @depLanguage: new Deps.Dependency()
   @missingPrefix = ">"
   @missingPostfix = "<"
   
@@ -22,6 +23,7 @@ class T9n
 
   @get: (label) ->
     @dep.depend()
+    @depLanguage.depend()
     if typeof label != 'string' 
       return ''
     @maps[@language]?[label] ||
@@ -30,6 +32,7 @@ class T9n
   
   @has: (label, language) ->
     @dep.depend()
+    @depLanguage.depend()
     if typeof label != 'string' 
       return ''
     if language
@@ -47,6 +50,12 @@ class T9n
         prefix = prefix + '.'
       for key, value of map
         @registerMap(language, prefix + key, true, value)        
-        
+
+  @setLanguage: (language) ->
+    if(!@maps[language]) 
+      return;
+    @language = language
+    @depLanguage.changed()
+
 @T9n = T9n
 @t9n = (x) -> T9n.get(x)
