@@ -27,7 +27,18 @@ class T9n
     @maps[@language]?[label] ||
       @maps[@defaultLanguage]?[label] ||
       @missingPrefix + label + @missingPostfix
-    
+  
+  @has: (label, language) ->
+    @dep.depend()
+    if typeof label != 'string' 
+      return ''
+    if language
+      if typeof language != 'string' 
+        return ''
+      return @maps[language]?[label]
+    @maps[@language]?[label] ||
+      @maps[@defaultLanguage]?[label]
+  
   @registerMap = (language, prefix, dot, map) ->
     if typeof map == 'string' 
       @maps[language][prefix] = map
