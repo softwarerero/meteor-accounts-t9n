@@ -1,8 +1,1 @@
-en =
-  name: "Name"
-
-  error:
-    anError: "An Error"
-  
-
-T9n.map "en", en
+# As the original error messages are English there is no need to do anything here.
