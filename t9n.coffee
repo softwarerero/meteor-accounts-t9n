@@ -14,7 +14,7 @@ class T9n
   @depLanguage: new Deps.Dependency()
   @missingPrefix = ">"
   @missingPostfix = "<"
-  
+
   @map: (language, map) ->
     if(!@maps[language]) 
       @maps[language] = {}
