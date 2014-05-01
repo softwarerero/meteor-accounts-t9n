@@ -55,8 +55,12 @@ class T9n
     @depLanguage.depend()
     return @language
 
+  @getLanguages: () ->
+    @dep.depend()
+    return Object.keys(@maps).sort()
+
   @setLanguage: (language) ->
-    if(!@maps[language]) 
+    if(!@maps[language] || @language == language) 
       return;
     @language = language
     @depLanguage.changed()
