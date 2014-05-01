@@ -14,7 +14,7 @@ class T9n
   @depLanguage: new Deps.Dependency()
   @missingPrefix = ">"
   @missingPostfix = "<"
-  
+
   @map: (language, map) ->
     if(!@maps[language]) 
       @maps[language] = {}
@@ -39,8 +39,16 @@ class T9n
       for key, value of map
         @registerMap(language, prefix + key, true, value)        
 
+  @getLanguage: () ->
+    @depLanguage.depend()
+    return @language
+
+  @getLanguages: () ->
+    @dep.depend()
+    return Object.keys(@maps).sort()
+
   @setLanguage: (language) ->
-    if(!@maps[language]) 
+    if(!@maps[language] || @language == language) 
       return;
     @language = language
     @depLanguage.changed()
