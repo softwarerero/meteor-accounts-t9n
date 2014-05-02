@@ -23,7 +23,7 @@ Examples:
 * `T9n.get('store.purchase');`
 * `T9n.get('error.accounts.User not found');`
 
-## Get a localized text in Handlebars. 
+## Get a localized text in Handlebars
 
 `{{t9n code}}`
 
@@ -36,7 +36,7 @@ the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You 
 `T9n.missingPostfix = "<"`
 
 
-## Define translations.
+## Define translations
 
 `T9n.map language, yourMap`
 
@@ -48,6 +48,9 @@ Example:
         purchase: 'buy now'
         basket: 'basket'
 
+# Contributions
+pwldp - Polish Translation
+splendido - Italian Translation, Reactivity, Ideas
 
 # License
 
