@@ -21,14 +21,14 @@ class T9n
     @registerMap(language, '', false, map)
     @dep.changed()
 
-  @get: (label) ->
+  @get: (label, markIfMissing = true) ->
     @dep.depend()
     @depLanguage.depend()
     if typeof label != 'string' 
       return ''
     @maps[@language]?[label] ||
       @maps[@defaultLanguage]?[label] ||
-      @missingPrefix + label + @missingPostfix
+      if markIfMissing then @missingPrefix + label + @missingPostfix else label
   
   @registerMap = (language, prefix, dot, map) ->
     if typeof map == 'string' 
