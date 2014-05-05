@@ -1,3 +1,4 @@
+# We need a dummy translation so that a text is found.
 en =
   error:
     accounts:
