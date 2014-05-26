@@ -49,8 +49,8 @@ Example:
         basket: 'basket'
 
 # Contributions
-pwldp - Polish Translation
-splendido - Italian Translation, Reactivity, Ideas
+* pwldp - Polish Translation
+* splendido - Italian Translation, Reactivity, Ideas
 
 # License
 
