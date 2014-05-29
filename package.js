@@ -5,6 +5,7 @@ Package.describe({
 Package.on_use(function (api, where) {
   api.add_files([
     't9n.coffee',
+    't9n/cs.coffee',
     't9n/de.coffee',
     't9n/en.coffee',
     't9n/es.coffee',
@@ -20,6 +21,7 @@ Package.on_use(function (api, where) {
 Package.on_test(function (api) {
   api.add_files([
     't9n.coffee',
+    't9n/cs.coffee',
     't9n/de.coffee',
     't9n/en.coffee',
     't9n/es.coffee',
