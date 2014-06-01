@@ -11,6 +11,7 @@ Package.on_use(function (api, where) {
     't9n/es.coffee',
     't9n/it.coffee',
     't9n/pl.coffee',
+    't9n/fr.coffee',
   ], ['client', 'server']);
 
   api.use(['coffeescript', 'handlebars', 'deps'], ['client', 'server']);
@@ -27,6 +28,7 @@ Package.on_test(function (api) {
     't9n/es.coffee',
     't9n/it.coffee',
     't9n/pl.coffee',
+    't9n/fr.coffee',
   ], ['client', 'server']);
 
   api.use(['coffeescript', 'handlebars', 'deps'], ['client', 'server']);
