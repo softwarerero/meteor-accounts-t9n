@@ -3,7 +3,7 @@
 Right now only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 Some translations have moved to accounts-entry, but translations can be added here for other accounts related modules and of course for more languages.
 
-Translations are currently available for Czech, German, Italian, Polish and Spanish.
+Translations are currently available for Czech, French, German, Italian, Polish and Spanish.
 
 This package is inspired by just-i18n and included this as a dependency before version 0.0.3.
 
@@ -51,6 +51,7 @@ Example:
         basket: 'basket'
 
 # Contributions
+* djhi - French Translation
 * mdede - Czech Translation
 * robhunt3r - Improved Spanish Translation
 * splendido - Italian Translation, Reactivity, Ideas
