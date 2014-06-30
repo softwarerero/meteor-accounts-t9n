@@ -1,6 +1,6 @@
 
 cs =
-  accounts:
+  #accounts:
 
 #-> add:
 #-> and:
@@ -45,7 +45,7 @@ cs =
 #->   "Login forbidden":
       #"Service " + options.service + " already configured":
 #->   "Service unknown":
-      "Unrecognized options for login request":
+#->   "Unrecognized options for login request":
       "User validation failed": "Validace uživatele selhala"
       "Username already exists.": "Uživatelské jméno již existuje."
 #->   "You are not logged in.":
