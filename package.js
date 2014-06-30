@@ -9,9 +9,12 @@ Package.on_use(function (api, where) {
     't9n/de.coffee',
     't9n/en.coffee',
     't9n/es.coffee',
+    't9n/fr.coffee',
     't9n/it.coffee',
     't9n/pl.coffee',
-    't9n/fr.coffee',
+    't9n/pt.coffee',
+    't9n/sl.coffee',
+    't9n/sv.coffee',
   ], ['client', 'server']);
 
   api.use(['coffeescript', 'handlebars', 'deps'], ['client', 'server']);
