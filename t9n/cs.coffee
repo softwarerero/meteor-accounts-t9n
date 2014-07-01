@@ -3,6 +3,7 @@ cs =
 
 #>add:
 #>and:
+#>back:
 #>clickAgree:
 #>configure:
 #>createAccount:
@@ -10,6 +11,7 @@ cs =
 #>email:
 #>emailAddress:
 #>emailResetLink:
+#>emailSent:
 #>forgotPassword:
 #>ifYouAlreadyHaveAnAccount:
 #>optional:

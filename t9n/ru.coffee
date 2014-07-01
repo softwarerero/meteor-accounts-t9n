@@ -1,7 +1,9 @@
+
 ru =
 
 #>add:
   and: "и"
+#>back:
   clickAgree: "Нажав на Регистрация вы соглашаетесь с условиями"
   configure: "Конфигурировать"
   createAccount: "Создать аккаунт"
@@ -9,6 +11,7 @@ ru =
   email: "Email"
   emailAddress: "Email"
   emailResetLink: "Отправить ссылку для сброса"
+#>emailSent:
   forgotPassword: "Забыли пароль?"
   ifYouAlreadyHaveAnAccount: "Если у вас уже есть аккаунт"
   optional: "Необязательно"

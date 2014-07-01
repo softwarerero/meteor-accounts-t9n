@@ -3,6 +3,7 @@ es =
 
 #>add:
   and: "y"
+#>back:
   clickAgree: "Si haces clic en Sucribir estas de acuerdo con la"
   configure: "Disposición"
   createAccount: "Crear cuenta"
@@ -10,6 +11,7 @@ es =
   email: "Email"
   emailAddress: "Dirección de Email"
   emailResetLink: "Reiniciar Email"
+#>emailSent:
   forgotPassword: "Contraseña olvidada?"
   ifYouAlreadyHaveAnAccount: "Si ya tenés una cuenta"
   optional: "Opcional"

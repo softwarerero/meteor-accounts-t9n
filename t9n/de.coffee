@@ -3,6 +3,7 @@ de =
 
 #>add:
   and: "und"
+#>back:
   clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
   configure: "Konfigurieren"
   createAccount: "Konto erzeugen"
@@ -10,6 +11,7 @@ de =
   email: "E-Mail"
   emailAddress: "E-Mail Adresse"
   emailResetLink: "Senden"
+#>emailSent:
   forgotPassword: "Passwort vergessen?"
   ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
   optional: "Optional"

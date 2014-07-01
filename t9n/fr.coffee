@@ -3,6 +3,7 @@ fr =
 
 #>add:
   and: "et"
+#>back:
   clickAgree: "En cliquant sur S'enregistrer, vous acceptez notre"
   configure: "Configurer"
   createAccount: "Créer un compte"
@@ -10,6 +11,7 @@ fr =
   email: "Email"
   emailAddress: "Adresse Email"
   emailResetLink: "Adresse pour reinitialiser votre mot de passe"
+#>emailSent:
   forgotPassword: "Vous avez oublié votre mot de passe ?"
   ifYouAlreadyHaveAnAccount: "Si vous avez déjà un compte"
   optional: "Optionnel"

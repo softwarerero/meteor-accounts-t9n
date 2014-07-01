@@ -3,6 +3,7 @@ pl =
 
 #>add:
   and: "i"
+#>back:
   clickAgree: "Klikając na Zarejestruj się zgadzasz się z naszą"
   configure: "Konfiguruj"
   createAccount: "Utwórz konto"
@@ -10,6 +11,7 @@ pl =
   email: "Email"
   emailAddress: "Adres email"
   emailResetLink: "Wyślij email z linkiem do zmiany hasła"
+#>emailSent:
   forgotPassword: "Zapomniałeś hasła?"
   ifYouAlreadyHaveAnAccount: "Jeżeli już masz konto"
   optional: "Nieobowiązkowe"

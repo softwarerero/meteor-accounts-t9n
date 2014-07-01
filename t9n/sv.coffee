@@ -3,6 +3,7 @@ sv =
 
 #>add:
   and: "och"
+#>back:
   clickAgree: "När du väljer att skapa ett konto så godkänner du också vår"
   configure: "Konfigurera"
   createAccount: "Skapa ett konto"
@@ -10,6 +11,7 @@ sv =
   email: "E-postadress"
   emailAddress: "E-postadress"
   emailResetLink: "E-post återställningslänk"
+#>emailSent:
   forgotPassword: "Glömt din e-postadress?"
   ifYouAlreadyHaveAnAccount: "Om du redan har ett konto"
   optional: "Valfri"

@@ -3,6 +3,7 @@ pt =
 
 #>add:
   and: "e"
+#>back:
   clickAgree: "Ao clicar em Entrar, você aceita nosso"
   configure: "Configurar"
   createAccount: "Criar Conta"
@@ -10,6 +11,7 @@ pt =
   email: "E-mail"
   emailAddress: "Endereço de e-mail"
   emailResetLink: "Gerar nova senha"
+#>emailSent:
   forgotPassword: "Esqueceu sua senha?"
   ifYouAlreadyHaveAnAccount: "Se você já tem uma conta"
   optional: "Opcional"

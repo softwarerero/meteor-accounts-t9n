@@ -3,6 +3,7 @@ sl =
 
 #>add:
   and: "in"
+#>back:
   clickAgree: "S klikom na Registracija se strinjaš"
   configure: "Nastavi"
   createAccount: "Nova registracija"
@@ -10,6 +11,7 @@ sl =
   email: "Email"
   emailAddress: "Email naslov"
   emailResetLink: "Pošlji ponastavitveno povezavo"
+#>emailSent:
   forgotPassword: "Pozabljeno geslo?"
   ifYouAlreadyHaveAnAccount: "Če si že registriran(a),"
   optional: "Po želji"

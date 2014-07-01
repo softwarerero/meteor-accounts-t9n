@@ -3,6 +3,7 @@ en =
 
   add: "add"
   and: "and"
+  back: "back",
   clickAgree: "By clicking Register, you agree to our"
   configure: "Configure"
   createAccount: "Create an Account"
@@ -10,6 +11,7 @@ en =
   email: "Email"
   emailAddress: "Email Address"
   emailResetLink: "Email Reset Link"
+  emailSent: "Email Sent!",
   forgotPassword: "Forgot your password?"
   ifYouAlreadyHaveAnAccount: "If you already have an account"
   optional: "Optional"

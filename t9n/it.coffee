@@ -3,6 +3,7 @@ it =
 
   add: "aggiungi"
   and: "e"
+  back: "indietro"
   clickAgree: "Cliccando Registrati, accetti la nostra"
   configure: "Configura"
   createAccount: "Crea un Account"
@@ -10,6 +11,7 @@ it =
   email: "Email"
   emailAddress: "Indirizzo Email"
   emailResetLink: "Invia Link di Reset"
+  emailSent: "Email Inviata!"
   forgotPassword: "Hai dimenticato la password?"
   ifYouAlreadyHaveAnAccount: "Se hai già un account"
   optional: "Opzionale"
