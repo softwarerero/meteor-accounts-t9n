@@ -48,37 +48,36 @@ check/match.js:
 Template for language files:
 
 en =
-  accounts:
 
-    add:
-    and:
-    clickAgree:
-    configure:
-    createAccount:
-    dontHaveAnAccount:
-    email:
-    emailAddress:
-    emailResetLink:
-    forgotPassword:
-    ifYouAlreadyHaveAnAccount:
-    optional:
-    OR:
-    password:
-    privacyPolicy:
-    remove:
-    resetYourPassword:
-    sign:
-    signIn:
-    signin:
-    signOut:
-    signUp:
-    signupCode:
-    signUpWithYourEmailAddress:
-    terms:
-    updateYourPassword:
-    username:
-    usernameOrEmail:
-    with:
+  add:
+  and:
+  clickAgree:
+  configure:
+  createAccount:
+  dontHaveAnAccount:
+  email:
+  emailAddress:
+  emailResetLink:
+  forgotPassword:
+  ifYouAlreadyHaveAnAccount:
+  optional:
+  OR:
+  password:
+  privacyPolicy:
+  remove:
+  resetYourPassword:
+  sign:
+  signIn:
+  signin:
+  signOut:
+  signUp:
+  signupCode:
+  signUpWithYourEmailAddress:
+  terms:
+  updateYourPassword:
+  username:
+  usernameOrEmail:
+  with:
 
 
   error:

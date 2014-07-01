@@ -13,6 +13,7 @@ Package.on_use(function (api, where) {
     't9n/it.coffee',
     't9n/pl.coffee',
     't9n/pt.coffee',
+    't9n/ru.coffee',
     't9n/sl.coffee',
     't9n/sv.coffee',
   ], ['client', 'server']);
@@ -33,6 +34,7 @@ Package.on_test(function (api) {
     't9n/it.coffee',
     't9n/pl.coffee',
     't9n/pt.coffee',
+    't9n/ru.coffee',
     't9n/sl.coffee',
     't9n/sv.coffee',
   ], ['client', 'server']);
