@@ -1,4 +1,5 @@
-
+#Language: Russian
+#Translators: splendido
 ru =
 
 #>add:

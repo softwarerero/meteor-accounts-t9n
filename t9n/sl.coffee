@@ -1,4 +1,5 @@
-
+#Language: Slovenian
+#Translators: splendido?
 sl =
 
 #>add:

@@ -1,3 +1,5 @@
+#Language: French
+#Translators: djhi
 
 fr =
 

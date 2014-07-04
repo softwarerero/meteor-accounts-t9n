@@ -1,4 +1,5 @@
-
+#Language: Polish
+#Translators: pwldp
 pl =
 
 #>add:

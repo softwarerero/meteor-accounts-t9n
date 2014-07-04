@@ -1,4 +1,5 @@
-
+#Language: Portuguese
+#Translators: splendido?
 pt =
 
 #>add:

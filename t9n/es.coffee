@@ -1,3 +1,5 @@
+#Language: Spanish
+#Translators: softwarerero
 
 es =
 

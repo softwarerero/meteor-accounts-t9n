@@ -1,4 +1,5 @@
-
+#Language: Czech
+#Translators: mdede
 cs =
 
 #>add:

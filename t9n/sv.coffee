@@ -1,4 +1,5 @@
-
+#Language: Swedish
+#Translators: splendido?
 sv =
 
 #>add:

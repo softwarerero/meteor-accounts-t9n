@@ -1,4 +1,5 @@
-
+#Language: German
+#Translators: softwarerero, robhunt3r
 de =
 
 #>add:

@@ -1,4 +1,5 @@
-
+#Language: Italian
+#Translators: splendido
 it =
 
   add: "aggiungi"
