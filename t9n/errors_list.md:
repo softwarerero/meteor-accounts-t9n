@@ -47,10 +47,13 @@ check/match.js:
 
 Template for language files:
 
+#Language:
+#Translators:
 en =
 
   add:
   and:
+  back:
   clickAgree:
   configure:
   createAccount:
@@ -58,6 +61,7 @@ en =
   email:
   emailAddress:
   emailResetLink:
+  emailSent:
   forgotPassword:
   ifYouAlreadyHaveAnAccount:
   optional:
