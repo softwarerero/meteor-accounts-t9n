@@ -1,5 +1,5 @@
 #Language: Russian
-#Translators: splendido
+#Translators: timtch
 ru =
 
 #>add:
