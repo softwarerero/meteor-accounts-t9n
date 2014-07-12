@@ -1,5 +1,5 @@
 #Language: Portuguese
-#Translators: splendido?
+#Translators: alanmeira
 pt =
 
 #>add:

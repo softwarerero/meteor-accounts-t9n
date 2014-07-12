@@ -1,5 +1,5 @@
 #Language: Slovenian
-#Translators: splendido?
+#Translators: alesvaupotic
 sl =
 
 #>add:

@@ -1,5 +1,5 @@
 #Language: Swedish
-#Translators: splendido?
+#Translators: timbrandin
 sv =
 
 #>add:
