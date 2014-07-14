@@ -1,5 +1,6 @@
 #Language: Swedish
 #Translators: timbrandin
+
 sv =
 
 #>add:
@@ -79,6 +80,18 @@ sv =
 
       #---- match
       "Match failed": "Matchning misslyckades"
+
+
+  error:
+    emailRequired: "Det krävs ett lösenord."
+    minChar: "Det krävs minst 7 tecken i ditt lösenord."
+    pwOneDigit: "Lösenordet måste ha minst 1 siffra."
+    pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
+    signInRequired: "Inloggning krävs här."
+    signupCodeIncorrect: "Registreringskoden är felaktig."
+    signupCodeRequired: "Det krävs en registreringskod."
+    usernameIsEmail: "Användarnamnet kan inte vara en e-postadress."
+    usernameRequired: "Det krävs ett användarnamn."
 
 
 T9n.map "sv", sv

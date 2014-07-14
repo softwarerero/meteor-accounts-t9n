@@ -1,4 +1,6 @@
 # We need a dummy translation so that a text is found.
+
+
 en =
 
   add: "add"
@@ -78,6 +80,18 @@ en =
 
       #---- match
       "Match failed": "Match failed"
+
+
+  error:
+    emailRequired: "Email is required."
+    minChar: "7 character minimum password."
+    pwOneDigit: "Password must have at least one digit."
+    pwOneLetter: "Password requires 1 letter."
+    signInRequired: "You must be signed in to do that."
+    signupCodeIncorrect: "Registration code is incorrect."
+    signupCodeRequired: "Registration code is required."
+    usernameIsEmail: "Username cannot be an email address."
+    usernameRequired: "Username is required."
 
 
 T9n.map "en", en

@@ -1,5 +1,6 @@
 #Language: Italian
 #Translators: splendido
+
 it =
 
   add: "aggiungi"
@@ -79,6 +80,18 @@ it =
 
       #---- match
       "Match failed": "Riscontro fallito"
+
+
+  error:
+    emailRequired: "L'Email è obbligatoria."
+    minChar: "La Password deve essere di almeno 7 caratteri."
+    pwOneDigit: "La Password deve contenere almeno un numero."
+    pwOneLetter: "La Password deve contenere 1 lettera."
+    signInRequired: "Per fare questo devi accedere."
+    signupCodeIncorrect: "Codice di Registrazione errato."
+    signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
+    usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
+    usernameRequired: "Il Nome utente è obbligatorio."
 
 
 T9n.map "it", it

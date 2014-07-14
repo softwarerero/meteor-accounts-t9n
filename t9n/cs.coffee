@@ -1,5 +1,6 @@
 #Language: Czech
 #Translators: mdede
+
 cs =
 
 #>add:
@@ -79,6 +80,18 @@ cs =
 
       #---- match
 #>    "Match failed":
+
+
+ #error:
+#>  emailRequired:
+#>  minChar:
+#>  pwOneDigit:
+#>  pwOneLetter:
+#>  signInRequired:
+#>  signupCodeIncorrect:
+#>  signupCodeRequired:
+#>  usernameIsEmail:
+#>  usernameRequired:
 
 
 T9n.map "cs", cs
