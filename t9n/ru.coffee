@@ -1,5 +1,6 @@
 #Language: Russian
 #Translators: timtch
+
 ru =
 
 #>add:
@@ -33,6 +34,7 @@ ru =
   username: "Имя пользователя"
   usernameOrEmail: "Имя пользователя или email"
   with: "с"
+
 
   error:
     accounts:
@@ -78,5 +80,18 @@ ru =
 
       #---- match
       "Match failed":  "Не совпадают"
+
+
+  error:
+    emailRequired: "Email обязательно."
+    minChar: "Минимальное кол-во символов для пароля 7."
+    pwOneDigit: "В пароле должна быть хотя бы одна цифра."
+    pwOneLetter: "В пароле должна быть хотя бы одна буква."
+    signInRequired: "Необходимо войти для чтобы продолжить."
+    signupCodeIncorrect: "Неправильный регистрационный код."
+    signupCodeRequired: "Необходим регистрациооный код."
+    usernameIsEmail: "Имя пользователя не может быть адресом email."
+    usernameRequired: "Имя пользователя обязательно."
+
 
 T9n.map "ru", ru

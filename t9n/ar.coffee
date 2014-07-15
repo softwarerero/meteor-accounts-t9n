@@ -1,5 +1,6 @@
 #Language: Arabic
 #Translators: eahefnawy
+
 ar =
 
 #>add:
@@ -79,6 +80,18 @@ ar =
 
       #---- match
       "Match failed":  "المطابقة فشلت"
+
+
+  error:
+    emailRequired: "البريد الالكترونى مطلوب"
+    minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
+    pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
+    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
+    signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
+    signupCodeIncorrect: "رمز التسجيل غير صحيح"
+    signupCodeRequired: "رمز التسجيل مطلوب"
+    usernameIsEmail: "اسم المستخدم لا يمكن ان يكون بريد الكترونى"
+    usernameRequired: "اسم المستخدم مطلوب"
 
 
 T9n.map "ar", ar

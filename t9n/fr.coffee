@@ -82,4 +82,16 @@ fr =
 #>    "Match failed":
 
 
+  error:
+    emailRequired: "Un email est requis."
+    minChar: "Votre mot de passe doit contenir au minimum 7 caractères."
+    pwOneDigit: "Votre mot de passe doit contenir au moins un chiffre."
+    pwOneLetter: "Votre mot de passe doit contenir au moins une lettre."
+    signInRequired: "Vous devez être connecté pour continuer."
+    signupCodeIncorrect: "Le code d'enregistrement est incorrect."
+    signupCodeRequired: "Un code d'inscription est requis."
+    usernameIsEmail: "Le nom d'utilisateur ne peut être le même que l'adresse email."
+    usernameRequired: "Un nom d'utilisateur est requis."
+
+
 T9n.map "fr", fr

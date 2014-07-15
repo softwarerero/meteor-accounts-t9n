@@ -82,4 +82,16 @@ es =
 #>    "Match failed":
 
 
+  error:
+    emailRequired: "Email es necesario."
+    minChar: "7 carácteres mínimo."
+    pwOneDigit: "mínimo un dígito."
+    pwOneLetter: "mínimo una letra."
+    signInRequired: "Debes iniciar sesión para hacer eso."
+    signupCodeIncorrect: "Código para suscribir no coincide."
+    signupCodeRequired: "Código para suscribir es necesario."
+    usernameIsEmail: "Usuario no puede ser Email."
+    usernameRequired: "Usuario es necesario."
+
+
 T9n.map "es", es

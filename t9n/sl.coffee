@@ -1,5 +1,6 @@
 #Language: Slovenian
 #Translators: alesvaupotic
+
 sl =
 
 #>add:
@@ -79,6 +80,18 @@ sl =
 
       #---- match
       "Match failed": "Prijava neuspešna"
+
+
+  error:
+    emailRequired: "Email je obvezen vnos."
+    minChar: "Geslo mora imeti vsaj sedem znakov."
+    pwOneDigit: "V geslu mora biti vsaj ena številka."
+    pwOneLetter: "V geslu mora biti vsaj ena črka."
+    signInRequired: "Za to moraš biti prijavljen(a)."
+    signupCodeIncorrect: "Prijavna koda je napačna."
+    signupCodeRequired: "Prijavna koda je obvezen vnos."
+    usernameIsEmail: "Uporabniško ime ne more biti email naslov."
+    usernameRequired: "Uporabniško ime je obvezen vnos."
 
 
 T9n.map "sl", sl

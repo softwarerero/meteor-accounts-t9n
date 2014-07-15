@@ -1,5 +1,6 @@
 #Language: Portuguese
 #Translators: alanmeira
+
 pt =
 
 #>add:
@@ -79,6 +80,18 @@ pt =
 
       #---- match
 #>    "Match failed":
+
+
+  error:
+    emailRequired: "E-mail é obrigatório."
+    minChar: "Senha requer um mínimo de 7 caracteres."
+    pwOneDigit: "Senha deve conter pelo menos um digito."
+    pwOneLetter: "Senha deve conter pelo menos uma letra."
+    signInRequired: "Você precisa estar logado para fazer isso."
+    signupCodeIncorrect: "Código de acesso incorreto."
+    signupCodeRequired: "É necessário um código de acesso."
+    usernameIsEmail: "Nome de usuário não pode ser um endereço de e-mail."
+    usernameRequired: "Nome de usuário é obrigatório."
 
 
 T9n.map "pt", pt

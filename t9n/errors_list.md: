@@ -130,4 +130,16 @@ en =
       "Match failed":
 
 
+  error:
+    emailRequired:
+    minChar:
+    pwOneDigit:
+    pwOneLetter:
+    signInRequired:
+    signupCodeIncorrect:
+    signupCodeRequired:
+    usernameIsEmail:
+    usernameRequired:
+
+
 T9n.map "en", en
