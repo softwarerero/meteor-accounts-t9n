@@ -12,7 +12,7 @@ fr =
   dontHaveAnAccount: "Vous n'avez pas de compte ?"
   email: "Email"
   emailAddress: "Adresse Email"
-  emailResetLink: "Adresse pour reinitialiser votre mot de passe"
+  emailResetLink: "Envoyer le mail de réinitialisation"
 #>emailSent:
   forgotPassword: "Vous avez oublié votre mot de passe ?"
   ifYouAlreadyHaveAnAccount: "Si vous avez déjà un compte"
