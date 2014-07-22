@@ -104,7 +104,7 @@ ar =
     minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
 #>  pwdsDontMatch:
     pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
-    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"pwdsDontMatch:
+    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
     signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
     signupCodeIncorrect: "رمز التسجيل غير صحيح"
     signupCodeRequired: "رمز التسجيل مطلوب"

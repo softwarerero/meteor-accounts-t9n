@@ -92,7 +92,7 @@ ru =
 #>    "Verify email link expired":
 #>    "Verify email link is for unknown address":
 
-      #---#>  pwdsDontMatch:- match
+      #--- match
       "Match failed":  "Не совпадают"
 
       #---- Misc...
