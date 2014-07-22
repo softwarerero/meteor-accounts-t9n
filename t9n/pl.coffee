@@ -6,22 +6,28 @@ pl =
 #>add:
   and: "i"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "Klikając na Zarejestruj się zgadzasz się z naszą"
   configure: "Konfiguruj"
   createAccount: "Utwórz konto"
+#>currentPassword:
   dontHaveAnAccount: "Nie masz konta?"
   email: "Email"
   emailAddress: "Adres email"
   emailResetLink: "Wyślij email z linkiem do zmiany hasła"
-#>emailSent:
   forgotPassword: "Zapomniałeś hasła?"
   ifYouAlreadyHaveAnAccount: "Jeżeli już masz konto"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Nieobowiązkowe"
   OR: "LUB"
   password: "Hasło"
+#>passwordAgain:
   privacyPolicy: "polityką prywatności"
 #>remove:
   resetYourPassword: "Ustaw nowe hasło"
+#>setPassword:
   sign: "Podpisz"
   signIn: "Zaloguj się"
   signin: "zaloguj się"
@@ -34,6 +40,13 @@ pl =
   username: "Nazwa użytkownika"
   usernameOrEmail: "Nazwa użytkownika lub email"
   with: "z"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ pl =
       "Must be logged in": "Musisz być zalogowany"
       "Need to set a username or email": "Wymagane ustawienie nazwy użytkownika lub adresu email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "Rejestracja zabroniona"
       "Token expired": "Token wygasł"
       "Token has invalid email address": "Token ma niewłaściwy adres email"
@@ -81,10 +95,14 @@ pl =
       #---- match
 #>    "Match failed":
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "Wymagany jest adres email."
     minChar: "7 znaków to minimalna długość hasła."
+#>  pwdsDontMatch:
     pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
     pwOneLetter: "Hasło musi zawierać 1 literę."
     signInRequired: "Musisz być zalogowany, aby to zrobić."

@@ -6,22 +6,28 @@ cs =
 #>add:
 #>and:
 #>back:
+#>changePassword:
+#>choosePassword:
 #>clickAgree:
 #>configure:
 #>createAccount:
+#>currentPassword:
 #>dontHaveAnAccount:
 #>email:
 #>emailAddress:
 #>emailResetLink:
-#>emailSent:
 #>forgotPassword:
 #>ifYouAlreadyHaveAnAccount:
+#>newPassword:
+#>newPasswordAgain:
 #>optional:
 #>OR:
 #>password:
+#>passwordAgain:
 #>privacyPolicy:
 #>remove:
 #>resetYourPassword:
+#>setPassword:
 #>sign:
 #>signIn:
 #>signin:
@@ -34,6 +40,13 @@ cs =
 #>username:
 #>usernameOrEmail:
 #>with:
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ cs =
       "Must be logged in": "Uživatel musí být přihlášen"
       "Need to set a username or email": "Je třeba zadat uživatelské jméno nebo email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "Registrace je zakázaná"
       "Token expired": "Token vypršel"
       "Token has invalid email address": "Token má neplatnou emailovou adresu"
@@ -81,10 +95,14 @@ cs =
       #---- match
 #>    "Match failed":
 
+      #---- Misc...
+#>    "Unknown error":
+
 
  #error:
 #>  emailRequired:
 #>  minChar:
+#>  pwdsDontMatch:
 #>  pwOneDigit:
 #>  pwOneLetter:
 #>  signInRequired:

@@ -6,22 +6,28 @@ ru =
 #>add:
   and: "и"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "Нажав на Регистрация вы соглашаетесь с условиями"
   configure: "Конфигурировать"
   createAccount: "Создать аккаунт"
+#>currentPassword:
   dontHaveAnAccount: "Нет аккаунта?"
   email: "Email"
   emailAddress: "Email"
   emailResetLink: "Отправить ссылку для сброса"
-#>emailSent:
   forgotPassword: "Забыли пароль?"
   ifYouAlreadyHaveAnAccount: "Если у вас уже есть аккаунт"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Необязательно"
   OR: "ИЛИ"
   password: "Пароль"
+#>passwordAgain:
   privacyPolicy: "Политики безопасности"
 #>remove:
   resetYourPassword: "Сбросить пароль"
+#>setPassword:
   sign: "Подпись"
   signIn: "Войти"
   signin: "bойти"
@@ -34,6 +40,13 @@ ru =
   username: "Имя пользователя"
   usernameOrEmail: "Имя пользователя или email"
   with: "с"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ ru =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -78,13 +92,17 @@ ru =
 #>    "Verify email link expired":
 #>    "Verify email link is for unknown address":
 
-      #---- match
+      #---#>  pwdsDontMatch:- match
       "Match failed":  "Не совпадают"
+
+      #---- Misc...
+#>    "Unknown error":
 
 
   error:
     emailRequired: "Email обязательно."
     minChar: "Минимальное кол-во символов для пароля 7."
+#>  pwdsDontMatch:
     pwOneDigit: "В пароле должна быть хотя бы одна цифра."
     pwOneLetter: "В пароле должна быть хотя бы одна буква."
     signInRequired: "Необходимо войти для чтобы продолжить."

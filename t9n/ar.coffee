@@ -6,22 +6,28 @@ ar =
 #>add:
   and: "و"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "بفتح حسابك انت توافق على"
   configure: "تعديل"
   createAccount: "افتح حساب جديد"
+#>currentPassword:
   dontHaveAnAccount: "ليس عندك حساب؟"
   email: "البريد الالكترونى"
   emailAddress: "البريد الالكترونى"
   emailResetLink: "اعادة تعيين البريد الالكترونى"
-#>emailSent:
   forgotPassword: "نسيت كلمة السر؟"
   ifYouAlreadyHaveAnAccount: "اذا كان عندك حساب"
+#>newPassword:
+#>newPasswordAgain:
   optional: "اختيارى"
   OR: "او"
   password: "كلمة السر"
+#>passwordAgain:
   privacyPolicy: "سياسة الخصوصية"
 #>remove:
   resetYourPassword: "اعادة تعيين كلمة السر"
+#>setPassword:
   sign: "تسجيل"
   signIn: "تسجيل الدخول"
   signin: "تسجيل الدخول"
@@ -34,6 +40,13 @@ ar =
   username: "اسم المستخدم"
   usernameOrEmail: "اسم المستخدم او البريد الالكترونى"
   with: "مع"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ ar =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,12 +95,16 @@ ar =
       #---- match
       "Match failed":  "المطابقة فشلت"
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "البريد الالكترونى مطلوب"
     minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
+#>  pwdsDontMatch:
     pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
-    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
+    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"pwdsDontMatch:
     signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
     signupCodeIncorrect: "رمز التسجيل غير صحيح"
     signupCodeRequired: "رمز التسجيل مطلوب"

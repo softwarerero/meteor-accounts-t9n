@@ -6,22 +6,28 @@ en =
   add: "add"
   and: "and"
   back: "back",
+  changePassword: "Change Password"
+  choosePassword: "Choose a Password"
   clickAgree: "By clicking Register, you agree to our"
   configure: "Configure"
   createAccount: "Create an Account"
+  currentPassword: "Current Password"
   dontHaveAnAccount: "Don't have an account?"
   email: "Email"
   emailAddress: "Email Address"
   emailResetLink: "Email Reset Link"
-  emailSent: "Email Sent!",
   forgotPassword: "Forgot your password?"
   ifYouAlreadyHaveAnAccount: "If you already have an account"
+  newPassword: "New Password"
+  newPasswordAgain: "New Password (again)"
   optional: "Optional"
   OR: "OR"
   password: "Password"
+  passwordAgain: "Password (again)"
   privacyPolicy: "Privacy Policy"
   remove: "remove"
   resetYourPassword: "Reset your password"
+  setPassword: "Set Password"
   sign: "Sign"
   signIn: "Sign In"
   signin: "sign in"
@@ -34,6 +40,13 @@ en =
   username: "Username"
   usernameOrEmail: "Username or email"
   with: "with"
+
+
+  info:
+    emailSent: "Email Sent"
+    emailVerified: "Email verified"
+    passwordChanged: "Password Changed"
+    passwordReset: "Password Reset"
 
 
   error:
@@ -70,6 +83,7 @@ en =
       "Must be logged in": "Must be logged in"
       "Need to set a username or email": "Need to set a username or email"
       "old password format": "old password format"
+      "Password may not be empty": "Password may not be empty"
       "Signups forbidden": "Signups forbidden"
       "Token expired": "Token expired"
       "Token has invalid email address": "Token has invalid email address"
@@ -81,10 +95,14 @@ en =
       #---- match
       "Match failed": "Match failed"
 
+      #---- Misc...
+      "Unknown error": "Unknown error"
+
 
   error:
     emailRequired: "Email is required."
     minChar: "7 character minimum password."
+    pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Password must have at least one digit."
     pwOneLetter: "Password requires 1 letter."
     signInRequired: "You must be signed in to do that."

@@ -54,22 +54,28 @@ en =
   add:
   and:
   back:
+  changePassword:
+  choosePassword:
   clickAgree:
   configure:
   createAccount:
+  currentPassword:
   dontHaveAnAccount:
   email:
   emailAddress:
   emailResetLink:
-  emailSent:
   forgotPassword:
   ifYouAlreadyHaveAnAccount:
+  newPassword:
+  newPasswordAgain:
   optional:
   OR:
   password:
+  passwordAgain:
   privacyPolicy:
   remove:
   resetYourPassword:
+  setPassword:
   sign:
   signIn:
   signin:
@@ -82,6 +88,13 @@ en =
   username:
   usernameOrEmail:
   with:
+
+
+  info:
+    emailSent:
+    emailVerified:
+    passwordChanged:
+    passwordReset:
 
 
   error:
@@ -118,6 +131,7 @@ en =
       "Must be logged in":
       "Need to set a username or email":
       "old password format":
+      "Password may not be empty":
       "Signups forbidden":
       "Token expired":
       "Token has invalid email address":
@@ -129,10 +143,14 @@ en =
       #---- match
       "Match failed":
 
+      #---- Misc...
+      "Unknown error": "Unknown error"
+
 
   error:
     emailRequired:
     minChar:
+    pwdsDontMatch:
     pwOneDigit:
     pwOneLetter:
     signInRequired:

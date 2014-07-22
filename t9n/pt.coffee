@@ -6,22 +6,28 @@ pt =
 #>add:
   and: "e"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "Ao clicar em Entrar, você aceita nosso"
   configure: "Configurar"
   createAccount: "Criar Conta"
+#>currentPassword:
   dontHaveAnAccount: "Não tem conta?"
   email: "E-mail"
   emailAddress: "Endereço de e-mail"
   emailResetLink: "Gerar nova senha"
-#>emailSent:
   forgotPassword: "Esqueceu sua senha?"
   ifYouAlreadyHaveAnAccount: "Se você já tem uma conta"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Opcional"
   OR: "OU"
   password: "Senha"
+#>passwordAgain:
   privacyPolicy: "Política de Privacidade"
 #>remove:
   resetYourPassword: "Gerar nova senha"
+#>setPassword:
   sign: "Entrar"
   signIn: "Entrar"
   signin: "entrar"
@@ -34,6 +40,13 @@ pt =
   username: "Nome de usuário"
   usernameOrEmail: "Usuario ou e-mail"
   with: "com"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   #error:
@@ -70,6 +83,7 @@ pt =
 #>   "Must be logged in":
 #>   "Need to set a username or email":
 #>   "old password format":
+#>    "Password may not be empty":
 #>   "Signups forbidden":
 #>   "Token expired":
 #>   "Token has invalid email address":
@@ -81,10 +95,14 @@ pt =
       #---- match
 #>    "Match failed":
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "E-mail é obrigatório."
     minChar: "Senha requer um mínimo de 7 caracteres."
+#>  pwdsDontMatch:
     pwOneDigit: "Senha deve conter pelo menos um digito."
     pwOneLetter: "Senha deve conter pelo menos uma letra."
     signInRequired: "Você precisa estar logado para fazer isso."

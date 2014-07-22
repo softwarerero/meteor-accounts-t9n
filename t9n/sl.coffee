@@ -6,22 +6,28 @@ sl =
 #>add:
   and: "in"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "S klikom na Registracija se strinjaš"
   configure: "Nastavi"
   createAccount: "Nova registracija"
+#>currentPassword:
   dontHaveAnAccount: "Nisi registriran(a)?"
   email: "Email"
   emailAddress: "Email naslov"
   emailResetLink: "Pošlji ponastavitveno povezavo"
-#>emailSent:
   forgotPassword: "Pozabljeno geslo?"
   ifYouAlreadyHaveAnAccount: "Če si že registriran(a),"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Po želji"
   OR: "ALI"
   password: "Geslo"
+#>passwordAgain:
   privacyPolicy: "z našimi pogoji uporabe"
 #>remove:
   resetYourPassword: "Ponastavi geslo"
+#>setPassword:
   sign: "Prijava"
   signIn: "Prijava"
   signin: "se prijavi"
@@ -34,6 +40,13 @@ sl =
   username: "Uporabniško ime"
   usernameOrEmail: "Uporabniško ime ali email"
   with: "z"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ sl =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,10 +95,14 @@ sl =
       #---- match
       "Match failed": "Prijava neuspešna"
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "Email je obvezen vnos."
     minChar: "Geslo mora imeti vsaj sedem znakov."
+#>  pwdsDontMatch:
     pwOneDigit: "V geslu mora biti vsaj ena številka."
     pwOneLetter: "V geslu mora biti vsaj ena črka."
     signInRequired: "Za to moraš biti prijavljen(a)."

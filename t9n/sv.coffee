@@ -6,22 +6,28 @@ sv =
 #>add:
   and: "och"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "När du väljer att skapa ett konto så godkänner du också vår"
   configure: "Konfigurera"
   createAccount: "Skapa ett konto"
+#>currentPassword:
   dontHaveAnAccount: "Har du inget konto?"
   email: "E-postadress"
   emailAddress: "E-postadress"
   emailResetLink: "E-post återställningslänk"
-#>emailSent:
   forgotPassword: "Glömt din e-postadress?"
   ifYouAlreadyHaveAnAccount: "Om du redan har ett konto"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Valfri"
   OR: "ELLER"
   password: "Lösenord"
+#>passwordAgain:
   privacyPolicy: "integritetspolicy"
 #>remove:
   resetYourPassword: "Återställ ditt lösenord"
+#>setPassword:
   sign: "Logga"
   signIn: "Logga in"
   signin: "logga in"
@@ -34,6 +40,13 @@ sv =
   username: "Användarnamn"
   usernameOrEmail: "Användarnamn eller e-postadress"
   with: "med"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ sv =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,10 +95,14 @@ sv =
       #---- match
       "Match failed": "Matchning misslyckades"
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "Det krävs ett lösenord."
     minChar: "Det krävs minst 7 tecken i ditt lösenord."
+#>  pwdsDontMatch:
     pwOneDigit: "Lösenordet måste ha minst 1 siffra."
     pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
     signInRequired: "Inloggning krävs här."

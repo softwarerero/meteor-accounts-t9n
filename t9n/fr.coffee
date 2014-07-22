@@ -6,22 +6,28 @@ fr =
 #>add:
   and: "et"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "En cliquant sur S'enregistrer, vous acceptez notre"
   configure: "Configurer"
   createAccount: "Créer un compte"
+#>currentPassword:
   dontHaveAnAccount: "Vous n'avez pas de compte ?"
   email: "Email"
   emailAddress: "Adresse Email"
   emailResetLink: "Envoyer le mail de réinitialisation"
-#>emailSent:
   forgotPassword: "Vous avez oublié votre mot de passe ?"
   ifYouAlreadyHaveAnAccount: "Si vous avez déjà un compte"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Optionnel"
   OR: "OU"
   password: "Mot de passe"
+#>passwordAgain:
   privacyPolicy: "Politique de confidentialité"
 #>remove:
   resetYourPassword: "Reinitialiser votre mot de passe"
+#>setPassword:
   sign: "S'enregistrer"
   signIn: "Se Connecter"
   signin: "se connecter"
@@ -34,6 +40,13 @@ fr =
   username: "Nom d'utilisateur"
   usernameOrEmail: "Nom d'utilisateur ou email"
   with: "avec"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ fr =
       "Must be logged in": "Vous devez être connecté"
       "Need to set a username or email": "Vous devez renseigner un nom d'utilisateur ou une adresse email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "La création de compte est interdite"
       "Token expired": "Jeton expiré"
       "Token has invalid email address": "Le jeton contient une adresse email invalide"
@@ -81,10 +95,14 @@ fr =
       #---- match
 #>    "Match failed":
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "Un email est requis."
     minChar: "Votre mot de passe doit contenir au minimum 7 caractères."
+#>  pwdsDontMatch:
     pwOneDigit: "Votre mot de passe doit contenir au moins un chiffre."
     pwOneLetter: "Votre mot de passe doit contenir au moins une lettre."
     signInRequired: "Vous devez être connecté pour continuer."

@@ -6,22 +6,28 @@ de =
 #>add:
   and: "und"
 #>back:
+#>changePassword:
+#>choosePassword:
   clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
   configure: "Konfigurieren"
   createAccount: "Konto erzeugen"
+#>currentPassword:
   dontHaveAnAccount: "Noch kein Konto?"
   email: "E-Mail"
   emailAddress: "E-Mail Adresse"
   emailResetLink: "Senden"
-#>emailSent:
   forgotPassword: "Passwort vergessen?"
   ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Optional"
   OR: "ODER"
   password: "Passwort"
+#>passwordAgain:
   privacyPolicy: "Datenschutzerklärung"
 #>remove:
   resetYourPassword: "Passwort zurücksetzen"
+#>setPassword:
   sign: "Anmelden"
   signIn: "Anmelden"
   signin: "anmelden"
@@ -34,6 +40,13 @@ de =
   username: "Benutzername"
   usernameOrEmail: "Benutzername oder E-Mail"
   with: "mit"
+
+
+#>info:
+#>  emailSent:
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
 
 
   error:
@@ -70,6 +83,7 @@ de =
       "Must be logged in": "Da muss man sich aber erst anmelden"
       "Need to set a username or email": "Benutzername oder Email sollte man schon angeben"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "Anmeldungen sind verboten"
       "Token expired": "Das Token ist abgelaufen"
       "Token has invalid email address": "Für des Token stimmt die Email-Adresse nicht"
@@ -81,10 +95,14 @@ de =
       #---- match
 #>    "Match failed":
 
+      #---- Misc...
+#>    "Unknown error":
+
 
   error:
     emailRequired: "E-Mail benötigt."
     minChar: "Passwort muss mindesten 7 Zeichen lang sein."
+#>  pwdsDontMatch:
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
     signInRequired: "Sie müssen sich anmelden."
