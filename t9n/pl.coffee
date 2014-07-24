@@ -50,6 +50,18 @@ pl =
 
 
   error:
+    emailRequired: "Wymagany jest adres email."
+    minChar: "7 znaków to minimalna długość hasła."
+#>  pwdsDontMatch:
+    pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
+    pwOneLetter: "Hasło musi zawierać 1 literę."
+    signInRequired: "Musisz być zalogowany, aby to zrobić."
+    signupCodeIncorrect: "Kod rejestracji jest nieprawidłowy."
+    signupCodeRequired: "Wymagany jest kod rejestracji."
+    usernameIsEmail: "Nazwa użytkownika nie może być adres e-mail."
+    usernameRequired: "Wymagana jest nazwa użytkownika."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ pl =
 
       #---- Misc...
 #>    "Unknown error":
-
-
-  error:
-    emailRequired: "Wymagany jest adres email."
-    minChar: "7 znaków to minimalna długość hasła."
-#>  pwdsDontMatch:
-    pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
-    pwOneLetter: "Hasło musi zawierać 1 literę."
-    signInRequired: "Musisz być zalogowany, aby to zrobić."
-    signupCodeIncorrect: "Kod rejestracji jest nieprawidłowy."
-    signupCodeRequired: "Wymagany jest kod rejestracji."
-    usernameIsEmail: "Nazwa użytkownika nie może być adres e-mail."
-    usernameRequired: "Wymagana jest nazwa użytkownika."
 
 
 T9n.map "pl", pl

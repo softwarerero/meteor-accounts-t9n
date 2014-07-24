@@ -50,6 +50,18 @@ de =
 
 
   error:
+    emailRequired: "E-Mail benötigt."
+    minChar: "Passwort muss mindesten 7 Zeichen lang sein."
+#>  pwdsDontMatch:
+    pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
+    pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
+    signInRequired: "Sie müssen sich anmelden."
+    signupCodeIncorrect: "Registrierungscode ungültig."
+    signupCodeRequired: "Registrierungscode benötigt."
+    usernameIsEmail: "Benutzername kann nicht eine E-Mail."
+    usernameRequired: "Benutzername benötigt."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ de =
 
       #---- Misc...
 #>    "Unknown error":
-
-
-  error:
-    emailRequired: "E-Mail benötigt."
-    minChar: "Passwort muss mindesten 7 Zeichen lang sein."
-#>  pwdsDontMatch:
-    pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
-    pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
-    signInRequired: "Sie müssen sich anmelden."
-    signupCodeIncorrect: "Registrierungscode ungültig."
-    signupCodeRequired: "Registrierungscode benötigt."
-    usernameIsEmail: "Benutzername kann nicht eine E-Mail."
-    usernameRequired: "Benutzername benötigt."
 
 
 T9n.map "de", de

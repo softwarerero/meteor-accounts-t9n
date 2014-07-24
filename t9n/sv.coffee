@@ -50,6 +50,18 @@ sv =
 
 
   error:
+    emailRequired: "Det krävs ett lösenord."
+    minChar: "Det krävs minst 7 tecken i ditt lösenord."
+#>  pwdsDontMatch:
+    pwOneDigit: "Lösenordet måste ha minst 1 siffra."
+    pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
+    signInRequired: "Inloggning krävs här."
+    signupCodeIncorrect: "Registreringskoden är felaktig."
+    signupCodeRequired: "Det krävs en registreringskod."
+    usernameIsEmail: "Användarnamnet kan inte vara en e-postadress."
+    usernameRequired: "Det krävs ett användarnamn."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ sv =
 
       #---- Misc...
 #>    "Unknown error":
-
-
-  error:
-    emailRequired: "Det krävs ett lösenord."
-    minChar: "Det krävs minst 7 tecken i ditt lösenord."
-#>  pwdsDontMatch:
-    pwOneDigit: "Lösenordet måste ha minst 1 siffra."
-    pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
-    signInRequired: "Inloggning krävs här."
-    signupCodeIncorrect: "Registreringskoden är felaktig."
-    signupCodeRequired: "Det krävs en registreringskod."
-    usernameIsEmail: "Användarnamnet kan inte vara en e-postadress."
-    usernameRequired: "Det krävs ett användarnamn."
 
 
 T9n.map "sv", sv

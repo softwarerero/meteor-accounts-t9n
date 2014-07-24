@@ -50,6 +50,18 @@ en =
 
 
   error:
+    emailRequired: "Email is required."
+    minChar: "7 character minimum password."
+    pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "Password must have at least one digit."
+    pwOneLetter: "Password requires 1 letter."
+    signInRequired: "You must be signed in to do that."
+    signupCodeIncorrect: "Registration code is incorrect."
+    signupCodeRequired: "Registration code is required."
+    usernameIsEmail: "Username cannot be an email address."
+    usernameRequired: "Username is required."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ en =
 
       #---- Misc...
       "Unknown error": "Unknown error"
-
-
-  error:
-    emailRequired: "Email is required."
-    minChar: "7 character minimum password."
-    pwdsDontMatch: "Passwords don't match"
-    pwOneDigit: "Password must have at least one digit."
-    pwOneLetter: "Password requires 1 letter."
-    signInRequired: "You must be signed in to do that."
-    signupCodeIncorrect: "Registration code is incorrect."
-    signupCodeRequired: "Registration code is required."
-    usernameIsEmail: "Username cannot be an email address."
-    usernameRequired: "Username is required."
 
 
 T9n.map "en", en

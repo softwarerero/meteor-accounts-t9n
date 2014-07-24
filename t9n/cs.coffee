@@ -50,6 +50,18 @@ cs =
 
 
   error:
+#>  emailRequired:
+#>  minChar:
+#>  pwdsDontMatch:
+#>  pwOneDigit:
+#>  pwOneLetter:
+#>  signInRequired:
+#>  signupCodeIncorrect:
+#>  signupCodeRequired:
+#>  usernameIsEmail:
+#>  usernameRequired:
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ cs =
 
       #---- Misc...
 #>    "Unknown error":
-
-
- #error:
-#>  emailRequired:
-#>  minChar:
-#>  pwdsDontMatch:
-#>  pwOneDigit:
-#>  pwOneLetter:
-#>  signInRequired:
-#>  signupCodeIncorrect:
-#>  signupCodeRequired:
-#>  usernameIsEmail:
-#>  usernameRequired:
 
 
 T9n.map "cs", cs

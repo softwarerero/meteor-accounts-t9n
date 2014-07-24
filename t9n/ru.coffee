@@ -50,6 +50,18 @@ ru =
 
 
   error:
+    emailRequired: "Email обязательно."
+    minChar: "Минимальное кол-во символов для пароля 7."
+#>  pwdsDontMatch:
+    pwOneDigit: "В пароле должна быть хотя бы одна цифра."
+    pwOneLetter: "В пароле должна быть хотя бы одна буква."
+    signInRequired: "Необходимо войти для чтобы продолжить."
+    signupCodeIncorrect: "Неправильный регистрационный код."
+    signupCodeRequired: "Необходим регистрациооный код."
+    usernameIsEmail: "Имя пользователя не может быть адресом email."
+    usernameRequired: "Имя пользователя обязательно."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ ru =
 
       #---- Misc...
 #>    "Unknown error":
-
-
-  error:
-    emailRequired: "Email обязательно."
-    minChar: "Минимальное кол-во символов для пароля 7."
-#>  pwdsDontMatch:
-    pwOneDigit: "В пароле должна быть хотя бы одна цифра."
-    pwOneLetter: "В пароле должна быть хотя бы одна буква."
-    signInRequired: "Необходимо войти для чтобы продолжить."
-    signupCodeIncorrect: "Неправильный регистрационный код."
-    signupCodeRequired: "Необходим регистрациооный код."
-    usernameIsEmail: "Имя пользователя не может быть адресом email."
-    usernameRequired: "Имя пользователя обязательно."
 
 
 T9n.map "ru", ru

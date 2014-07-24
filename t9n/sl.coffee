@@ -50,6 +50,18 @@ sl =
 
 
   error:
+    emailRequired: "Email je obvezen vnos."
+    minChar: "Geslo mora imeti vsaj sedem znakov."
+#>  pwdsDontMatch:
+    pwOneDigit: "V geslu mora biti vsaj ena številka."
+    pwOneLetter: "V geslu mora biti vsaj ena črka."
+    signInRequired: "Za to moraš biti prijavljen(a)."
+    signupCodeIncorrect: "Prijavna koda je napačna."
+    signupCodeRequired: "Prijavna koda je obvezen vnos."
+    usernameIsEmail: "Uporabniško ime ne more biti email naslov."
+    usernameRequired: "Uporabniško ime je obvezen vnos."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ sl =
 
       #---- Misc...
 #>    "Unknown error":
-
-
-  error:
-    emailRequired: "Email je obvezen vnos."
-    minChar: "Geslo mora imeti vsaj sedem znakov."
-#>  pwdsDontMatch:
-    pwOneDigit: "V geslu mora biti vsaj ena številka."
-    pwOneLetter: "V geslu mora biti vsaj ena črka."
-    signInRequired: "Za to moraš biti prijavljen(a)."
-    signupCodeIncorrect: "Prijavna koda je napačna."
-    signupCodeRequired: "Prijavna koda je obvezen vnos."
-    usernameIsEmail: "Uporabniško ime ne more biti email naslov."
-    usernameRequired: "Uporabniško ime je obvezen vnos."
 
 
 T9n.map "sl", sl

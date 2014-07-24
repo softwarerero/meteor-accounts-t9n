@@ -50,6 +50,18 @@ it =
 
 
   error:
+    emailRequired: "L'Email è obbligatoria."
+    minChar: "La Password deve essere di almeno 7 caratteri."
+    pwdsDontMatch: "Le Password non corrispondono"
+    pwOneDigit: "La Password deve contenere almeno un numero."
+    pwOneLetter: "La Password deve contenere 1 lettera."
+    signInRequired: "Per fare questo devi accedere."
+    signupCodeIncorrect: "Codice di Registrazione errato."
+    signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
+    usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
+    usernameRequired: "Il Nome utente è obbligatorio."
+
+
     accounts:
 
       #---- accounts-base
@@ -97,19 +109,6 @@ it =
 
       #---- Misc...
       "Unknown error": "Errore Sconosciuto"
-
-
-  error:
-    emailRequired: "L'Email è obbligatoria."
-    minChar: "La Password deve essere di almeno 7 caratteri."
-    pwdsDontMatch: "Le Password non corrispondono."
-    pwOneDigit: "La Password deve contenere almeno un numero."
-    pwOneLetter: "La Password deve contenere 1 lettera."
-    signInRequired: "Per fare questo devi accedere."
-    signupCodeIncorrect: "Codice di Registrazione errato."
-    signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
-    usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
-    usernameRequired: "Il Nome utente è obbligatorio."
 
 
 T9n.map "it", it
