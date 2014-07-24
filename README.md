@@ -3,7 +3,7 @@
 Right now only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 Some translations have moved to accounts-entry, but translations can be added here for other accounts related modules and of course for more languages.
 
-Translations are currently available for Arabic, Czech, French, German, Italian, Polish, Portuguese, Russian, Slovenian, Spanish and Swedish.
+Translations are currently available for Arabic, Czech, French, German, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
 
 # API
 
@@ -60,6 +60,7 @@ Example:
 * timtch - Russian Translation
 * alesvaupotic - Slovenian Translation
 * timbrandin - Swedish Translation
+* olragon - Vietnamese Translation
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
