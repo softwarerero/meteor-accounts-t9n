@@ -3,31 +3,31 @@
 
 de =
 
-#>add:
+#>add: "add"
   and: "und"
-#>back:
-#>changePassword:
-#>choosePassword:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
   configure: "Konfigurieren"
   createAccount: "Konto erzeugen"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Noch kein Konto?"
   email: "E-Mail"
   emailAddress: "E-Mail Adresse"
   emailResetLink: "Senden"
   forgotPassword: "Passwort vergessen?"
   ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Optional"
   OR: "ODER"
   password: "Passwort"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Datenschutzerklärung"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Passwort zurücksetzen"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Anmelden"
   signIn: "Anmelden"
   signin: "anmelden"
@@ -43,16 +43,16 @@ de =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "E-Mail benötigt."
     minChar: "Passwort muss mindesten 7 Zeichen lang sein."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
     signInRequired: "Sie müssen sich anmelden."

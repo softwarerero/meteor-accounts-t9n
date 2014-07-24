@@ -6,28 +6,28 @@ vi =
   add: "thêm"
   and: "và"
   back: "trở lại",
-#>changePassword:
-#>choosePassword:
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Bằng cách nhấn vào Đăng ký, bạn đã đồng ý với"
   configure: "Cấu hình"
   createAccount: "Tạo Tài khoản"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Chưa có tài khoản?"
   email: "Email"
   emailAddress: "Địa chỉ Email"
   emailResetLink: "Gửi"
   forgotPassword: "Quên mật khẩu?"
   ifYouAlreadyHaveAnAccount: "Nếu bạn đã có tài khoản"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Tùy chọn"
   OR: "Hoặc"
   password: "Mật khẩu"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Chính sách bảo mật"
   remove: "xóa"
   resetYourPassword: "Lấy lại mật khẩu"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Ký"
   signIn: "Đăng nhập"
   signin: "đăng nhập"
@@ -43,16 +43,16 @@ vi =
 
 
   info:
-    emailSent: "Email đã được gửi đi!",
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+    emailSent: "Email đã được gửi đi!"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "Email phải có."
     minChar: "Mật khẩu phải có ít nhất 7 ký tự."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Mật khẩu phải có ít nhất 1 chữ số."
     pwOneLetter: "Mật khẩu phải có 1 ký tự chữ."
     signInRequired: "Phải đăng nhập."

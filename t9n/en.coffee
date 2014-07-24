@@ -5,7 +5,7 @@ en =
 
   add: "add"
   and: "and"
-  back: "back",
+  back: "back"
   changePassword: "Change Password"
   choosePassword: "Choose a Password"
   clickAgree: "By clicking Register, you agree to our"

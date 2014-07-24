@@ -3,31 +3,31 @@
 
 ru =
 
-#>add:
+#>add: "add"
   and: "и"
-#>back:
-#>changePassword:
-#>choosePassword:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Нажав на Регистрация вы соглашаетесь с условиями"
   configure: "Конфигурировать"
   createAccount: "Создать аккаунт"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Нет аккаунта?"
   email: "Email"
   emailAddress: "Email"
   emailResetLink: "Отправить ссылку для сброса"
   forgotPassword: "Забыли пароль?"
   ifYouAlreadyHaveAnAccount: "Если у вас уже есть аккаунт"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Необязательно"
   OR: "ИЛИ"
   password: "Пароль"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Политики безопасности"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Сбросить пароль"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Подпись"
   signIn: "Войти"
   signin: "bойти"
@@ -43,16 +43,16 @@ ru =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "Email обязательно."
     minChar: "Минимальное кол-во символов для пароля 7."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "В пароле должна быть хотя бы одна цифра."
     pwOneLetter: "В пароле должна быть хотя бы одна буква."
     signInRequired: "Необходимо войти для чтобы продолжить."

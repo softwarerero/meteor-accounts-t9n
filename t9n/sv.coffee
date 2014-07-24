@@ -3,31 +3,31 @@
 
 sv =
 
-#>add:
+#>add: "add"
   and: "och"
-#>back:
-#>changePassword:
-#>choosePassword:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "När du väljer att skapa ett konto så godkänner du också vår"
   configure: "Konfigurera"
   createAccount: "Skapa ett konto"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Har du inget konto?"
   email: "E-postadress"
   emailAddress: "E-postadress"
   emailResetLink: "E-post återställningslänk"
   forgotPassword: "Glömt din e-postadress?"
   ifYouAlreadyHaveAnAccount: "Om du redan har ett konto"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Valfri"
   OR: "ELLER"
   password: "Lösenord"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "integritetspolicy"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Återställ ditt lösenord"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Logga"
   signIn: "Logga in"
   signin: "logga in"
@@ -43,16 +43,16 @@ sv =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "Det krävs ett lösenord."
     minChar: "Det krävs minst 7 tecken i ditt lösenord."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Lösenordet måste ha minst 1 siffra."
     pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
     signInRequired: "Inloggning krävs här."

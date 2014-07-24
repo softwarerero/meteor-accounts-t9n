@@ -3,31 +3,31 @@
 
 pt =
 
-#>add:
+#>add: "add"
   and: "e"
-#>back:
-#>changePassword:
-#>choosePassword:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Ao clicar em Entrar, você aceita nosso"
   configure: "Configurar"
   createAccount: "Criar Conta"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Não tem conta?"
   email: "E-mail"
   emailAddress: "Endereço de e-mail"
   emailResetLink: "Gerar nova senha"
   forgotPassword: "Esqueceu sua senha?"
   ifYouAlreadyHaveAnAccount: "Se você já tem uma conta"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Opcional"
   OR: "OU"
   password: "Senha"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Política de Privacidade"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Gerar nova senha"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Entrar"
   signIn: "Entrar"
   signin: "entrar"
@@ -43,16 +43,16 @@ pt =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "E-mail é obrigatório."
     minChar: "Senha requer um mínimo de 7 caracteres."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Senha deve conter pelo menos um digito."
     pwOneLetter: "Senha deve conter pelo menos uma letra."
     signInRequired: "Você precisa estar logado para fazer isso."

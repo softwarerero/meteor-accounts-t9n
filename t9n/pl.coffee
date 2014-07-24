@@ -6,28 +6,28 @@ pl =
 #>add:
   and: "i"
 #>back:
-#>changePassword:
-#>choosePassword:
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Klikając na Zarejestruj się zgadzasz się z naszą"
   configure: "Konfiguruj"
   createAccount: "Utwórz konto"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Nie masz konta?"
   email: "Email"
   emailAddress: "Adres email"
   emailResetLink: "Wyślij email z linkiem do zmiany hasła"
   forgotPassword: "Zapomniałeś hasła?"
   ifYouAlreadyHaveAnAccount: "Jeżeli już masz konto"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Nieobowiązkowe"
   OR: "LUB"
   password: "Hasło"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "polityką prywatności"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Ustaw nowe hasło"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "Podpisz"
   signIn: "Zaloguj się"
   signin: "zaloguj się"
@@ -43,16 +43,16 @@ pl =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "Wymagany jest adres email."
     minChar: "7 znaków to minimalna długość hasła."
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
     pwOneLetter: "Hasło musi zawierać 1 literę."
     signInRequired: "Musisz być zalogowany, aby to zrobić."

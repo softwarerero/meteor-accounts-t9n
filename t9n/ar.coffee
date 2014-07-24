@@ -3,31 +3,31 @@
 
 ar =
 
-#>add:
+#>add: "add"
   and: "و"
-#>back:
-#>changePassword:
-#>choosePassword:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "بفتح حسابك انت توافق على"
   configure: "تعديل"
   createAccount: "افتح حساب جديد"
-#>currentPassword:
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "ليس عندك حساب؟"
   email: "البريد الالكترونى"
   emailAddress: "البريد الالكترونى"
   emailResetLink: "اعادة تعيين البريد الالكترونى"
   forgotPassword: "نسيت كلمة السر؟"
   ifYouAlreadyHaveAnAccount: "اذا كان عندك حساب"
-#>newPassword:
-#>newPasswordAgain:
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "اختيارى"
   OR: "او"
   password: "كلمة السر"
-#>passwordAgain:
+#>passwordAgain: "Password (again)"
   privacyPolicy: "سياسة الخصوصية"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "اعادة تعيين كلمة السر"
-#>setPassword:
+#>setPassword: "Set Password"
   sign: "تسجيل"
   signIn: "تسجيل الدخول"
   signin: "تسجيل الدخول"
@@ -43,16 +43,16 @@ ar =
 
 
 #>info:
-#>  emailSent:
-#>  emailVerified:
-#>  passwordChanged:
-#>  passwordReset:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
 
 
   error:
     emailRequired: "البريد الالكترونى مطلوب"
     minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
-#>  pwdsDontMatch:
+#>  pwdsDontMatch: "Passwords don't match"
     pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
     pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
     signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
