@@ -104,7 +104,7 @@ ru =
 #>    "Verify email link expired":
 #>    "Verify email link is for unknown address":
 
-      #--- match
+      #---- match
       "Match failed":  "Не совпадают"
 
       #---- Misc...

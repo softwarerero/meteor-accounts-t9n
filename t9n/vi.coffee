@@ -1,28 +1,33 @@
 #Language: Vietnamese
 #Translators: olragon
 
-
 vi =
 
   add: "thêm"
   and: "và"
   back: "trở lại",
+#>changePassword:
+#>choosePassword:
   clickAgree: "Bằng cách nhấn vào Đăng ký, bạn đã đồng ý với"
   configure: "Cấu hình"
   createAccount: "Tạo Tài khoản"
+#>currentPassword:
   dontHaveAnAccount: "Chưa có tài khoản?"
   email: "Email"
   emailAddress: "Địa chỉ Email"
   emailResetLink: "Gửi"
-  emailSent: "Email đã được gửi đi!",
   forgotPassword: "Quên mật khẩu?"
   ifYouAlreadyHaveAnAccount: "Nếu bạn đã có tài khoản"
+#>newPassword:
+#>newPasswordAgain:
   optional: "Tùy chọn"
   OR: "Hoặc"
   password: "Mật khẩu"
+#>passwordAgain:
   privacyPolicy: "Chính sách bảo mật"
   remove: "xóa"
   resetYourPassword: "Lấy lại mật khẩu"
+#>setPassword:
   sign: "Ký"
   signIn: "Đăng nhập"
   signin: "đăng nhập"
@@ -37,7 +42,26 @@ vi =
   with: "với"
 
 
+  info:
+    emailSent: "Email đã được gửi đi!",
+#>  emailVerified:
+#>  passwordChanged:
+#>  passwordReset:
+
+
   error:
+    emailRequired: "Email phải có."
+    minChar: "Mật khẩu phải có ít nhất 7 ký tự."
+#>  pwdsDontMatch:
+    pwOneDigit: "Mật khẩu phải có ít nhất 1 chữ số."
+    pwOneLetter: "Mật khẩu phải có 1 ký tự chữ."
+    signInRequired: "Phải đăng nhập."
+    signupCodeIncorrect: "Mã số đăng ký sai."
+    signupCodeRequired: "Phải có mã số đăng ký."
+    usernameIsEmail: "Tên đăng nhập không thể là địa chỉ email."
+    usernameRequired: "Phải có tên đăng nhập."
+
+
     accounts:
 
       #---- accounts-base
@@ -71,6 +95,7 @@ vi =
       "Must be logged in": "Phải đăng nhập"
       "Need to set a username or email": "Phải điền tên đăng nhập hoặc email"
       "old password format": "định dạng mật khẩu cũ"
+#>    "Password may not be empty":
       "Signups forbidden": "Đăng ký đã bị cấm"
       "Token expired": "Hết phiên đăng nhập"
       "Token has invalid email address": "Phiên đăng nhập chứa địa chỉ email sai"
@@ -82,17 +107,8 @@ vi =
       #---- match
       "Match failed": "Không đúng"
 
-
-  error:
-    emailRequired: "Email phải có."
-    minChar: "Mật khẩu phải có ít nhất 7 ký tự."
-    pwOneDigit: "Mật khẩu phải có ít nhất 1 chữ số."
-    pwOneLetter: "Mật khẩu phải có 1 ký tự chữ."
-    signInRequired: "Phải đăng nhập."
-    signupCodeIncorrect: "Mã số đăng ký sai."
-    signupCodeRequired: "Phải có mã số đăng ký."
-    usernameIsEmail: "Tên đăng nhập không thể là địa chỉ email."
-    usernameRequired: "Phải có tên đăng nhập."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "vi", vi
