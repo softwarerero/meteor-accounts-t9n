@@ -3,25 +3,31 @@
 
 sl =
 
-#>add:
+#>add: "add"
   and: "in"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "S klikom na Registracija se strinjaš"
   configure: "Nastavi"
   createAccount: "Nova registracija"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Nisi registriran(a)?"
   email: "Email"
   emailAddress: "Email naslov"
   emailResetLink: "Pošlji ponastavitveno povezavo"
-#>emailSent:
   forgotPassword: "Pozabljeno geslo?"
   ifYouAlreadyHaveAnAccount: "Če si že registriran(a),"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Po želji"
   OR: "ALI"
   password: "Geslo"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "z našimi pogoji uporabe"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Ponastavi geslo"
+#>setPassword: "Set Password"
   sign: "Prijava"
   signIn: "Prijava"
   signin: "se prijavi"
@@ -36,7 +42,26 @@ sl =
   with: "z"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Email je obvezen vnos."
+    minChar: "Geslo mora imeti vsaj sedem znakov."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "V geslu mora biti vsaj ena številka."
+    pwOneLetter: "V geslu mora biti vsaj ena črka."
+    signInRequired: "Za to moraš biti prijavljen(a)."
+    signupCodeIncorrect: "Prijavna koda je napačna."
+    signupCodeRequired: "Prijavna koda je obvezen vnos."
+    usernameIsEmail: "Uporabniško ime ne more biti email naslov."
+    usernameRequired: "Uporabniško ime je obvezen vnos."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ sl =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,17 +107,8 @@ sl =
       #---- match
       "Match failed": "Prijava neuspešna"
 
-
-  error:
-    emailRequired: "Email je obvezen vnos."
-    minChar: "Geslo mora imeti vsaj sedem znakov."
-    pwOneDigit: "V geslu mora biti vsaj ena številka."
-    pwOneLetter: "V geslu mora biti vsaj ena črka."
-    signInRequired: "Za to moraš biti prijavljen(a)."
-    signupCodeIncorrect: "Prijavna koda je napačna."
-    signupCodeRequired: "Prijavna koda je obvezen vnos."
-    usernameIsEmail: "Uporabniško ime ne more biti email naslov."
-    usernameRequired: "Uporabniško ime je obvezen vnos."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "sl", sl

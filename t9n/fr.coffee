@@ -6,22 +6,28 @@ fr =
 #>add:
   and: "et"
 #>back:
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "En cliquant sur S'enregistrer, vous acceptez notre"
   configure: "Configurer"
   createAccount: "Créer un compte"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Vous n'avez pas de compte ?"
   email: "Email"
   emailAddress: "Adresse Email"
   emailResetLink: "Envoyer le mail de réinitialisation"
-#>emailSent:
   forgotPassword: "Vous avez oublié votre mot de passe ?"
   ifYouAlreadyHaveAnAccount: "Si vous avez déjà un compte"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Optionnel"
   OR: "OU"
   password: "Mot de passe"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Politique de confidentialité"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Reinitialiser votre mot de passe"
+#>setPassword: "Set Password"
   sign: "S'enregistrer"
   signIn: "Se Connecter"
   signin: "se connecter"
@@ -36,7 +42,26 @@ fr =
   with: "avec"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Un email est requis."
+    minChar: "Votre mot de passe doit contenir au minimum 7 caractères."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "Votre mot de passe doit contenir au moins un chiffre."
+    pwOneLetter: "Votre mot de passe doit contenir au moins une lettre."
+    signInRequired: "Vous devez être connecté pour continuer."
+    signupCodeIncorrect: "Le code d'enregistrement est incorrect."
+    signupCodeRequired: "Un code d'inscription est requis."
+    usernameIsEmail: "Le nom d'utilisateur ne peut être le même que l'adresse email."
+    usernameRequired: "Un nom d'utilisateur est requis."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ fr =
       "Must be logged in": "Vous devez être connecté"
       "Need to set a username or email": "Vous devez renseigner un nom d'utilisateur ou une adresse email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "La création de compte est interdite"
       "Token expired": "Jeton expiré"
       "Token has invalid email address": "Le jeton contient une adresse email invalide"
@@ -81,17 +107,8 @@ fr =
       #---- match
 #>    "Match failed":
 
-
-  error:
-    emailRequired: "Un email est requis."
-    minChar: "Votre mot de passe doit contenir au minimum 7 caractères."
-    pwOneDigit: "Votre mot de passe doit contenir au moins un chiffre."
-    pwOneLetter: "Votre mot de passe doit contenir au moins une lettre."
-    signInRequired: "Vous devez être connecté pour continuer."
-    signupCodeIncorrect: "Le code d'enregistrement est incorrect."
-    signupCodeRequired: "Un code d'inscription est requis."
-    usernameIsEmail: "Le nom d'utilisateur ne peut être le même que l'adresse email."
-    usernameRequired: "Un nom d'utilisateur est requis."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "fr", fr

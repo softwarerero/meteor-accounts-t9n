@@ -54,22 +54,28 @@ en =
   add:
   and:
   back:
+  changePassword:
+  choosePassword:
   clickAgree:
   configure:
   createAccount:
+  currentPassword:
   dontHaveAnAccount:
   email:
   emailAddress:
   emailResetLink:
-  emailSent:
   forgotPassword:
   ifYouAlreadyHaveAnAccount:
+  newPassword:
+  newPasswordAgain:
   optional:
   OR:
   password:
+  passwordAgain:
   privacyPolicy:
   remove:
   resetYourPassword:
+  setPassword:
   sign:
   signIn:
   signin:
@@ -84,7 +90,26 @@ en =
   with:
 
 
+  info:
+    emailSent:
+    emailVerified:
+    passwordChanged:
+    passwordReset:
+
+
   error:
+    emailRequired:
+    minChar:
+    pwdsDontMatch:
+    pwOneDigit:
+    pwOneLetter:
+    signInRequired:
+    signupCodeIncorrect:
+    signupCodeRequired:
+    usernameIsEmail:
+    usernameRequired:
+
+
     accounts:
 
       #---- accounts-base
@@ -118,6 +143,7 @@ en =
       "Must be logged in":
       "Need to set a username or email":
       "old password format":
+      "Password may not be empty":
       "Signups forbidden":
       "Token expired":
       "Token has invalid email address":
@@ -129,17 +155,8 @@ en =
       #---- match
       "Match failed":
 
-
-  error:
-    emailRequired:
-    minChar:
-    pwOneDigit:
-    pwOneLetter:
-    signInRequired:
-    signupCodeIncorrect:
-    signupCodeRequired:
-    usernameIsEmail:
-    usernameRequired:
+      #---- Misc...
+      "Unknown error": "Unknown error"
 
 
 T9n.map "en", en

@@ -3,25 +3,31 @@
 
 pt =
 
-#>add:
+#>add: "add"
   and: "e"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Ao clicar em Entrar, você aceita nosso"
   configure: "Configurar"
   createAccount: "Criar Conta"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Não tem conta?"
   email: "E-mail"
   emailAddress: "Endereço de e-mail"
   emailResetLink: "Gerar nova senha"
-#>emailSent:
   forgotPassword: "Esqueceu sua senha?"
   ifYouAlreadyHaveAnAccount: "Se você já tem uma conta"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Opcional"
   OR: "OU"
   password: "Senha"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Política de Privacidade"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Gerar nova senha"
+#>setPassword: "Set Password"
   sign: "Entrar"
   signIn: "Entrar"
   signin: "entrar"
@@ -36,7 +42,26 @@ pt =
   with: "com"
 
 
-  #error:
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
+  error:
+    emailRequired: "E-mail é obrigatório."
+    minChar: "Senha requer um mínimo de 7 caracteres."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "Senha deve conter pelo menos um digito."
+    pwOneLetter: "Senha deve conter pelo menos uma letra."
+    signInRequired: "Você precisa estar logado para fazer isso."
+    signupCodeIncorrect: "Código de acesso incorreto."
+    signupCodeRequired: "É necessário um código de acesso."
+    usernameIsEmail: "Nome de usuário não pode ser um endereço de e-mail."
+    usernameRequired: "Nome de usuário é obrigatório."
+
+
     #accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ pt =
 #>   "Must be logged in":
 #>   "Need to set a username or email":
 #>   "old password format":
+#>    "Password may not be empty":
 #>   "Signups forbidden":
 #>   "Token expired":
 #>   "Token has invalid email address":
@@ -81,17 +107,8 @@ pt =
       #---- match
 #>    "Match failed":
 
-
-  error:
-    emailRequired: "E-mail é obrigatório."
-    minChar: "Senha requer um mínimo de 7 caracteres."
-    pwOneDigit: "Senha deve conter pelo menos um digito."
-    pwOneLetter: "Senha deve conter pelo menos uma letra."
-    signInRequired: "Você precisa estar logado para fazer isso."
-    signupCodeIncorrect: "Código de acesso incorreto."
-    signupCodeRequired: "É necessário um código de acesso."
-    usernameIsEmail: "Nome de usuário não pode ser um endereço de e-mail."
-    usernameRequired: "Nome de usuário é obrigatório."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "pt", pt

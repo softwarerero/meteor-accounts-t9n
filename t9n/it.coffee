@@ -6,22 +6,28 @@ it =
   add: "aggiungi"
   and: "e"
   back: "indietro"
+  changePassword: "Cambia Password"
+  choosePassword: "Scegli una Password"
   clickAgree: "Cliccando Registrati, accetti la nostra"
   configure: "Configura"
   createAccount: "Crea un Account"
+  currentPassword: "Password Corrente"
   dontHaveAnAccount: "Non hai un account?"
   email: "Email"
   emailAddress: "Indirizzo Email"
   emailResetLink: "Invia Link di Reset"
-  emailSent: "Email Inviata!"
   forgotPassword: "Hai dimenticato la password?"
   ifYouAlreadyHaveAnAccount: "Se hai già un account"
+  newPassword: "Nuova Password"
+  newPasswordAgain: "Nuova Password (di nuovo)"
   optional: "Opzionale"
   OR: "OPPURE"
   password: "Password"
+  passwordAgain: "Password (di nuovo)"
   privacyPolicy: "Privacy Policy"
   remove: "rimuovi"
   resetYourPassword: "Reimposta la password"
+  setPassword: "Imposta Password"
   sign: "Accedi"
   signIn: "Accedi"
   signin: "accedi"
@@ -36,7 +42,26 @@ it =
   with: "con"
 
 
+  info:
+    emailSent: "Email Inviata"
+    emailVerified: "Email Verificata"
+    passwordChanged: "Password Cambiata"
+    passwordReset: "Password Reimpostata"
+
+
   error:
+    emailRequired: "L'Email è obbligatoria."
+    minChar: "La Password deve essere di almeno 7 caratteri."
+    pwdsDontMatch: "Le Password non corrispondono"
+    pwOneDigit: "La Password deve contenere almeno un numero."
+    pwOneLetter: "La Password deve contenere 1 lettera."
+    signInRequired: "Per fare questo devi accedere."
+    signupCodeIncorrect: "Codice di Registrazione errato."
+    signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
+    usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
+    usernameRequired: "Il Nome utente è obbligatorio."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ it =
       "Must be logged in": "Devi aver eseguito l'accesso"
       "Need to set a username or email": "È necessario specificare un nome utente o un indirizzo email"
       "old password format": "vecchio formato password"
+      "Password may not be empty": "La password non può essere vuota"
       "Signups forbidden": "Registrazioni non consentite"
       "Token expired": "Codice scaduto"
       "Token has invalid email address": "Il codice ha un indirizzo email non valido"
@@ -81,17 +107,8 @@ it =
       #---- match
       "Match failed": "Riscontro fallito"
 
-
-  error:
-    emailRequired: "L'Email è obbligatoria."
-    minChar: "La Password deve essere di almeno 7 caratteri."
-    pwOneDigit: "La Password deve contenere almeno un numero."
-    pwOneLetter: "La Password deve contenere 1 lettera."
-    signInRequired: "Per fare questo devi accedere."
-    signupCodeIncorrect: "Codice di Registrazione errato."
-    signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
-    usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
-    usernameRequired: "Il Nome utente è obbligatorio."
+      #---- Misc...
+      "Unknown error": "Errore Sconosciuto"
 
 
 T9n.map "it", it

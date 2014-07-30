@@ -3,25 +3,31 @@
 
 ru =
 
-#>add:
+#>add: "add"
   and: "и"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Нажав на Регистрация вы соглашаетесь с условиями"
   configure: "Конфигурировать"
   createAccount: "Создать аккаунт"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Нет аккаунта?"
   email: "Email"
   emailAddress: "Email"
   emailResetLink: "Отправить ссылку для сброса"
-#>emailSent:
   forgotPassword: "Забыли пароль?"
   ifYouAlreadyHaveAnAccount: "Если у вас уже есть аккаунт"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Необязательно"
   OR: "ИЛИ"
   password: "Пароль"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Политики безопасности"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Сбросить пароль"
+#>setPassword: "Set Password"
   sign: "Подпись"
   signIn: "Войти"
   signin: "bойти"
@@ -36,7 +42,26 @@ ru =
   with: "с"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Email обязательно."
+    minChar: "Минимальное кол-во символов для пароля 7."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "В пароле должна быть хотя бы одна цифра."
+    pwOneLetter: "В пароле должна быть хотя бы одна буква."
+    signInRequired: "Необходимо войти для чтобы продолжить."
+    signupCodeIncorrect: "Неправильный регистрационный код."
+    signupCodeRequired: "Необходим регистрациооный код."
+    usernameIsEmail: "Имя пользователя не может быть адресом email."
+    usernameRequired: "Имя пользователя обязательно."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ ru =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,17 +107,8 @@ ru =
       #---- match
       "Match failed":  "Не совпадают"
 
-
-  error:
-    emailRequired: "Email обязательно."
-    minChar: "Минимальное кол-во символов для пароля 7."
-    pwOneDigit: "В пароле должна быть хотя бы одна цифра."
-    pwOneLetter: "В пароле должна быть хотя бы одна буква."
-    signInRequired: "Необходимо войти для чтобы продолжить."
-    signupCodeIncorrect: "Неправильный регистрационный код."
-    signupCodeRequired: "Необходим регистрациооный код."
-    usernameIsEmail: "Имя пользователя не может быть адресом email."
-    usernameRequired: "Имя пользователя обязательно."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "ru", ru

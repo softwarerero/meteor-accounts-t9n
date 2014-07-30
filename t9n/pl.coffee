@@ -6,22 +6,28 @@ pl =
 #>add:
   and: "i"
 #>back:
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Klikając na Zarejestruj się zgadzasz się z naszą"
   configure: "Konfiguruj"
   createAccount: "Utwórz konto"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Nie masz konta?"
   email: "Email"
   emailAddress: "Adres email"
   emailResetLink: "Wyślij email z linkiem do zmiany hasła"
-#>emailSent:
   forgotPassword: "Zapomniałeś hasła?"
   ifYouAlreadyHaveAnAccount: "Jeżeli już masz konto"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Nieobowiązkowe"
   OR: "LUB"
   password: "Hasło"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "polityką prywatności"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Ustaw nowe hasło"
+#>setPassword: "Set Password"
   sign: "Podpisz"
   signIn: "Zaloguj się"
   signin: "zaloguj się"
@@ -36,7 +42,26 @@ pl =
   with: "z"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Wymagany jest adres email."
+    minChar: "7 znaków to minimalna długość hasła."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
+    pwOneLetter: "Hasło musi zawierać 1 literę."
+    signInRequired: "Musisz być zalogowany, aby to zrobić."
+    signupCodeIncorrect: "Kod rejestracji jest nieprawidłowy."
+    signupCodeRequired: "Wymagany jest kod rejestracji."
+    usernameIsEmail: "Nazwa użytkownika nie może być adres e-mail."
+    usernameRequired: "Wymagana jest nazwa użytkownika."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ pl =
       "Must be logged in": "Musisz być zalogowany"
       "Need to set a username or email": "Wymagane ustawienie nazwy użytkownika lub adresu email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "Rejestracja zabroniona"
       "Token expired": "Token wygasł"
       "Token has invalid email address": "Token ma niewłaściwy adres email"
@@ -81,17 +107,8 @@ pl =
       #---- match
 #>    "Match failed":
 
-
-  error:
-    emailRequired: "Wymagany jest adres email."
-    minChar: "7 znaków to minimalna długość hasła."
-    pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
-    pwOneLetter: "Hasło musi zawierać 1 literę."
-    signInRequired: "Musisz być zalogowany, aby to zrobić."
-    signupCodeIncorrect: "Kod rejestracji jest nieprawidłowy."
-    signupCodeRequired: "Wymagany jest kod rejestracji."
-    usernameIsEmail: "Nazwa użytkownika nie może być adres e-mail."
-    usernameRequired: "Wymagana jest nazwa użytkownika."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "pl", pl

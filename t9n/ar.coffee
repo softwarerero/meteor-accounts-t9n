@@ -3,25 +3,31 @@
 
 ar =
 
-#>add:
+#>add: "add"
   and: "و"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "بفتح حسابك انت توافق على"
   configure: "تعديل"
   createAccount: "افتح حساب جديد"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "ليس عندك حساب؟"
   email: "البريد الالكترونى"
   emailAddress: "البريد الالكترونى"
   emailResetLink: "اعادة تعيين البريد الالكترونى"
-#>emailSent:
   forgotPassword: "نسيت كلمة السر؟"
   ifYouAlreadyHaveAnAccount: "اذا كان عندك حساب"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "اختيارى"
   OR: "او"
   password: "كلمة السر"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "سياسة الخصوصية"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "اعادة تعيين كلمة السر"
+#>setPassword: "Set Password"
   sign: "تسجيل"
   signIn: "تسجيل الدخول"
   signin: "تسجيل الدخول"
@@ -36,7 +42,26 @@ ar =
   with: "مع"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "البريد الالكترونى مطلوب"
+    minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
+    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
+    signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
+    signupCodeIncorrect: "رمز التسجيل غير صحيح"
+    signupCodeRequired: "رمز التسجيل مطلوب"
+    usernameIsEmail: "اسم المستخدم لا يمكن ان يكون بريد الكترونى"
+    usernameRequired: "اسم المستخدم مطلوب"
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ ar =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,17 +107,8 @@ ar =
       #---- match
       "Match failed":  "المطابقة فشلت"
 
-
-  error:
-    emailRequired: "البريد الالكترونى مطلوب"
-    minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
-    pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
-    pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
-    signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
-    signupCodeIncorrect: "رمز التسجيل غير صحيح"
-    signupCodeRequired: "رمز التسجيل مطلوب"
-    usernameIsEmail: "اسم المستخدم لا يمكن ان يكون بريد الكترونى"
-    usernameRequired: "اسم المستخدم مطلوب"
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "ar", ar

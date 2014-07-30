@@ -3,25 +3,31 @@
 
 es =
 
-#>add:
+#>add: "add"
   and: "y"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "Si haces clic en Sucribir estas de acuerdo con la"
   configure: "Disposición"
   createAccount: "Crear cuenta"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "No tenés una cuenta?"
   email: "Email"
   emailAddress: "Dirección de Email"
   emailResetLink: "Reiniciar Email"
-#>emailSent:
   forgotPassword: "Contraseña olvidada?"
   ifYouAlreadyHaveAnAccount: "Si ya tenés una cuenta"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Opcional"
   OR: "O"
   password: "Contraseña"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "Póliza de Privacidad"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Resetear tu contraseña"
+#>setPassword: "Set Password"
   sign: "Ingresar"
   signIn: "Entrar"
   signin: "entrar"
@@ -36,7 +42,26 @@ es =
   with: "con"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Email es necesario."
+    minChar: "7 carácteres mínimo."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "mínimo un dígito."
+    pwOneLetter: "mínimo una letra."
+    signInRequired: "Debes iniciar sesión para hacer eso."
+    signupCodeIncorrect: "Código para suscribir no coincide."
+    signupCodeRequired: "Código para suscribir es necesario."
+    usernameIsEmail: "Usuario no puede ser Email."
+    usernameRequired: "Usuario es necesario."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ es =
       "Must be logged in": "Hay que ingresar"
       "Need to set a username or email": "Tienes que especificar un usuario o un email"
 #>    "old password format":
+#>    "Password may not be empty":
       "Signups forbidden": "Registro prohibido"
       "Token expired": "Token expirado"
       "Token has invalid email address": "Token contiene un Email inválido"
@@ -81,17 +107,8 @@ es =
       #---- match
 #>    "Match failed":
 
-
-  error:
-    emailRequired: "Email es necesario."
-    minChar: "7 carácteres mínimo."
-    pwOneDigit: "mínimo un dígito."
-    pwOneLetter: "mínimo una letra."
-    signInRequired: "Debes iniciar sesión para hacer eso."
-    signupCodeIncorrect: "Código para suscribir no coincide."
-    signupCodeRequired: "Código para suscribir es necesario."
-    usernameIsEmail: "Usuario no puede ser Email."
-    usernameRequired: "Usuario es necesario."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "es", es

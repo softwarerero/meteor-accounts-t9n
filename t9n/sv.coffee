@@ -3,25 +3,31 @@
 
 sv =
 
-#>add:
+#>add: "add"
   and: "och"
-#>back:
+#>back: "back"
+#>changePassword: "Change Password"
+#>choosePassword: "Choose a Password"
   clickAgree: "När du väljer att skapa ett konto så godkänner du också vår"
   configure: "Konfigurera"
   createAccount: "Skapa ett konto"
+#>currentPassword: "Current Password"
   dontHaveAnAccount: "Har du inget konto?"
   email: "E-postadress"
   emailAddress: "E-postadress"
   emailResetLink: "E-post återställningslänk"
-#>emailSent:
   forgotPassword: "Glömt din e-postadress?"
   ifYouAlreadyHaveAnAccount: "Om du redan har ett konto"
+#>newPassword: "New Password"
+#>newPasswordAgain: "New Password (again)"
   optional: "Valfri"
   OR: "ELLER"
   password: "Lösenord"
+#>passwordAgain: "Password (again)"
   privacyPolicy: "integritetspolicy"
-#>remove:
+#>remove: "remove"
   resetYourPassword: "Återställ ditt lösenord"
+#>setPassword: "Set Password"
   sign: "Logga"
   signIn: "Logga in"
   signin: "logga in"
@@ -36,7 +42,26 @@ sv =
   with: "med"
 
 
+#>info:
+#>  emailSent: "Email Sent"
+#>  emailVerified: "Email verified"
+#>  passwordChanged: "Password Changed"
+#>  passwordReset: "Password Reset"
+
+
   error:
+    emailRequired: "Det krävs ett lösenord."
+    minChar: "Det krävs minst 7 tecken i ditt lösenord."
+#>  pwdsDontMatch: "Passwords don't match"
+    pwOneDigit: "Lösenordet måste ha minst 1 siffra."
+    pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
+    signInRequired: "Inloggning krävs här."
+    signupCodeIncorrect: "Registreringskoden är felaktig."
+    signupCodeRequired: "Det krävs en registreringskod."
+    usernameIsEmail: "Användarnamnet kan inte vara en e-postadress."
+    usernameRequired: "Det krävs ett användarnamn."
+
+
     accounts:
 
       #---- accounts-base
@@ -70,6 +95,7 @@ sv =
 #>    "Must be logged in":
 #>    "Need to set a username or email":
 #>    "old password format":
+#>    "Password may not be empty":
 #>    "Signups forbidden":
 #>    "Token expired":
 #>    "Token has invalid email address":
@@ -81,17 +107,8 @@ sv =
       #---- match
       "Match failed": "Matchning misslyckades"
 
-
-  error:
-    emailRequired: "Det krävs ett lösenord."
-    minChar: "Det krävs minst 7 tecken i ditt lösenord."
-    pwOneDigit: "Lösenordet måste ha minst 1 siffra."
-    pwOneLetter: "Lösenordet måste ha minst 1 bokstav."
-    signInRequired: "Inloggning krävs här."
-    signupCodeIncorrect: "Registreringskoden är felaktig."
-    signupCodeRequired: "Det krävs en registreringskod."
-    usernameIsEmail: "Användarnamnet kan inte vara en e-postadress."
-    usernameRequired: "Det krävs ett användarnamn."
+      #---- Misc...
+#>    "Unknown error":
 
 
 T9n.map "sv", sv
