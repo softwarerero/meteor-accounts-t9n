@@ -3,31 +3,31 @@
 
 sl =
 
-#>add: "add"
+  add: "dodaj"
   and: "in"
-#>back: "back"
-#>changePassword: "Change Password"
-#>choosePassword: "Choose a Password"
+  back: "nazaj"
+  changePassword: "Spremeni geslo"
+  choosePassword: "Izberi geslo"
   clickAgree: "S klikom na Registracija se strinjaš"
   configure: "Nastavi"
   createAccount: "Nova registracija"
-#>currentPassword: "Current Password"
+  currentPassword: "Trenutno geslo"
   dontHaveAnAccount: "Nisi registriran(a)?"
   email: "Email"
   emailAddress: "Email naslov"
   emailResetLink: "Pošlji ponastavitveno povezavo"
   forgotPassword: "Pozabljeno geslo?"
   ifYouAlreadyHaveAnAccount: "Če si že registriran(a),"
-#>newPassword: "New Password"
-#>newPasswordAgain: "New Password (again)"
+  newPassword: "Novo geslo"
+  newPasswordAgain: "Novo geslo (ponovno)"
   optional: "Po želji"
   OR: "ALI"
   password: "Geslo"
-#>passwordAgain: "Password (again)"
+  passwordAgain: "Geslo (ponovno)"
   privacyPolicy: "z našimi pogoji uporabe"
-#>remove: "remove"
+  remove: "briši"
   resetYourPassword: "Ponastavi geslo"
-#>setPassword: "Set Password"
+  setPassword: "Nastavi geslo"
   sign: "Prijava"
   signIn: "Prijava"
   signin: "se prijavi"
@@ -42,17 +42,17 @@ sl =
   with: "z"
 
 
-#>info:
-#>  emailSent: "Email Sent"
-#>  emailVerified: "Email verified"
-#>  passwordChanged: "Password Changed"
-#>  passwordReset: "Password Reset"
+  info:
+    emailSent: "E-pošta poslana"
+    emailVerified: "Email naslov preverjen"
+    passwordChanged: "Geslo spremenjeno"
+    passwordReset: "Geslo ponastavljeno"
 
 
   error:
     emailRequired: "Email je obvezen vnos."
     minChar: "Geslo mora imeti vsaj sedem znakov."
-#>  pwdsDontMatch: "Passwords don't match"
+    pwdsDontMatch: "Gesli se ne ujemata"
     pwOneDigit: "V geslu mora biti vsaj ena številka."
     pwOneLetter: "V geslu mora biti vsaj ena črka."
     signInRequired: "Za to moraš biti prijavljen(a)."
@@ -68,47 +68,47 @@ sl =
       #"@" + domain + " email required":
       #"A login handler should return a result or undefined":
       "Email already exists.": "Email že obstaja."
-#>    "Email doesn't match the criteria.":
-#>    "Invalid login token":
-#>    "Login forbidden":
+      "Email doesn't match the criteria.": "Email ne odgovarja kriterijem."
+      "Invalid login token": "Napačen prijavni žeton"
+      "Login forbidden": "Prijava ni dovoljena"
       #"Service " + options.service + " already configured":
-#>    "Service unknown":
-#>    "Unrecognized options for login request":
-#>    "User validation failed":
-#>    "Username already exists.":
-#>    "You are not logged in.":
-#>    "You've been logged out by the server. Please log in again.":
-#>    "Your session has expired. Please log in again.":
+      "Service unknown":"Neznana storitev"
+      "Unrecognized options for login request": "Neznane možnosti v prijavnem zahtevku"
+      "User validation failed": "Preverjanje uporabnika neuspešno"
+      "Username already exists.": "Uporabniško ime že obstaja"
+      "You are not logged in.": "Nisi prijavljen(a)."
+      "You've been logged out by the server. Please log in again.": "Odjavljen(a) si s strežnika. Ponovi prijavo."
+      "Your session has expired. Please log in again.": "Seja je potekla. Ponovi prijavo."
 
 
       #---- accounts-oauth
-#>    "No matching login attempt found":
+      "No matching login attempt found": "Prijava ne obstaja"
 
 
       #---- accounts-password-client
-#>    "Password is old. Please reset your password.":
+      "Password is old. Please reset your password.": "Geslo je staro. Zamenjaj ga."
 
 
       #---- accounts-password
       "Incorrect password": "Napačno geslo"
-#>    "Invalid email":
-#>    "Must be logged in":
-#>    "Need to set a username or email":
-#>    "old password format":
-#>    "Password may not be empty":
-#>    "Signups forbidden":
-#>    "Token expired":
-#>    "Token has invalid email address":
-#>    "User has no password set":
+      "Invalid email": "Napačen email"
+      "Must be logged in": "Moraš biti prijavljane(a)"
+      "Need to set a username or email": "Prijava ali email sta obvezna"
+      "old password format": "stara oblika gesla"
+      "Password may not be empty": "Geslo ne sme biti prazno"
+      "Signups forbidden": "Prijave onemogočene"
+      "Token expired": "Žeton je potekel"
+      "Token has invalid email address": "Žeton vsebuje napačen email"
+      "User has no password set": "Uporabnik nima gesla"
       "User not found": "Uporabnik ne obstaja"
-#>    "Verify email link expired":
-#>    "Verify email link is for unknown address":
+      "Verify email link expired": "Povezava za potrditev je potekla"
+      "Verify email link is for unknown address": "Povezava za potrditev vsebuje neznan naslov"
 
       #---- match
       "Match failed": "Prijava neuspešna"
 
       #---- Misc...
-#>    "Unknown error":
+      "Unknown error": "Neznana napaka"
 
 
 T9n.map "sl", sl
