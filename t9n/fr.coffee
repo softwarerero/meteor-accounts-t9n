@@ -5,7 +5,7 @@ fr =
 
   add: "Ajouter"
   and: "et"
-  back: "retour",
+  back: "retour"
   changePassword: "Modifier le mot de passe"
   choosePassword: "Choisir le mot de passe"
   clickAgree: "En cliquant sur S'enregistrer, vous acceptez notre"
@@ -42,7 +42,7 @@ fr =
   with: "avec"
 
 
-#>info:
+info:
   emailSent: "Email envoyé"
   emailVerified: "Email verifié"
   passwordChanged: "Mot de passe modifié"
@@ -65,18 +65,18 @@ fr =
     accounts:
 
       #---- accounts-base
-      "@" + domain + " email requis":
-      "A login handler should return a result or undefined": "Un gestionnaire d'authentification doit retourner un résultat ou undefined"
+      #"@" + domain + " email requis":
+      #"A login handler should return a result or undefined": "Un gestionnaire d'authentification doit retourner un résultat ou undefined"
       "Email already exists.": "Adresse email déjà utilisée."
       "Email doesn't match the criteria.": "Adresse email ne correspond pas aux critères."
       "Invalid login token": "Jeton d'authentification invalide"
       "Login forbidden": "Authentification interdite"
-      "Service " + options.service + " already configured": "Le service " + options.service + " est déjà configuré"
+      #"Service " + options.service + " already configured": "Le service " + options.service + " est déjà configuré"
       "Service unknown": "Service inconnu"
       "Unrecognized options for login request": "Options inconnues pour la requête d'authentification"
       "User validation failed": "Echec de la validation de l'utilisateur"
       "Username already exists.": "Nom d'utilisateur déjà utilisé."
-      "You are not logged in.": "Vous n'êtes pas authentifié"
+      "You are not logged in.": "Vous n'êtes pas authentifié."
       "You've been logged out by the server. Please log in again.": "Vous avez été déconnecté par le serveur. Veuillez vous reconnecter."
       "Your session has expired. Please log in again.": "Votre session a expiré. Veuillez vous reconnecter."
 
@@ -86,7 +86,7 @@ fr =
 
 
       #---- accounts-password-client
-    "Password is old. Please reset your password.": "Votre mot de passe est trop ancien. Veuillez le modifier"
+      "Password is old. Please reset your password.": "Votre mot de passe est trop ancien. Veuillez le modifier."
 
 
       #---- accounts-password
