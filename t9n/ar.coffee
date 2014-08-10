@@ -3,31 +3,31 @@
 
 ar =
 
-#>add: "add"
+  add: "اضف"
   and: "و"
-#>back: "back"
-#>changePassword: "Change Password"
-#>choosePassword: "Choose a Password"
+  back: "رجوع"
+  changePassword: "غير كلمة السر"
+  choosePassword: "اختر كلمة السر"
   clickAgree: "بفتح حسابك انت توافق على"
   configure: "تعديل"
   createAccount: "افتح حساب جديد"
-#>currentPassword: "Current Password"
+  currentPassword: "كلمة السر الحالية"
   dontHaveAnAccount: "ليس عندك حساب؟"
   email: "البريد الالكترونى"
   emailAddress: "البريد الالكترونى"
   emailResetLink: "اعادة تعيين البريد الالكترونى"
   forgotPassword: "نسيت كلمة السر؟"
   ifYouAlreadyHaveAnAccount: "اذا كان عندك حساب"
-#>newPassword: "New Password"
-#>newPasswordAgain: "New Password (again)"
+  newPassword: "كلمة السر الجديدة"
+  newPasswordAgain: "كلمة السر الجديدة مرة اخرى"
   optional: "اختيارى"
   OR: "او"
   password: "كلمة السر"
-#>passwordAgain: "Password (again)"
+  passwordAgain: "كلمة السر مرة اخرى"
   privacyPolicy: "سياسة الخصوصية"
-#>remove: "remove"
+  remove: "ازالة"
   resetYourPassword: "اعادة تعيين كلمة السر"
-#>setPassword: "Set Password"
+  setPassword: "تعيين كلمة السر"
   sign: "تسجيل"
   signIn: "تسجيل الدخول"
   signin: "تسجيل الدخول"
@@ -42,17 +42,17 @@ ar =
   with: "مع"
 
 
-#>info:
-#>  emailSent: "Email Sent"
-#>  emailVerified: "Email verified"
-#>  passwordChanged: "Password Changed"
-#>  passwordReset: "Password Reset"
+  info:
+    emailSent: "تم ارسال البريد الالكترونى"
+    emailVerified: "تم تأكيد البريد الالكترونى"
+    passwordChanged: "تم تغيير كلمة السر"
+    passwordReset: "تم اعادة تعيين كلمة السر"
 
 
   error:
     emailRequired: "البريد الالكترونى مطلوب"
     minChar: "سبعة حروف هو الحد الادنى لكلمة السر"
-#>  pwdsDontMatch: "Passwords don't match"
+    pwdsDontMatch: "كلمتين السر لا يتطابقان"
     pwOneDigit: "كلمة السر يجب ان تحتوى على رقم واحد على الاقل"
     pwOneLetter: "كلمة السر تحتاج الى حرف اخر"
     signInRequired: "عليك بتسجبل الدخول لفعل ذلك"
@@ -67,48 +67,48 @@ ar =
       #---- accounts-base
       #"@" + domain + " email required":
       #"A login handler should return a result or undefined":
-#>    "Email already exists.":
-#>    "Email doesn't match the criteria.":
-#>    "Invalid login token":
-#>    "Login forbidden":
+      "Email already exists.": "البريد الالكترونى مسجل"
+      "Email doesn't match the criteria.": "البريد الالكترونى لا يتوافق مع الشروط"
+      "Invalid login token": "رمز الدخول غير صالح"
+      "Login forbidden": "تسجيل الدخول غير مسموح"
       #"Service " + options.service + " already configured":
-#>    "Service unknown":
-#>    "Unrecognized options for login request":
-#>    "User validation failed":
-#>    "Username already exists.":
-#>    "You are not logged in.":
-#>    "You've been logged out by the server. Please log in again.":
-#>    "Your session has expired. Please log in again.":
+      "Service unknown": "خدمة غير معروفة"
+      "Unrecognized options for login request": "اختيارات غير معلومة عند تسجيل الدخول"
+      "User validation failed": "تأكيد المستخدم فشل"
+      "Username already exists.": "اسم المستخدم مسجل"
+      "You are not logged in.": "لم تسجل دخولك"
+      "You've been logged out by the server. Please log in again.": "لقد تم تسجيل خروجك من قبل الخادم. قم بتسجيل الدخول مجددا."
+      "Your session has expired. Please log in again.": "لقد انتهت جلستك. قم بتسجيل الدخول مجددا."
 
 
       #---- accounts-oauth
-#>    "No matching login attempt found":
+      "No matching login attempt found": "لم نجد محاولة دخول مطابقة"
 
 
       #---- accounts-password-client
-#>    "Password is old. Please reset your password.":
+      "Password is old. Please reset your password.": "كلمة السر قديمة. قم باعادة تعيين كلمة السر."
 
 
       #---- accounts-password
-#>    "Incorrect password":
-#>    "Invalid email":
-#>    "Must be logged in":
-#>    "Need to set a username or email":
-#>    "old password format":
-#>    "Password may not be empty":
-#>    "Signups forbidden":
-#>    "Token expired":
-#>    "Token has invalid email address":
-#>    "User has no password set":
+      "Incorrect password": "كلمة السر غير صحيحة."
+      "Invalid email": "البريد الالكترونى غير صالح"
+      "Must be logged in": "يجب ان تسجل دخولك"
+      "Need to set a username or email": "يجب تعيين اسم مستخدم او بريد الكترونى"
+      "old password format": "صيغة كلمة السر القديمة"
+      "Password may not be empty": "كلمة السر لا يمكن ان تترك فارغة"
+      "Signups forbidden": "فتح الحسابات غير مسموح"
+      "Token expired": "انتهى زمن الرمز"
+      "Token has invalid email address": "الرمز يحتوى على بريد الكترونى غير صالح"
+      "User has no password set": "المستخدم لم يقم بتعيين كلمة سر"
       "User not found":  "اسم المستخدم غير موجود"
-#>    "Verify email link expired":
-#>    "Verify email link is for unknown address":
+      "Verify email link expired": "انتهى زمن رابط تأكيد البريد الالكترونى"
+      "Verify email link is for unknown address": "رابط تأكيد البريد الالكترونى ينتمى الى بريد الكترونى غير معروف"
 
       #---- match
       "Match failed":  "المطابقة فشلت"
 
       #---- Misc...
-#>    "Unknown error":
+      "Unknown error": "خطأ غير معروف"
 
 
 T9n.map "ar", ar
