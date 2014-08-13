@@ -1,7 +1,6 @@
-# Translations for the meteor account's error messages
+# Translations for the meteor account's messages (almost i18n)
 
-Right now only accounts-base and accounts-passwords are translated. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
-Some translations have moved to accounts-entry, but translations can be added here for other accounts related modules and of course for more languages.
+This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
 Translations are currently available for Arabic, Czech, French, German, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
 
@@ -47,6 +46,14 @@ Example:
       store:
         purchase: 'buy now'
         basket: 'basket'
+        
+Tip: If you do not want to expose the reason why a login was unsuccessful for security reasons. They could overwrite the corresponding messages:
+
+    T9n.map 'en',
+      error:
+        accounts:
+          'User not found': 'Not for you'
+          'Incorrect password': 'Not for you'
 
 # Contributions
 * djhi - French Translation
