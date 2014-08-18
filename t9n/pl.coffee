@@ -86,8 +86,7 @@ info:
 
 
       #---- accounts-password-client
-    "Password is old. Please reset your password.": "Hasło jest stare. Proszę wyzerować hasło."
-
+      "Password is old. Please reset your password.": "Hasło jest stare. Proszę wyzerować hasło."
 
       #---- accounts-password
       "Incorrect password": "Niepoprawne hasło"
