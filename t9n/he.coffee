@@ -109,7 +109,7 @@ he =
       "Match failed": "ההתאמה נכשלה"
 
       #---- Misc...
-      "Unknown error": "שגיעה לא ידועה"
+      "Unknown error": "שגיאה לא ידועה"
 
 
 T9n.map "he", he
