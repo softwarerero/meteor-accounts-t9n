@@ -4,7 +4,7 @@
 
 he =
 
-  add: "add"
+  add: "הןסף"
   and: "ו"
   back: "חזרה"
   changePassword: "שינוי סיסמא"
