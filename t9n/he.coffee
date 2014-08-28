@@ -29,7 +29,7 @@ he =
   remove: "הסרה"
   resetYourPassword: "איפוס סיסמא"
   setPassword: "עדכון סיסמא"
-  sign: "Sign"
+  #sign: "Sign"
   signIn: "כניסה"
   signin: "כניסה"
   signOut: "יציאה"
