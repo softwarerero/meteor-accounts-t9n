@@ -43,7 +43,7 @@ pl =
 
 
 info:
-  emailSent: "Adres email wysałny"
+  emailSent: "Adres email wysłany"
   emailVerified: "Adres email zweryfikowany"
   passwordChanged: "Hasło zmienione"
   passwordReset: "Hasło wyzerowane"
@@ -52,13 +52,13 @@ info:
   error:
     emailRequired: "Wymagany jest adres email."
     minChar: "7 znaków to minimalna długość hasła."
-    pwdsDontMatch: "Hasłą są różne"
+    pwdsDontMatch: "Hasła są różne"
     pwOneDigit: "Hasło musi zawierać przynajmniej jedną cyfrę."
     pwOneLetter: "Hasło musi zawierać 1 literę."
     signInRequired: "Musisz być zalogowany, aby to zrobić."
     signupCodeIncorrect: "Kod rejestracji jest nieprawidłowy."
     signupCodeRequired: "Wymagany jest kod rejestracji."
-    usernameIsEmail: "Nazwa użytkownika nie może być adres e-mail."
+    usernameIsEmail: "Adres email nie może być nazwą użytkownika."
     usernameRequired: "Wymagana jest nazwa użytkownika."
 
 
@@ -82,7 +82,7 @@ info:
 
 
       #---- accounts-oauth
-      "No matching login attempt found": "Próba nie pasującego logowania."
+      "No matching login attempt found": "Nie dopasowano danych logowania."
 
 
       #---- accounts-password-client
@@ -94,7 +94,7 @@ info:
       "Must be logged in": "Musisz być zalogowany"
       "Need to set a username or email": "Wymagane ustawienie nazwy użytkownika lub adresu email"
       "old password format": "stary format hasła"
-      "Password may not be empty": "hasło nie może być puste"
+      "Password may not be empty": "Hasło nie może być puste"
       "Signups forbidden": "Rejestracja zabroniona"
       "Token expired": "Token wygasł"
       "Token has invalid email address": "Token ma niewłaściwy adres email"
