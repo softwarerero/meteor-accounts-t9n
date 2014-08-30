@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Czech, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
+Translations are currently available for Arabic, Chinese, Czech, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
 
 # API
 
@@ -57,6 +57,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 # Contributions
 * djhi - French Translation
+* laosb - Chinese Translation
 * mdede - Czech Translation
 * robhunt3r - Improved Spanish Translation
 * splendido - Italian Translation, Reactivity, Ideas

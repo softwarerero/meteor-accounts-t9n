@@ -1,7 +1,7 @@
-# We need a dummy translation so that a text is found.
+#Language: Simplified Chinese
+#Translators: laosb
 
-
-zh-cn =
+zh_cn =
 
   add: "添加"
   and: "和"
@@ -111,4 +111,4 @@ zh-cn =
       "Unknown error": "未知错误"
 
 
-T9n.map "zh-cn", zh-cn
+T9n.map "zh-cn", zh_cn

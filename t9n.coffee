@@ -1,9 +1,8 @@
-if Meteor.isClient
-  if Package.ui
-    Handlebars = Package.ui.Handlebars
+Meteor.startup ->
+  if Meteor.isClient
+    UI.registerHelper 't9n', (x) ->
+      T9n.get(x)
 
-  Handlebars.registerHelper 't9n', (x) ->
-    T9n.get(x)
 
 class T9n
 
@@ -55,3 +54,4 @@ class T9n
 
 @T9n = T9n
 @t9n = (x) -> T9n.get(x)
+
