@@ -6,7 +6,8 @@ Package.describe({
 });
 
 Package.on_use(function (api, where) {
-    api.versionsFrom("METEOR@0.9.0");
+    if (api.versionsFrom)
+        api.versionsFrom("METEOR@0.9.0");
     
     api.add_files([
         't9n.coffee',
