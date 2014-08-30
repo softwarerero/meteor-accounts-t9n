@@ -55,6 +55,23 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'User not found': 'Not for you'
           'Incorrect password': 'Not for you'
 
+#Language codes
+* ar
+* cs
+* de
+* en
+* es
+* fr
+* he
+* it
+* pl
+* pt
+* ru
+* sl
+* sv
+* vi
+* zh-cn
+
 # Contributions
 * djhi - French Translation
 * laosb - Chinese Translation
