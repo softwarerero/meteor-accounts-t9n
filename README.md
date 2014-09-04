@@ -58,6 +58,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 #Language codes
 * ar
 * cs
+* da
 * de
 * en
 * es
@@ -87,6 +88,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 * timbrandin - Swedish Translation
 * olragon - Vietnamese Translation
 * noamyoungerm - Hebrew Translation
+* larsbuur - Danish Translation
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
