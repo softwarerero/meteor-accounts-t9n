@@ -24,7 +24,7 @@ da =
   OR: "eller"
   password: "Kodeord"
   passwordAgain: "Kodeord (igen)"
-  privacyPolicy: "Privacy Policy"
+  privacyPolicy: "Privatlivspolitik"
   remove: "fjern"
   resetYourPassword: "Nulstil dit kodeord"
   setPassword: "Sæt kodeord"
@@ -37,8 +37,8 @@ da =
   signUpWithYourEmailAddress: "Tilmeld med din e-mail adresse"
   terms: "Betingelser for brug"
   updateYourPassword: "Skift dit kodeord"
-  username: "brugernavn"
-  usernameOrEmail: "Brugernav eller e-mail"
+  username: "Brugernavn"
+  usernameOrEmail: "Brugernavn eller e-mail"
   with: "med"
 
 
