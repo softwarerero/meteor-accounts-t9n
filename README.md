@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Chinese, Czech, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
+Translations are currently available for Arabic, Chinese, Czech, Danish, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish and Vietnamese.
 
 # API
 
