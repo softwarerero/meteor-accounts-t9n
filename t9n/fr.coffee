@@ -42,11 +42,11 @@ fr =
   with: "avec"
 
 
-info:
-  emailSent: "Email envoyé"
-  emailVerified: "Email verifié"
-  passwordChanged: "Mot de passe modifié"
-  passwordReset: "Mot de passe réinitialisé"
+  info:
+    emailSent: "Email envoyé"
+    emailVerified: "Email verifié"
+    passwordChanged: "Mot de passe modifié"
+    passwordReset: "Mot de passe réinitialisé"
 
 
   error:
