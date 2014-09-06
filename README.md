@@ -48,7 +48,7 @@ Example:
   
     'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
 
-  and having an object like
+  and have an object like
   
     args = 
       subject: "Fischer's Fritz"
