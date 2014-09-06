@@ -43,10 +43,10 @@ it =
 
 
   info:
-    emailSent: "Email Inviata"
-    emailVerified: "Email Verificata"
-    passwordChanged: "Password Cambiata"
-    passwordReset: "Password Reimpostata"
+    emailSent: "Email inviata"
+    emailVerified: "Email verificata"
+    passwordChanged: "Password cambiata"
+    passwordReset: "Password reimpostata"
 
 
   error:

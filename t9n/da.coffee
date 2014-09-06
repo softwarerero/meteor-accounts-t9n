@@ -43,7 +43,7 @@ da =
 
 
   info:
-    emailSent: "E-mail Sendt"
+    emailSent: "E-mail sendt"
     emailVerified: "Email verificeret"
     passwordChanged: "Password ændret"
     passwordReset: "Password reset"

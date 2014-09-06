@@ -43,10 +43,10 @@ en =
 
 
   info:
-    emailSent: "Email Sent"
+    emailSent: "Email sent"
     emailVerified: "Email verified"
-    passwordChanged: "Password Changed"
-    passwordReset: "Password Reset"
+    passwordChanged: "Password changed"
+    passwordReset: "Password reset"
 
 
   error:
