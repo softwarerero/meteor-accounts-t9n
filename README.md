@@ -56,9 +56,11 @@ Example:
       object: 'Fische'
       adverb: 'frische'
       
+  calling
+  
     T9n.get sentence, true, args
     
-  then you should get a results like
+  should give you
   
     'Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz.'
 
