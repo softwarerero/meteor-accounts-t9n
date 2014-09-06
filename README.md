@@ -44,11 +44,11 @@ Optionally named parameters can be used, naming them allows for repetition.
 
 Example: 
   
-  If you have a string defined as
+  If you define a string in your language file like
   
     'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
 
-  it would be posible to call `get` with an object like
+  and having an object like
   
     args = 
       subject: "Fischer's Fritz"
@@ -56,11 +56,11 @@ Example:
       object: 'Fische'
       adverb: 'frische'
       
-  calling
+  you could call
   
     T9n.get sentence, true, args
     
-  should give you
+  and that should give you
   
     'Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz.'
 
