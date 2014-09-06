@@ -22,18 +22,48 @@ Examples:
 * `T9n.get('store.purchase');`
 * `T9n.get('error.accounts.User not found');`
 
-## Get a localized text in Handlebars
+## Get a localized text in a template
 
 `{{t9n code}}`
 
 Example: `{{t9n "store.purchase"}}`.
 
-If a translation is not found the key is displayed. To spot not translated keys a prefix and a postfix can surround
-the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You can change the pre- and postfix: 
+If a translation is not found the key is displayed. To spot not translated keys a prefix and a postfix can surround the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You can change the pre- and postfix: 
 
 `T9n.missingPrefix = ">"`
 `T9n.missingPostfix = "<"`
 
+If you use `get` you can also suppress printing of the prefix and postfix if you set the second parameter to false (it defaults to true).
+`T9n.get code, false`
+
+## Get a localized text with parameters
+
+Optionally named parameters can be used, naming them allows for repetition.
+
+`T9n.get code, true, args `
+
+Example: 
+  
+  If you have a string defined as
+  
+    'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
+
+  it would be posible to call `get` with an object like:
+  
+    args = 
+      subject: "Fischer's Fritz"
+      predicate: 'fischt'
+      object: 'Fische'
+      adverb: 'frische'
+      
+    T9n.get sentence, true, args
+    
+  and you should get a results like:
+  
+    'Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz.'
+
+  You must specify the second argument for prefix/postfix too, I am sorry.
+  
 
 ## Define translations
 

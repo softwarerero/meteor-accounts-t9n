@@ -20,14 +20,20 @@ class T9n
     @registerMap(language, '', false, map)
     @dep.changed()
 
-  @get: (label, markIfMissing = true) ->
+  @get: (label, markIfMissing = true, args = {}) ->
     @dep.depend()
     @depLanguage.depend()
     if typeof label != 'string' 
       return ''
-    @maps[@language]?[label] ||
+    ret = @maps[@language]?[label] ||
       @maps[@defaultLanguage]?[label] ||
       if markIfMissing then @missingPrefix + label + @missingPostfix else label
+    if Object.keys(args).length == 0
+#      console.log 'then'
+      ret 
+    else
+      console.log 'else'
+      @replaceParams label, args
   
   @registerMap = (language, prefix, dot, map) ->
     if typeof map == 'string' 
@@ -51,6 +57,13 @@ class T9n
       return;
     @language = language
     @depLanguage.changed()
+
+  @replaceParams = (str, args) ->
+    for key, value of args
+      re = new RegExp "@{#{key}}", 'g'
+      str = str.replace re, value
+    str
+    
 
 @T9n = T9n
 @t9n = (x) -> T9n.get(x)
