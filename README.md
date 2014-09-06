@@ -58,7 +58,7 @@ Example:
       
   you could call
   
-    T9n.get sentence, true, args
+    T9n.get 'sentence', true, args
     
   and that should give you
   
