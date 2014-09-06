@@ -48,7 +48,7 @@ Example:
   
     'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
 
-  it would be posible to call `get` with an object like:
+  it would be posible to call `get` with an object like
   
     args = 
       subject: "Fischer's Fritz"
@@ -58,7 +58,7 @@ Example:
       
     T9n.get sentence, true, args
     
-  and you should get a results like:
+  then you should get a results like
   
     'Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz.'
 
