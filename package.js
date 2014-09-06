@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Translations for the meteor account's error messages.",
-    version: "0.0.17",
+    version: "0.0.18",
     name: "softwarerero:accounts-t9n",
     git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });

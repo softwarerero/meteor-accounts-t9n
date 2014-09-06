@@ -28,12 +28,7 @@ class T9n
     ret = @maps[@language]?[label] ||
       @maps[@defaultLanguage]?[label] ||
       if markIfMissing then @missingPrefix + label + @missingPostfix else label
-    if Object.keys(args).length == 0
-#      console.log 'then'
-      ret 
-    else
-      console.log 'else'
-      @replaceParams label, args
+    if Object.keys(args).length == 0 then ret else @replaceParams label, args
   
   @registerMap = (language, prefix, dot, map) ->
     if typeof map == 'string' 
