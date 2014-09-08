@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Translations for the meteor account's error messages.",
-    version: "0.0.18",
+    version: "0.0.19",
     name: "softwarerero:accounts-t9n",
     git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });
@@ -26,6 +26,7 @@ Package.on_use(function (api, where) {
         't9n/ru.coffee',
         't9n/sl.coffee',
         't9n/sv.coffee',
+        't9n/uk.coffee',
         't9n/vi.coffee',
     ], ['client', 'server']);
 
@@ -52,6 +53,7 @@ Package.on_test(function (api) {
         't9n/ru.coffee',
         't9n/sl.coffee',
         't9n/sv.coffee',
+        't9n/uk.coffee',
         't9n/vi.coffee',
     ], ['client', 'server']);
 
