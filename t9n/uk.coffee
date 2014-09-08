@@ -15,7 +15,7 @@ uk =
   dontHaveAnAccount: "Немає аккаунта?"
   email: "Email"
   emailAddress: "Email"
-  emailResetLink: "Надіслати посилання для вілновлення"
+  emailResetLink: "Отримати посилання для оновлення паролю"
   forgotPassword: "Забули пароль?"
   ifYouAlreadyHaveAnAccount: "Якщо у вас вже є аккаунт:"
   newPassword: "Новий пароль"
@@ -24,7 +24,7 @@ uk =
   OR: "АБО"
   password: "Пароль"
   passwordAgain: "Пароль (ще раз)"
-  privacyPolicy: "Політики безопеки"
+  privacyPolicy: "Політики безпеки"
   remove: "Видалити"
   resetYourPassword: "Відновити пароль"
   setPassword: "Встановити пароль"
@@ -55,7 +55,7 @@ uk =
     pwdsDontMatch: "Паролі не співпадають"
     pwOneDigit: "Пароль повинен містити хоча б одну цифру."
     pwOneLetter: "Пароль повинен містити хоча б одну букву."
-    signInRequired: "Для продовження нелбхідно ввійти."
+    signInRequired: "Для продовження необхідно увійти."
     signupCodeIncorrect: "Невірний реєстраційний код."
     signupCodeRequired: "Необхідний реєстраційний код."
     usernameIsEmail: "Ім’я користувача не може бути email адресою."
@@ -73,7 +73,7 @@ uk =
       "Login forbidden": "Вхід заборонено"
       #"Service " + options.service + " already configured":
       "Service unknown": "Невідомий сервіс"
-      "Unrecognized options for login request": "Невідомі параметрм для запиту входу"
+      "Unrecognized options for login request": "Невідомі параметри для запиту входу"
       "User validation failed": "Перевірка користувача не вдалася"
       "Username already exists.": "Користувач існує."
       "You are not logged in.": "Ви не ввійшли."
@@ -86,13 +86,13 @@ uk =
 
 
       #---- accounts-password-client
-      "Password is old. Please reset your password.": "Пароль застарів. Будь ласка скиньте Ваш пароль."
+      "Password is old. Please reset your password.": "Пароль застарів. Будь ласка, скиньте Ваш пароль."
 
 
       #---- accounts-password
       "Incorrect password": "Невірний пароль"
       "Invalid email": "Неіснуючий Email"
-      "Must be logged in": "Необхідно ввійти"
+      "Must be logged in": "Необхідно увійти"
       "Need to set a username or email": "Необхідно ім’я користувача або email"
       "old password format": "старий формат паролю"
       "Password may not be empty": "Пароль не може бути пустим"
@@ -100,7 +100,7 @@ uk =
       "Token expired": "Час дії токена вичерпано"
       "Token has invalid email address": "Невірна email адреса для токена"
       "User has no password set": "У користувача не встановлено пароль"
-      "User not found":  "Користувач не знайден"
+      "User not found":  "Користувач не знайдений"
       "Verify email link expired": "Посилання підтвердження email застаріло"
       "Verify email link is for unknown address": "Посилання підтвердження email для невідомої адреси"
 
