@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Chinese, Czech, Danish, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish, Swedish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Chinese, Czech, Danish, French, German, Hebrew, Italian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Ukrainian and Vietnamese.
 
 # API
 
@@ -88,23 +88,8 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'Incorrect password': 'Not for you'
 
 #Language codes
-* ar
-* cs
-* da
-* de
-* en
-* es
-* fr
-* he
-* it
-* pl
-* pt
-* ru
-* sl
-* sv
-* vi
-* uk
-* zh-cn
+
+ar, cs, da, de, en, es, es, es_ES, fr, he, it, pl, pt, ru, sl, sv, vi, uk, zh-cn
 
 # Contributions
 * djhi - French Translation
@@ -123,6 +108,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 * noamyoungerm - Hebrew Translation
 * larsbuur - Danish Translation
 * SkeLLLa - Ukrainian Translation
+* maomorales - Spanish for Spain
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 

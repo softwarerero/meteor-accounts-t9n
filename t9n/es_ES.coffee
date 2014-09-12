@@ -1,5 +1,5 @@
 #Language: Spanish
-#Translators: softwarerero
+#Translators: softwarerero, maomorales
 
 es_ES =
 
