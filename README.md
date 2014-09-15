@@ -109,6 +109,7 @@ ar, cs, da, de, en, es, es, es_ES, fr, he, it, pl, pt, ru, sl, sv, vi, uk, zh-cn
 * larsbuur - Danish Translation
 * SkeLLLa - Ukrainian Translation
 * maomorales - Spanish for Spain
+* kjetilge - Norwegian bokmål Translation
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
