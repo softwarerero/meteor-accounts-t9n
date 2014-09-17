@@ -2,15 +2,15 @@
   "dependencies": [
     [
       "coffeescript",
-      "1.0.2"
+      "1.0.3"
     ],
     [
       "deps",
-      "1.0.2"
+      "1.0.3"
     ],
     [
       "meteor",
-      "1.0.3"
+      "1.1.0"
     ],
     [
       "tracker",
@@ -22,6 +22,6 @@
     ]
   ],
   "pluginDependencies": [],
-  "toolVersion": "meteor-tool@1.0.28",
+  "toolVersion": "meteor-tool@1.0.30",
   "format": "1.0"
 }
