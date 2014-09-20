@@ -40,15 +40,13 @@ pl =
   username: "Nazwa użytkownika"
   usernameOrEmail: "Nazwa użytkownika lub email"
   with: "z"
-
-
-info:
-  emailSent: "Adres email wysłany"
-  emailVerified: "Adres email zweryfikowany"
-  passwordChanged: "Hasło zmienione"
-  passwordReset: "Hasło wyzerowane"
-
-
+  
+  info:
+    emailSent: "Adres email wysłany"
+    emailVerified: "Adres email zweryfikowany"
+    passwordChanged: "Hasło zmienione"
+    passwordReset: "Hasło wyzerowane"
+    
   error:
     emailRequired: "Wymagany jest adres email."
     minChar: "7 znaków to minimalna długość hasła."
@@ -60,7 +58,6 @@ info:
     signupCodeRequired: "Wymagany jest kod rejestracji."
     usernameIsEmail: "Adres email nie może być nazwą użytkownika."
     usernameRequired: "Wymagana jest nazwa użytkownika."
-
 
     accounts:
 
