@@ -89,7 +89,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 #Language codes
 
-ar, cs, da, de, en, es, es, es_ES, fr, he, it, no-nb, pl, pt, ru, sl, sv, vi, uk, zh-cn
+ar, cs, da, de, en, es, es, es_ES, fr, he, it, no_NB, pl, pt, ru, sl, sv, vi, uk, zh-cn
 
 # Contributions
 * djhi - French Translation
