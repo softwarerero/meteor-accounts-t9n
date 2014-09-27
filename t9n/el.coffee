@@ -8,7 +8,7 @@ el =
   back: "πίσω"
   changePassword: "Αλλαγή Κωδικού"
   choosePassword: "Επιλογή Κωδικού"
-  clickAgree: "Πατώντας Εγγραφή, συμφωνείτε στους"
+  clickAgree: "Πατώντας Εγγραφή, συμφωνείτε σε"
   configure: "Διαμόρφωση"
   createAccount: "Δημιουργία Λογαριασμού"
   currentPassword: "Τρέχων Κωδικός"
