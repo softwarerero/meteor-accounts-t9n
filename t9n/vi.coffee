@@ -6,28 +6,28 @@ vi =
   add: "thêm"
   and: "và"
   back: "trở lại",
-#>changePassword: "Change Password"
-#>choosePassword: "Choose a Password"
+  changePassword: "Đổi mật khẩu"
+  choosePassword: "Chọn một mật khẩu"
   clickAgree: "Bằng cách nhấn vào Đăng ký, bạn đã đồng ý với"
   configure: "Cấu hình"
   createAccount: "Tạo Tài khoản"
-#>currentPassword: "Current Password"
+  currentPassword: "Mật khẩu hiện tại"
   dontHaveAnAccount: "Chưa có tài khoản?"
   email: "Email"
   emailAddress: "Địa chỉ Email"
   emailResetLink: "Gửi"
   forgotPassword: "Quên mật khẩu?"
   ifYouAlreadyHaveAnAccount: "Nếu bạn đã có tài khoản"
-#>newPassword: "New Password"
-#>newPasswordAgain: "New Password (again)"
+  newPassword: "Mật khẩu mới"
+  newPasswordAgain: "Mật khẩu mới (nhập lại)"
   optional: "Tùy chọn"
   OR: "Hoặc"
   password: "Mật khẩu"
-#>passwordAgain: "Password (again)"
+  passwordAgain: "Mật khẩu (nhập lại)"
   privacyPolicy: "Chính sách bảo mật"
   remove: "xóa"
   resetYourPassword: "Lấy lại mật khẩu"
-#>setPassword: "Set Password"
+  setPassword: "Thiết lập mật khẩu"
   sign: "Ký"
   signIn: "Đăng nhập"
   signin: "đăng nhập"
@@ -44,15 +44,15 @@ vi =
 
   info:
     emailSent: "Email đã được gửi đi!"
-#>  emailVerified: "Email verified"
-#>  passwordChanged: "Password Changed"
-#>  passwordReset: "Password Reset"
+    emailVerified: "Email đã được xác minh"
+    passwordChanged: "Đã đổi mật khẩu"
+    passwordReset: "Lất lại mật khẩu"
 
 
   error:
     emailRequired: "Email phải có."
     minChar: "Mật khẩu phải có ít nhất 7 ký tự."
-#>  pwdsDontMatch: "Passwords don't match"
+    pwdsDontMatch: "Mật khẩu không giống nhau"
     pwOneDigit: "Mật khẩu phải có ít nhất 1 chữ số."
     pwOneLetter: "Mật khẩu phải có 1 ký tự chữ."
     signInRequired: "Phải đăng nhập."
@@ -65,13 +65,13 @@ vi =
     accounts:
 
       #---- accounts-base
-      #"@" + domain + " email required"
-      #"A login handler should return a result or undefined"
+      "@" + domain + " email required": "Bắt buộc dùng email @" + domain
+      "A login handler should return a result or undefined": "Bộ xử lý đăng nhập phải trả về một kết quả hoặc undefined"
       "Email already exists.": "Email đã tồn tại."
       "Email doesn't match the criteria.": "Email không phù hợp."
       "Invalid login token": "Mã đăng nhập không đúng"
       "Login forbidden": "Đăng nhập bị cấm"
-      #"Service " + options.service + " already configured"
+      "Service " + options.service + " already configured": "Dịch vụ " + options.service + " đã được cấu hình"
       "Service unknown": "Chưa biết Dịch vụ"
       "Unrecognized options for login request": "Tùy chọn không được công nhận đối với yêu cầu đăng nhập"
       "User validation failed": "Xác nhận người dùng thất bại"
@@ -95,7 +95,7 @@ vi =
       "Must be logged in": "Phải đăng nhập"
       "Need to set a username or email": "Phải điền tên đăng nhập hoặc email"
       "old password format": "định dạng mật khẩu cũ"
-#>    "Password may not be empty":
+      "Password may not be empty": "mật khẩu không được để trống"
       "Signups forbidden": "Đăng ký đã bị cấm"
       "Token expired": "Hết phiên đăng nhập"
       "Token has invalid email address": "Phiên đăng nhập chứa địa chỉ email sai"
@@ -108,7 +108,7 @@ vi =
       "Match failed": "Không đúng"
 
       #---- Misc...
-#>    "Unknown error":
+      "Unknown error": "Lỗi chưa được biết"
 
 
 T9n.map "vi", vi
