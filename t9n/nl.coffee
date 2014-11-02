@@ -18,7 +18,7 @@ nl =
   emailResetLink: "Verzenden"
   forgotPasswort: "Wachtwoord vergeten?"
   ifYouAlreadyHaveAnAccount: "Heb je al een account?"
-  newPasswort: "Nieuwe wchtwoord"
+  newPasswort: "Nieuwe wachtwoord"
   newPasswortAgain: "Nieuwe wachtwoord (herhalen)"
   optional: "Optioneel"
   OR: "OF"
