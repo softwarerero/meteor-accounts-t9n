@@ -71,7 +71,7 @@ vi =
       "Email doesn't match the criteria.": "Email không phù hợp."
       "Invalid login token": "Mã đăng nhập không đúng"
       "Login forbidden": "Đăng nhập bị cấm"
-      "Service " + options.service + " already configured": "Dịch vụ " + options.service + " đã được cấu hình"
+      #"Service " + options.service + " already configured": "Dịch vụ " + options.service + " đã được cấu hình"
       "Service unknown": "Chưa biết Dịch vụ"
       "Unrecognized options for login request": "Tùy chọn không được công nhận đối với yêu cầu đăng nhập"
       "User validation failed": "Xác nhận người dùng thất bại"

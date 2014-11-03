@@ -33,7 +33,7 @@ Package.on_use(function (api, where) {
         't9n/vi.coffee',
         't9n/no_NB.coffee',
         't9n/nl.coffee',
-        't9n/zh-tw.coffee',
+        't9n/zh_tw.coffee',
     ], ['client', 'server']);
 
     api.use(['coffeescript', 'deps'], ['client', 'server']);
@@ -66,7 +66,7 @@ Package.on_test(function (api) {
         't9n/vi.coffee',
         't9n/no_NB.coffee',
         't9n/nl.coffee',
-        't9n/zh-tw.coffee',
+        't9n/zh_tw.coffee',
     ], ['client', 'server']);
 
     api.use(['coffeescript', 'deps'], ['client', 'server']);
