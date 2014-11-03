@@ -65,7 +65,7 @@ vi =
     accounts:
 
       #---- accounts-base
-      "@" + domain + " email required": "Bắt buộc dùng email @" + domain
+      #@" + domain + " email required": "Bắt buộc dùng email @" + domain
       "A login handler should return a result or undefined": "Bộ xử lý đăng nhập phải trả về một kết quả hoặc undefined"
       "Email already exists.": "Email đã tồn tại."
       "Email doesn't match the criteria.": "Email không phù hợp."

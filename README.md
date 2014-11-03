@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Chinese, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Chinese (Mandarin), Chinese (Traditional), Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Ukrainian and Vietnamese.
 
 # API
 
@@ -89,7 +89,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 #Language codes
 
-ar, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, nl, no_NB, pl, pt, ru, sl, sv, vi, uk, zh-cn
+ar, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, nl, no_NB, pl, pt, ru, sl, sv, vi, uk, zh-cn, zh-tw
 
 # Contributions
 * djhi - French Translation
@@ -113,6 +113,7 @@ ar, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, nl, no_NB, pl, pt, ru, sl
 * pajooh - Farsi Translation
 * mutil - Greek Translation
 * willemx - Dutch Translation
+* victorleungtw - Traditional Chinese (Hong Kong and Taiwan)
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
