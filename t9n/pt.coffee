@@ -1,60 +1,60 @@
 #Language: Portuguese
-#Translators: alanmeira
+#Translators: alanmeira, Tadeu Caldararo
 
 pt =
 
-#>add: "add"
+  add: "Adicionar"
   and: "e"
-#>back: "back"
-#>changePassword: "Change Password"
-#>choosePassword: "Choose a Password"
-  clickAgree: "Ao clicar em Entrar, você aceita nosso"
+  back: "Voltar"
+  changePassword: "Alterar senha"
+  choosePassword: "Escolha uma senha"
+  clickAgree: "Ao clicar em Registrar, você aceita nossos Termos de Uso"
   configure: "Configurar"
   createAccount: "Criar Conta"
-#>currentPassword: "Current Password"
+  currentPassword: "Senha Atual"
   dontHaveAnAccount: "Não tem conta?"
   email: "E-mail"
   emailAddress: "Endereço de e-mail"
-  emailResetLink: "Gerar nova senha"
+  emailResetLink: "E-mail com link para gerar Nova Senha"
   forgotPassword: "Esqueceu sua senha?"
   ifYouAlreadyHaveAnAccount: "Se você já tem uma conta"
-#>newPassword: "New Password"
-#>newPasswordAgain: "New Password (again)"
+  newPassword: "Nova Senha"
+  newPasswordAgain: "Nova Senha (novamente)"
   optional: "Opcional"
   OR: "OU"
   password: "Senha"
-#>passwordAgain: "Password (again)"
+  passwordAgain: "Senha (novamente)"
   privacyPolicy: "Política de Privacidade"
-#>remove: "remove"
+  remove: "remover"
   resetYourPassword: "Gerar nova senha"
-#>setPassword: "Set Password"
+  setPassword: "Cadastrar Senha"
   sign: "Entrar"
   signIn: "Entrar"
   signin: "entrar"
   signOut: "Sair"
   signUp: "Registrar"
-  signupCode: "Código de acesso"
-  signUpWithYourEmailAddress: "Entre usando seu endereço de e-mail"
+  signupCode: "Código de Registro"
+  signUpWithYourEmailAddress: "Registrar utilizando seu endereço de e-mail"
   terms: "Termos de Uso"
   updateYourPassword: "Atualizar senha"
   username: "Nome de usuário"
-  usernameOrEmail: "Usuario ou e-mail"
+  usernameOrEmail: "Usuário ou e-mail"
   with: "com"
 
 
-#>info:
-#>  emailSent: "Email Sent"
-#>  emailVerified: "Email verified"
-#>  passwordChanged: "Password Changed"
-#>  passwordReset: "Password Reset"
+  info:
+    emailSent: "E-mail enviado"
+    emailVerified: "E-mail verificado"
+    passwordChanged: "Senha atualizada"
+    passwordReset: "Senha alterada"
 
 
   error:
     emailRequired: "E-mail é obrigatório."
     minChar: "Senha requer um mínimo de 7 caracteres."
-#>  pwdsDontMatch: "Passwords don't match"
-    pwOneDigit: "Senha deve conter pelo menos um digito."
-    pwOneLetter: "Senha deve conter pelo menos uma letra."
+    pwdsDontMatch: "Senhas não coincidem"
+    pwOneDigit: "A Senha deve conter pelo menos um dígito."
+    pwOneLetter: "A Senha deve conter pelo menos uma letra."
     signInRequired: "Você precisa estar logado para fazer isso."
     signupCodeIncorrect: "Código de acesso incorreto."
     signupCodeRequired: "É necessário um código de acesso."
@@ -62,53 +62,53 @@ pt =
     usernameRequired: "Nome de usuário é obrigatório."
 
 
-    #accounts:
+    accounts:
 
-      #---- accounts-base
-      #"@" + domain + " email required":
-      #"A login handler should return a result or undefined":
-#>    "Email already exists.":
-#>    "Email doesn't match the criteria.":
-#>    "Invalid login token":
-#>    "Login forbidden":
-      #"Service " + options.service + " already configured":
-#>    "Service unknown":
-#>    "Unrecognized options for login request":
-#>    "User validation failed":
-#>    "Username already exists.":
-#>    "You are not logged in.":
-#>    "You've been logged out by the server. Please log in again.":
-#>    "Your session has expired. Please log in again.":
-
-
-      #---- accounts-oauth
-#>    "No matching login attempt found":
+    #---- accounts-base
+    #"@" + domain + " email required"
+    #"A login handler should return a result or undefined"
+      "Email already exists.": "E-mail já existe."
+      "Email doesn't match the criteria.": "E-mail inválido."
+      "Invalid login token": "Token de login inválido"
+      "Login forbidden": "Login proibido."
+    #"Service " + options.service + " already configured"
+      "Service unknown": "Serviço desconhecido"
+      "Unrecognized options for login request": "Opções desconhecidas para solicitação de login"
+      "User validation failed": "Validação de usuário falhou"
+      "Username already exists.": "Nome de usuário já existe."
+      "You are not logged in.": "Você não está logado."
+      "You've been logged out by the server. Please log in again.": "Você foi desconectado pelo servidor. Por favor, efetue login novamente."
+      "Your session has expired. Please log in again.": "Sua sessão expirou. Por favor, efetue login novamente."
 
 
-      #---- accounts-password-client
-#>    "Password is old. Please reset your password.":
+    #---- accounts-oauth
+      "No matching login attempt found": "Não foi encontrada nenhuma tentativa de login que coincida."
 
 
-      #---- accounts-password
-#>   "Incorrect password":
-#>   "Invalid email":
-#>   "Must be logged in":
-#>   "Need to set a username or email":
-#>   "old password format":
-#>    "Password may not be empty":
-#>   "Signups forbidden":
-#>   "Token expired":
-#>   "Token has invalid email address":
-#>   "User has no password set":
-#>   "User not found": "Usuário não encontrado"
-#>   "Verify email link expired":
-#>   "Verify email link is for unknown address":
+    #---- accounts-password-client
+      "Password is old. Please reset your password.": "Senha expirou. Por favor, cadastre uma nova senha."
 
-      #---- match
-#>    "Match failed":
 
-      #---- Misc...
-#>    "Unknown error":
+    #---- accounts-password
+      "Incorrect password": "Senha incorreta"
+      "Invalid email": "E-mail inválido"
+      "Must be logged in": "É necessário efetuar login"
+      "Need to set a username or email": "É necessário configurar um Nome de Usuário ou E-mail"
+      "old password format": "Formato de senha antigo"
+      "Password may not be empty": "Senha não pode estar em branco"
+      "Signups forbidden": "Registros proibidos"
+      "Token expired": "Token expirou"
+      "Token has invalid email address": "Token tem endereço de e-mail inválido"
+      "User has no password set": "Usuário não possui senha cadastrada"
+      "User not found": "Usuário não encontrado"
+      "Verify email link expired": "O link de verificação de e-mail expirou"
+      "Verify email link is for unknown address": "O link de verificação de e-mail está configurado para um endereço desconhecido"
+
+    #---- match
+      "Match failed": "Comparação falhou"
+
+    #---- Misc...
+      "Unknown error": "Erro desconhecido"
 
 
 T9n.map "pt", pt
