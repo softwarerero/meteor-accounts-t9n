@@ -70,14 +70,14 @@ nl =
       "Email already exists.": "Dit e-mailadres is al in gebruik."
       "Email doesn't match the criteria.": "e-mail voldoet niet aan de voorwaarden."
       "Invalid login token": "Ongeldig login token"
-      "Login forbidden": "Aanmelden verboden"
+      "Login forbidden": "Aanmelding geweigerd"
       #"Service " + options.service + " already configured":
       "Service unknown": "Sevice onbekend"
       "Unrecognized options for login request": "Onbekende optie voor login request"
       "User validation failed": "Gebruikers validatie mislukt"
       "Username already exists.": "Gebruikersnaam bestaat al."
       "You are not logged in.": "Je bent niet ingelogd."
-      "You've been logged out by the server. Please log in again.": "Je bent door de server uitgelogd. Opnieuw aanmelden svp."
+      "You've been logged out by the server. Please log in again.": "Je bent door de server afgemeld. Opnieuw aanmelden svp."
       "Your session has expired. Please log in again.": "Je sessie is verlopen. Opnieuw aanmelden svp."
 
 
