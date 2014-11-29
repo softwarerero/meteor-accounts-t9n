@@ -30,7 +30,7 @@ ru =
   setPassword: "Установить пароль"
   sign: "Подпись"
   signIn: "Войти"
-  signin: "bойти"
+  signin: "войти"
   signOut: "Выйти"
   signUp: "Регистрация"
   signupCode: "Регистрационный код"
