@@ -7,10 +7,7 @@ Translations are currently available for Arabic, Chinese (Mandarin), Chinese (Tr
 # API
 
 ##  Set a current language for translations: 
-`T9n.language = "es"`
-
-##  Set a default language to look up if nothing is found for the current language (defaults to "en"): 
-`T9n.defaultLanguage = "en"`
+`T9n.setLanguage = "es"`
 
 
 ## Get a translation in Javascript:
