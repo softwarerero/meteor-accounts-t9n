@@ -7,7 +7,7 @@ Translations are currently available for Arabic, Chinese (Mandarin), Chinese (Tr
 # API
 
 ##  Set a current language for translations: 
-`T9n.setLanguage = "es"`
+`T9n.setLanguage("es")
 
 
 ## Get a translation in Javascript:
