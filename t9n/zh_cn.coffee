@@ -1,0 +1,114 @@
+#Language: Simplified Chinese
+#Translators: laosb
+
+zh_cn =
+
+  add: "添加"
+  and: "和"
+  back: "返回"
+  changePassword: "修改密码"
+  choosePassword: "新密码"
+  clickAgree: "点击注册表示您同意"
+  configure: "配置"
+  createAccount: "创建账户"
+  currentPassword: "当前密码"
+  dontHaveAnAccount: "没有账户？"
+  email: "电子邮箱"
+  emailAddress: "电邮地址"
+  emailResetLink: "邮件重置链接"
+  forgotPassword: "忘记密码？"
+  ifYouAlreadyHaveAnAccount: "如果您已有账户"
+  newPassword: "新密码"
+  newPasswordAgain: "再输一遍新密码"
+  optional: "可选的"
+  OR: "或"
+  password: "密码"
+  passwordAgain: "再输一遍密码"
+  privacyPolicy: "隐私条例"
+  remove: "移除"
+  resetYourPassword: "重置您的密码"
+  setPassword: "设置密码"
+  sign: "登"
+  signIn: "登陆"
+  signin: "登陆"
+  signOut: "登出"
+  signUp: "注册"
+  signupCode: "注册码"
+  signUpWithYourEmailAddress: "用您的电子邮件地址注册"
+  terms: "使用条例"
+  updateYourPassword: "更新您的密码"
+  username: "用户名"
+  usernameOrEmail: "用户名或电子邮箱"
+  with: "与"
+
+
+  info:
+    emailSent: "邮件已发出"
+    emailVerified: "邮件验证成功"
+    passwordChanged: "密码修改成功"
+    passwordReset: "密码重置成功"
+
+
+  error:
+    emailRequired: "必须填写电子邮件"
+    minChar: "密码至少7个字符长"
+    pwdsDontMatch: "两次密码不一致"
+    pwOneDigit: "密码中至少有一位数字"
+    pwOneLetter: "密码中至少有一位字母"
+    signInRequired: "您必须登陆后才能查看"
+    signupCodeIncorrect: "注册码错误"
+    signupCodeRequired: "必须有注册码"
+    usernameIsEmail: "是用户名而不是电子邮件地址"
+    usernameRequired: "必须填写用户名。"
+
+
+    accounts:
+
+      #---- accounts-base
+      #"@" + domain + " email required"
+      #"A login handler should return a result or undefined"
+      "Email already exists.": "该电子邮件地址已被使用。"
+      "Email doesn't match the criteria.": "错误的的电子邮件地址。"
+      "Invalid login token": "登陆密匙错误"
+      "Login forbidden": "登陆被阻止"
+      #"Service " + options.service + " already configured"
+      "Service unknown": "未知服务"
+      "Unrecognized options for login request": "登陆请求存在无法识别的选项"
+      "User validation failed": "用户验证失败"
+      "Username already exists.": "用户名已被占用。"
+      "You are not logged in.": "您还没有登陆。"
+      "You've been logged out by the server. Please log in again.": "您被服务器登出了。请重新登陆。"
+      "Your session has expired. Please log in again.": "会话过期，请重新登陆。"
+
+
+      #---- accounts-oauth
+      "No matching login attempt found": "未发现对应登陆请求"
+
+
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "密码过于老了，请重置您的密码。"
+
+
+      #---- accounts-password
+      "Incorrect password": "错误的密码"
+      "Invalid email": "不合法的电子邮件地址"
+      "Must be logged in": "必须先登陆"
+      "Need to set a username or email": "必须设置用户名或电子邮件地址"
+      "old password format": "较老的密码格式"
+      "Password may not be empty": "密码不应该为空"
+      "Signups forbidden": "注册被禁止"
+      "Token expired": "密匙过期"
+      "Token has invalid email address": "密匙对应的电子邮箱地址不合法"
+      "User has no password set": "用户没有密码"
+      "User not found": "未找到该用户"
+      "Verify email link expired": "激活验证邮件的链接已过期"
+      "Verify email link is for unknown address": "验证邮件的链接去向未知地址"
+
+      #---- match
+      "Match failed": "匹配失败"
+
+      #---- Misc...
+      "Unknown error": "未知错误"
+
+
+T9n.map "zh-cn", zh_cn
