@@ -1,5 +1,5 @@
 #Language: German
-#Translators: softwarerero, robhunt3r, sclausen
+#Translators: softwarerero, robhunt3r, sclausen, sarasate
 
 de =
 
@@ -10,7 +10,7 @@ de =
   choosePassword: "Passwort auswählen"
   clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
   configure: "Konfigurieren"
-  createAccount: "Konto erzeugen"
+  createAccount: "Konto erstellen"
   currentPassword: "Aktuelles Passwort"
   dontHaveAnAccount: "Noch kein Konto?"
   email: "E-Mail"
@@ -27,7 +27,7 @@ de =
   privacyPolicy: "Datenschutzerklärung"
   remove: "entfernen"
   resetYourPassword: "Passwort zurücksetzen"
-  setPassword: "Passwort bestimmen"
+  setPassword: "Passwort festlegen"
   sign: "Anmelden"
   signIn: "Anmelden"
   signin: "anmelden"
@@ -51,14 +51,14 @@ de =
 
   error:
     emailRequired: "E-Mail benötigt."
-    minChar: "Passwort muss mindesten 7 Zeichen lang sein."
+    minChar: "Passwort muss mindestens 7 Zeichen lang sein."
     pwdsDontMatch: "Passwörter stimmen nicht überein."
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
     signInRequired: "Sie müssen sich anmelden."
     signupCodeIncorrect: "Registrierungscode ungültig."
     signupCodeRequired: "Registrierungscode benötigt."
-    usernameIsEmail: "Benutzername kann nicht eine E-Mail."
+    usernameIsEmail: "Benutzername darf keine E-Mail Adresse sein."
     usernameRequired: "Benutzername benötigt."
 
 
@@ -67,15 +67,15 @@ de =
       #---- accounts-base
       #"@" + domain + " email required":
       #"A login handler should return a result or undefined":
-      "Email already exists.": "Die E-Mail Adresse ist bereits vergeben."
-      "Email doesn't match the criteria.": "E-Mail Adresse erfüllt nicht die Anforderungen."
-      "Invalid login token": "Ungültiger Login Token"
-      "Login forbidden": "Anmeldung verboten"
+      "Email already exists.": "Die E-Mail Adresse wird bereits verwendet."
+      "Email doesn't match the criteria.": "E-Mail Adresse erfüllt die Anforderungen nicht."
+      "Invalid login token": "Ungültiger Login-Token"
+      "Login forbidden": "Anmeldedaten ungültig"
       #"Service " + options.service + " already configured":
       "Service unknown": "Dienst unbekannt"
       "Unrecognized options for login request": "Unbekannte Optionen für Login Request"
-      "User validation failed": "Die Benutzerdaten scheinen nicht korrekt"
-      "Username already exists.": "Den Benutzer gibt es schon."
+      "User validation failed": "Die Benutzerdaten sind nicht korrekt"
+      "Username already exists.": "Der Benutzer existiert bereits."
       "You are not logged in.": "Sie sind nicht eingeloggt."
       "You've been logged out by the server. Please log in again.": "Der Server hat Dich ausgeloggt. Bitte melde Dich erneut an."
       "Your session has expired. Please log in again.": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an."
@@ -90,13 +90,13 @@ de =
 
 
       #---- accounts-Passwort
-      "Incorrect Passwort": "Falschen Passwort"
+      "Incorrect Passwort": "Falsches Passwort"
       "Invalid email": "Ungültige E-Mail Adresse"
       "Must be logged in": "Sie müssen sich anmelden"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
 #>    "old Passwort format":
       "Passwort may not be empty": "Das Passwort darf nicht leer sein"
-      "Signups forbidden": "Anmeldungen sind verboten"
+      "Signups forbidden": "Anmeldungen sind nicht erlaubt"
       "Token expired": "Token ist abgelaufen"
       "Token has invalid email address": "E-Mail Adresse passt nicht zum Token"
       "User has no Passwort set": "Kein Passwort für den Benutzer angegeben"
