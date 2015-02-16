@@ -19,7 +19,7 @@ de =
   forgotPassword: "Passwort vergessen?"
   ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
   newPassword: "Neues Passwort"
-  newPasswortAgain: "Neues Passwort (wiederholen)"
+  newPasswordAgain: "Neues Passwort (wiederholen)"
   optional: "Optional"
   OR: "ODER"
   password: "Passwort"
