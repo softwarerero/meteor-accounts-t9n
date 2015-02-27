@@ -45,8 +45,8 @@ de =
   info:
     emailSent: "E-Mail gesendet"
     emailVerified: "E-Mail verifiziert"
-    PasswortChanged: "Passwort geändert"
-    PasswortReset: "Passwort zurückgesetzt"
+    PasswordChanged: "Passwort geändert"
+    PasswordReset: "Passwort zurückgesetzt"
 
 
   error:
@@ -85,21 +85,21 @@ de =
       "No matching login attempt found": "Kein passender Loginversuch gefunden."
 
 
-      #---- accounts-Passwort-client
-      "Passwort is old. Please reset your Passwort.": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
 
 
-      #---- accounts-Passwort
-      "Incorrect Passwort": "Falsches Passwort"
+      #---- accounts-password
+      "Incorrect password": "Falsches Passwort"
       "Invalid email": "Ungültige E-Mail Adresse"
       "Must be logged in": "Sie müssen sich anmelden"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
-#>    "old Passwort format":
-      "Passwort may not be empty": "Das Passwort darf nicht leer sein"
+#>    "old password format":
+      "Password may not be empty": "Das Passwort darf nicht leer sein"
       "Signups forbidden": "Anmeldungen sind nicht erlaubt"
       "Token expired": "Token ist abgelaufen"
       "Token has invalid email address": "E-Mail Adresse passt nicht zum Token"
-      "User has no Passwort set": "Kein Passwort für den Benutzer angegeben"
+      "User has no password set": "Kein Passwort für den Benutzer angegeben"
       "User not found": "Benutzer nicht gefunden"
       "Verify email link expired": "Link zur E-Mail Verifizierung ist abgelaufen"
       "Verify email link is for unknown address": "Link zur Verifizierung ist für eine unbekannte E-Mail Adresse"
