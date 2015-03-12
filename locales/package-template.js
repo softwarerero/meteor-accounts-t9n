@@ -10,19 +10,9 @@ Package.on_use(function (api, where) {
         api.versionsFrom("METEOR@0.9.0");
 
     api.add_files([
-        't9n.coffee',
-        'locales/en/en.coffee',
+        'locale.coffee'
     ], ['client', 'server']);
 
     api.use(['coffeescript', 'deps','softwarerero:accounts'], ['client', 'server']);
-    api.imply('softwarerero:accounts);
-    api.export('T9n', ['client', 'server']);
-});
-
-Package.onUse(function(api) {
-    api.use('momentjs:moment@2.8.4');
-    api.addFiles('server.js','server');
-    api.addFiles('client.js','client');
-    api.addFiles('locale.js');
     api.imply('softwarerero:accounts);
 });

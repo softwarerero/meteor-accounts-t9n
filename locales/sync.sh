@@ -2,13 +2,12 @@
 set -e
 cd `dirname $0`
 version=`cat ../package.js |grep version|cut -d'"' -f2`
-for f in ../moment/locale/*.js;do
+for f in ../t9n/*.coffee;do
     echo $locale...
-    locale=`basename $f .js`
+    locale=`basename $f .coffee`
     mkdir -p $locale
     cat package-template.js | sed "s/{{locale}}/$locale/g" | sed "s/{{version}}/$version/g" > $locale/package.js
-    (cd $locale 
-        ln -sf ../server.js ../client.js .
-        ln -sf ../../moment/locale/$locale.js locale.js
+    (cd $locale
+        ln -sf ../../t9n/$locale.coffee locale.coffee
     )
 done
