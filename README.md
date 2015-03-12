@@ -85,7 +85,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'Incorrect password': 'Not for you'
 
 
-# Locales packages
+#Locales packages
 
 To add a specific locale use:
 
