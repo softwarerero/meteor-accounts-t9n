@@ -1,7 +1,7 @@
 Package.describe({
-    name: 'softwarerero:accounts-{{locale}}',
-    summary: "softwarerero:accounts {{locale}} locale. Companion package for softwarerero:accounts",
-    version: "{{version}}",
+    name: 'softwarerero:accounts-ca',
+    summary: "softwarerero:accounts ca locale. Companion package for softwarerero:accounts",
+    version: "1.0.6 if (api.versionsFrom) METEOR@0.9.0",
     git: "https://github.com/rzymek/meteor-moment.git"
 });
 

@@ -1,7 +1,10 @@
 #!/bin/bash
 set -e
+set -x
+
 cd `dirname $0`
-version=`cat ../package.js |grep version|cut -d'"' -f2`
+version=`cat ../package.js |grep version|cut -d '"' -f2`
+version=`echo $version | cut -d '"' -f2`
 for f in ../t9n/*.coffee;do
     echo $locale...
     locale=`basename $f .coffee`
