@@ -1,9 +1,8 @@
 #!/bin/bash
 set -e
-set -x
 
 cd `dirname $0`
-version=`cat ../package.js |grep version|cut -d '"' -f2`
+version=`cat ../package.js |grep version`
 version=`echo $version | cut -d '"' -f2`
 for f in ../t9n/*.coffee;do
     echo $locale...
@@ -14,3 +13,4 @@ for f in ../t9n/*.coffee;do
         ln -sf ../../t9n/$locale.coffee locale.coffee
     )
 done
+rm -fr en

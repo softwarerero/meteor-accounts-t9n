@@ -84,6 +84,23 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'User not found': 'Not for you'
           'Incorrect password': 'Not for you'
 
+
+# Locales packages
+
+To add a specific locale use:
+
+    meteor add softwarerero:accounts-locale-es
+
+The complete list of locales can be obtained by
+
+    meteor search softwarerero:accounts-locale-.*
+
+To add all locales use:
+
+    meteor add softwarerero:accounts-locales
+
+Note that locale specific package implies the core 'softwarerero:accounts', so you don't need to add it yourself.
+
 #Language codes
 
 ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, nl, no_NB, pl, pt, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw

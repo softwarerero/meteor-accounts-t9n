@@ -1,18 +1,16 @@
 Package.describe({
-    name: 'softwarerero:accounts-{{locale}}',
-    summary: "softwarerero:accounts {{locale}} locale. Companion package for softwarerero:accounts",
-    version: "{{version}}",
-    git: "https://github.com/rzymek/meteor-moment.git"
+    name: 'softwarerero:accounts-locale-{{locale}}',
+    summary: 'softwarerero:accounts {{locale}} locale. Companion package for softwarerero:accounts',
+    version: '{{version}}',
+    git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'
 });
 
 Package.on_use(function (api, where) {
     if (api.versionsFrom)
         api.versionsFrom("METEOR@0.9.0");
 
-    api.add_files([
-        'locale.coffee'
-    ], ['client', 'server']);
+    api.add_files('locale.coffee');
 
-    api.use(['coffeescript', 'deps','softwarerero:accounts'], ['client', 'server']);
-    api.imply('softwarerero:accounts);
+    api.use('softwarerero:accounts@{{version}}');
+    api.imply('softwarerero:accounts');
 });

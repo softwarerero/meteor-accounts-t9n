@@ -1,21 +1,23 @@
 #!/bin/bash
 set -e
+
 cd `dirname $0`
-version=2.8.4
+version=`cat ../package.js |grep version`
+version=`echo $version | cut -d '"' -f2`
 echo "
 Package.describe({
-    name: 'rzymek:moment-locales',
-    summary: 'Moment.js all locales. Companion package for momentjs:moment',
+    name: 'softwarerero:accounts-locales',
+    summary: 'softwarerero:accounts all locales. Companion package for softwarerero:accounts',
     version: '$version',
-    git: 'https://github.com/rzymek/meteor-moment.git'
+    git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'    
 });
 
 Package.onUse(function(api) {
-    api.use('momentjs:moment'); 
-    api.imply('momentjs:moment');
+    api.use('softwarerero:accounts@$version'); 
+    api.imply('softwarerero:accounts');
 " > package.js
 for d in ../locales/*/;do
     locale=`basename $d`
-    echo "    api.use('rzymek:moment-locale-$locale@$version');" >> package.js
+    echo "    api.use('softwarerero:accounts-locale-$locale@$version');" >> package.js
 done
 echo "});" >> package.js
