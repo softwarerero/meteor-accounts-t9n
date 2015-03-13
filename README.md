@@ -89,19 +89,19 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 To add a specific locale use:
 
-    meteor add softwarerero:accounts-locale-es
+    meteor add softwarerero:accounts-t9n-locale-es
 
 The complete list of locales can be obtained by
 
-    meteor search softwarerero:accounts-locale-.*
+    meteor search softwarerero:accounts-t9n-locale-.*
 
 To add all locales use:
 
-    meteor add softwarerero:accounts-locales
+    meteor add softwarerero:accounts-t9n-locales
 
-Due to meteor package name character limitation, not uppercase or underscore allowed. Correct name for, Ex: `es_ES`is `softwarerero:accounts-locales-es-es`
+Due to meteor package name character limitation, not uppercase or underscore allowed. Correct name for, Ex: `es_ES` is `softwarerero:accounts-t9n-locales-es-es`
 
-Note that locale specific package implies the core 'softwarerero:accounts', so you don't need to add it yourself.
+Note that locale specific package implies the core `softwarerero:accounts-t9n`, so you don't need to add it yourself.
 
 #Language codes
 
