@@ -1,7 +1,7 @@
 Package.describe({
     name: 'softwarerero:accounts-locale-da',
     summary: 'softwarerero:accounts da locale. Companion package for softwarerero:accounts',
-    version: '2.0.0',
+    version: '1.0.9',
     git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'
 });
 
@@ -11,6 +11,6 @@ Package.on_use(function (api, where) {
 
     api.add_files('locale.coffee');
 
-    api.use('softwarerero:accounts@2.0.0');
+    api.use('softwarerero:accounts@1.0.9');
     api.imply('softwarerero:accounts');
 });
