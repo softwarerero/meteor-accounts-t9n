@@ -6,7 +6,7 @@ Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Ch
 
 # API
 
-##  Set a current language for translations: 
+##  Set a current language for translations:
 `T9n.setLanguage("es")
 
 
@@ -25,7 +25,7 @@ Examples:
 
 Example: `{{t9n "store.purchase"}}`.
 
-If a translation is not found the key is displayed. To spot not translated keys a prefix and a postfix can surround the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You can change the pre- and postfix: 
+If a translation is not found the key is displayed. To spot not translated keys a prefix and a postfix can surround the key, they default to ">" and "<" so a you would see ">nonExistantKey<". You can change the pre- and postfix:
 
 `T9n.missingPrefix = ">"`
 `T9n.missingPostfix = "<"`
@@ -39,30 +39,30 @@ Optionally named parameters can be used, naming them allows for repetition.
 
 `T9n.get code, true, args `
 
-Example: 
-  
+Example:
+
   If you define a string in your language file like
-  
+
     'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
 
   and have an object like
-  
-    args = 
+
+    args =
       subject: "Fischer's Fritz"
       predicate: 'fischt'
       object: 'Fische'
       adverb: 'frische'
-      
+
   you could call
-  
+
     T9n.get 'sentence', true, args
-    
+
   and that should give you
-  
+
     'Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz.'
 
   You must specify the second argument for prefix/postfix too, I am sorry.
-  
+
 
 ## Define translations
 
@@ -75,7 +75,7 @@ Example:
       store:
         purchase: 'buy now'
         basket: 'basket'
-        
+
 Tip: If you do not want to expose the reason why a login was unsuccessful for security reasons. They could overwrite the corresponding messages:
 
     T9n.map 'en',
@@ -83,6 +83,25 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
         accounts:
           'User not found': 'Not for you'
           'Incorrect password': 'Not for you'
+
+
+#Locales packages
+
+To add a specific locale use:
+
+    meteor add softwarerero:accounts-t9n-locale-es
+
+The complete list of locales can be obtained by
+
+    meteor search softwarerero:accounts-t9n-locale-.*
+
+To add all locales use:
+
+    meteor add softwarerero:accounts-t9n-locales
+
+Due to meteor package name character limitation, not uppercase or underscore allowed. Correct name for, Ex: `es_ES` is `softwarerero:accounts-t9n-locales-es-es`
+
+Note that locale specific package implies the core `softwarerero:accounts-t9n`, so you don't need to add it yourself.
 
 #Language codes
 
