@@ -99,7 +99,7 @@ To add all locales use:
 
     meteor add softwarerero:accounts-locales
 
-Due to meteor package name character limitation, not uppercase or underscore allowed. Correct name for, Ex: `es_ES`is `softwarerero:accounts-locales-es-es`.
+Due to meteor package name character limitation, not uppercase or underscore allowed. Correct name for, Ex: `es_ES`is `softwarerero:accounts-locales-es-es`
 
 Note that locale specific package implies the core 'softwarerero:accounts', so you don't need to add it yourself.
 
