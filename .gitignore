@@ -4,6 +4,7 @@ smart.lock
 .meteor
 packages
 tests/t9nDriver
+locales/*/locale.coffee
 
 .DS_Store
 .AppleDouble
