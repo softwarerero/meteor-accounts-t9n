@@ -18,7 +18,7 @@ Package.onUse(function(api) {
 " > package.js
 for d in ../locales/*/;do
     locale=`basename $d`
-    localePKG=`echo $locale | sed "s/_/-/g"`
+    localePKG=`echo $locale | sed "s/_/-/g" | tr '[:upper:]' '[:lower:]'`
     echo "    api.use('softwarerero:accounts-locale-$localePKG@$version');" >> package.js
 done
 echo "});" >> package.js

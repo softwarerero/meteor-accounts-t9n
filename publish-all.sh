@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-./locales/sync.sh
+./locales/generate.sh
 ./locales-all/generate.sh
 
 echo 'Publishing softwarerero:accounts...'
@@ -9,7 +9,9 @@ echo 'Publishing softwarerero:accounts...'
 echo 'Publishing softwarerero:accounts'
 #meteor publish
 for d in locales/*/;do
-    echo 'Publishing softwarerero:accounts-locale-'`basename $d`'...'
+    locale=`basename $d`
+    localePKG=`echo $locale | sed "s/_/-/g" | tr '[:upper:]' '[:lower:]'`
+    echo 'Publishing softwarerero:accounts-locale-$localePKG...'
  #   (cd $d && meteor publish $* && rm version.json)
 done
 echo 'Publishing softwarerero:accounts-locales'
