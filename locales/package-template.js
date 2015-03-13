@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'softwarerero:accounts-locale-{{locale}}',
+    name: 'softwarerero:accounts-locale-{{localePKG}}',
     summary: 'softwarerero:accounts {{locale}} locale. Companion package for softwarerero:accounts',
     version: '{{version}}',
     git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'

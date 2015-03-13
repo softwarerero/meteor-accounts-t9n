@@ -1,5 +1,5 @@
 Package.describe({
-    name: 'softwarerero:accounts-locale-zh_cn',
+    name: 'softwarerero:accounts-locale-zh-cn',
     summary: 'softwarerero:accounts zh_cn locale. Companion package for softwarerero:accounts',
     version: '2.0.0',
     git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'

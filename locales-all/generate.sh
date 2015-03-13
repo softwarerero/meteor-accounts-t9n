@@ -9,15 +9,16 @@ Package.describe({
     name: 'softwarerero:accounts-locales',
     summary: 'softwarerero:accounts all locales. Companion package for softwarerero:accounts',
     version: '$version',
-    git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'    
+    git: 'https://github.com/softwarerero/meteor-accounts-t9n.git'
 });
 
 Package.onUse(function(api) {
-    api.use('softwarerero:accounts@$version'); 
+    api.use('softwarerero:accounts@$version');
     api.imply('softwarerero:accounts');
 " > package.js
 for d in ../locales/*/;do
     locale=`basename $d`
-    echo "    api.use('softwarerero:accounts-locale-$locale@$version');" >> package.js
+    localePKG=`echo $locale | sed "s/_/-/g"`
+    echo "    api.use('softwarerero:accounts-locale-$localePKG@$version');" >> package.js
 done
 echo "});" >> package.js
