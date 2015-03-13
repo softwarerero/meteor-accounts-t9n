@@ -17,13 +17,13 @@ Package.onUse(function(api) {
     api.use('softwarerero:accounts-locale-de@1.0.9');
     api.use('softwarerero:accounts-locale-el@1.0.9');
     api.use('softwarerero:accounts-locale-es@1.0.9');
-    api.use('softwarerero:accounts-locale-es-ES@1.0.9');
+    api.use('softwarerero:accounts-locale-es-es@1.0.9');
     api.use('softwarerero:accounts-locale-fa@1.0.9');
     api.use('softwarerero:accounts-locale-fr@1.0.9');
     api.use('softwarerero:accounts-locale-he@1.0.9');
     api.use('softwarerero:accounts-locale-it@1.0.9');
     api.use('softwarerero:accounts-locale-nl@1.0.9');
-    api.use('softwarerero:accounts-locale-no-NB@1.0.9');
+    api.use('softwarerero:accounts-locale-no-nb@1.0.9');
     api.use('softwarerero:accounts-locale-pl@1.0.9');
     api.use('softwarerero:accounts-locale-pt@1.0.9');
     api.use('softwarerero:accounts-locale-ru@1.0.9');

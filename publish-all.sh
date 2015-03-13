@@ -11,7 +11,7 @@ echo 'Publishing softwarerero:accounts'
 for d in locales/*/;do
     locale=`basename $d`
     localePKG=`echo $locale | sed "s/_/-/g" | tr '[:upper:]' '[:lower:]'`
-    echo 'Publishing softwarerero:accounts-locale-$localePKG...'
+    echo 'Publishing softwarerero:accounts-locale-'$localePKG'...'
  #   (cd $d && meteor publish $* && rm version.json)
 done
 echo 'Publishing softwarerero:accounts-locales'
