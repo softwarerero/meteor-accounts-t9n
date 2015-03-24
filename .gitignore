@@ -4,3 +4,4 @@ smart.lock
 .meteor
 packages
 tests/t9nDriver
+.versions

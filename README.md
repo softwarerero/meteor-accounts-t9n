@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Japanese, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
 
 # API
 
@@ -86,33 +86,34 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 #Language codes
 
-ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, nl, no_NB, pl, pt, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw
+ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, it, ja, nl, no_NB, pl, pt, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw
 
 # Contributions
-* djhi - French Translation
-* laosb - Chinese Translation
-* mdede - Czech Translation
-* robhunt3r - Improved Spanish Translation
-* splendido - Italian Translation, Reactivity, Ideas
-* pwldp - Polish Translation
+* djhi - French
+* laosb - Chinese
+* mdede - Czech
+* robhunt3r - Improved Spanish
+* splendido - Italian, Reactivity, Ideas
+* pwldp - Polish
 * ryw - Fix for Blaze
-* eahefnawy - Arabic Translation
-* alanmeira - Portuguese Translation
-* timtch - Russian Translation
-* alesvaupotic - Slovenian Translation
-* timbrandin - Swedish Translation
-* olragon - Vietnamese Translation
-* noamyoungerm - Hebrew Translation
-* larsbuur - Danish Translation
-* SkeLLLa - Ukrainian Translation
+* eahefnawy - Arabic
+* alanmeira - Portuguese
+* timtch - Russian
+* alesvaupotic - Slovenian
+* timbrandin - Swedish
+* olragon - Vietnamese
+* noamyoungerm - Hebrew
+* larsbuur - Danish
+* SkeLLLa - Ukrainian
 * maomorales - Spanish for Spain
-* kjetilge - Norwegian bokmål Translation
-* pajooh - Farsi Translation
-* mutil - Greek Translation
-* willemx - Dutch Translation
+* kjetilge - Norwegian bokmål
+* pajooh - Farsi
+* mutil - Greek
+* willemx - Dutch
 * victorleungtw - Traditional Chinese (Hong Kong and Taiwan)
-* ixdi - Catalan Translation
-* serkandurusoy - Turkish Translation
+* ixdi - Catalan
+* serkandurusoy - Turkish
+* y-ich - Japanese
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
