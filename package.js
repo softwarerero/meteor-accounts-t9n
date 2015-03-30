@@ -1,6 +1,6 @@
 Package.describe({
     summary: "Translations for the meteor account's error messages.",
-    version: "1.0.7",
+    version: "1.0.8",
     name: "softwarerero:accounts-t9n",
     git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });
@@ -24,7 +24,9 @@ Package.on_use(function (api, where) {
         't9n/fa.coffee',
         't9n/fr.coffee',
         't9n/he.coffee',
+        't9n/hr.coffee',
         't9n/it.coffee',
+        't9n/ja.coffee',
         't9n/pl.coffee',
         't9n/pt.coffee',
         't9n/ru.coffee',
@@ -36,7 +38,6 @@ Package.on_use(function (api, where) {
         't9n/no_NB.coffee',
         't9n/nl.coffee',
         't9n/zh_tw.coffee',
-        't9n/ja.coffee',
     ], ['client', 'server']);
 
     api.use(['coffeescript', 'deps'], ['client', 'server']);
@@ -60,7 +61,9 @@ Package.on_test(function (api) {
         't9n/fa.coffee',
         't9n/fr.coffee',
         't9n/he.coffee',
+        't9n/hr.coffee',
         't9n/it.coffee',
+        't9n/ja.coffee',
         't9n/pl.coffee',
         't9n/pt.coffee',
         't9n/ru.coffee',
@@ -72,7 +75,6 @@ Package.on_test(function (api) {
         't9n/no_NB.coffee',
         't9n/nl.coffee',
         't9n/zh_tw.coffee',
-        't9n/ja.coffee',
     ], ['client', 'server']);
 
     api.use(['coffeescript', 'deps'], ['client', 'server']);
