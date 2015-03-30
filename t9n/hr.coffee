@@ -67,48 +67,48 @@ hr =
       #---- accounts-base
       #"@" + domain + " email required"
       #"A login handler should return a result or undefined"
-      "Email already exists.": "Email already exists."
-      "Email doesn't match the criteria.": "Email doesn't match the criteria."
-      "Invalid login token": "Invalid login token"
-      "Login forbidden": "Login forbidden"
+      "Email already exists.": "Email već postoji."
+      "Email doesn't match the criteria.": "Email ne zadovoljava kriterij."
+      "Invalid login token": "Nevažeći  token za prijavu"
+      "Login forbidden": "Prijava zabranjena"
       #"Service " + options.service + " already configured"
-      "Service unknown": "Service unknown"
-      "Unrecognized options for login request": "Unrecognized options for login request"
-      "User validation failed": "User validation failed"
-      "Username already exists.": "Username already exists."
-      "You are not logged in.": "You are not logged in."
-      "You've been logged out by the server. Please log in again.": "You've been logged out by the server. Please log in again."
-      "Your session has expired. Please log in again.": "Your session has expired. Please log in again."
+      "Service unknown": "Servis nepoznat"
+      "Unrecognized options for login request": "Neprepoznate opcije zahtjeva za prijavu"
+      "User validation failed": "Provjera valjanosti za korisnika neuspješna."
+      "Username already exists.": "Korisnik već postoji."
+      "You are not logged in.": "Niste prijavljeni."
+      "You've been logged out by the server. Please log in again.": "Odjavljeni ste sa servera. Molimo Vas ponovno se prijavite."
+      "Your session has expired. Please log in again.": "Vaša sesija je istekla. Molimo prijavite se ponovno."
 
 
       #---- accounts-oauth
-      "No matching login attempt found": "No matching login attempt found"
+      "No matching login attempt found": "Pokušaj prijave se ne podudara sa podatcima u bazi."
 
 
       #---- accounts-password-client
-      "Password is old. Please reset your password.": "Password is old. Please reset your password."
+      "Password is old. Please reset your password.": "Zaporka je stara. Molimo resetujte zaporku."
 
 
       #---- accounts-password
-      "Incorrect password": "Incorrect password"
-      "Invalid email": "Invalid email"
-      "Must be logged in": "Must be logged in"
-      "Need to set a username or email": "Need to set a username or email"
-      "old password format": "old password format"
-      "Password may not be empty": "Password may not be empty"
-      "Signups forbidden": "Signups forbidden"
-      "Token expired": "Token expired"
-      "Token has invalid email address": "Token has invalid email address"
-      "User has no password set": "User has no password set"
-      "User not found": "User not found"
-      "Verify email link expired": "Verify email link expired"
-      "Verify email link is for unknown address": "Verify email link is for unknown address"
+      "Incorrect password": "Netočna zaporka"
+      "Invalid email": "Nevažeći email"
+      "Must be logged in": "Morate biti prijavljeni"
+      "Need to set a username or email": "Morate postaviti korisničko ime ili email"
+      "old password format": "stari format zaporke"
+      "Password may not be empty": "Zaporka ne može biti prazna"
+      "Signups forbidden": "Prijave zabranjenje"
+      "Token expired": "Token je istekao"
+      "Token has invalid email address": "Token ima nevažeću email adresu"
+      "User has no password set": "Korisnik nema postavljenu zaporku"
+      "User not found": "Korisnik nije pronađen"
+      "Verify email link expired": "Link za verifikaciju emaila je istekao"
+      "Verify email link is for unknown address": "Link za verifikaciju emaila je za nepoznatu adresu"
 
       #---- match
-      "Match failed": "Match failed"
+      "Match failed": "Usporedba neuspjela"
 
       #---- Misc...
-      "Unknown error": "Unknown error"
+      "Unknown error": "Nepoznata pogreška"
 
 
 T9n.map "hr", hr
