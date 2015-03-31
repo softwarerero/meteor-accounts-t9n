@@ -4,7 +4,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Japanese, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Italian, Japanese, Norwegian, Polish, Portuguese, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese, Romanian.
 
 # API
 
@@ -88,7 +88,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 #Language codes
 
-ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, hr, it, ja, nl, no_NB, pl, pt, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw
+ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, hr, it, ja, nl, no_NB, pl, pt, ro, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw
 
 # Contributions
 * djhi - French
@@ -117,6 +117,7 @@ ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, hr, it, ja, nl, no_NB, pl
 * serkandurusoy - Turkish
 * y-ich - Japanese
 * tnedich - Croatian
+* alexhuszar - Romanian
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
