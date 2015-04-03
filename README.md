@@ -90,6 +90,7 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 Code   | Language             | Contributor(s)
 ------ | -------------------- | -------------
+de     | German               | softwarerero, robhunt3r, sclausen, sarasate
 fr     | French               | djhi
 zh_cn  | Simplified Chinese   | laosb
 cs     | Czech                | mdede
@@ -103,7 +104,7 @@ sl     | Slovenian            | alesvaupotic
 sv     | Swedish              | timbrandin
 vi     | Vietnamese           | olragon
 he     | Hebrew               | noamyoungerm
-da     | Ukrainian            | SkeLLLa
+uk     | Ukrainian            | SkeLLLa
 es_ES  | Spanish for Spaein   | maomorales
 no_NB  | Norwegian bokmål     | kjetilge
 fa     | Farsi                | pajooh
