@@ -117,6 +117,7 @@ tr     | Turkish              | serkandurusoy
 ja     | Japanese             | y-ich
 hr     | Croatian             | tnedich
 ro     | Romanian             | alexhuszar
+id     | Indonesian           | hellstad
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 
