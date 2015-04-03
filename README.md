@@ -126,7 +126,17 @@ ro     | Romanian             | alexhuszar
 id     | Indonesian           | hellstad
 kh     | Khmer                | yuomtheara
 
-This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
+
+# Send only some language files to the client (new in version 1.1.0)
+If you have a need to reduce bandwidth you can specify which languages to send to the client by setting 
+an environment variable like ```T9N_LANGUAGES='es,de'```. Now only Spanish and German should go over the 
+wire instead of all translations.
+
+# History
+
+This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3. 
+Sadly the all project versions before 0.0.17 where deleted from Atmosphere when they updated to the 
+new Meteor package format.
 
 # License
 
