@@ -25,6 +25,7 @@ Package.on_use(function (api, where) {
         't9n/fr.coffee',
         't9n/he.coffee',
         't9n/hr.coffee',
+        't9n/id.coffee',
         't9n/it.coffee',
         't9n/ja.coffee',
         't9n/pl.coffee',
