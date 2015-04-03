@@ -1,7 +1,7 @@
 Meteor.startup ->
   if Meteor.isClient
     UI.registerHelper 't9n', (x, params) ->
-      T9n.get(x, true, params)
+      T9n.get(x, true, params.hash)
 
 
 class T9n
