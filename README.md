@@ -24,6 +24,7 @@ Examples:
 ## Get a localized text in a template
 
 `{{t9n code}}`
+`{{t9n code parameter1='value'}}`
 
 Example: `{{t9n "store.purchase"}}`.
 
