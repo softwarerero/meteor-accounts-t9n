@@ -86,38 +86,35 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'User not found': 'Not for you'
           'Incorrect password': 'Not for you'
 
-#Language codes
+#Language codes and contributions
 
-ar, ca, cs, da, de, el, en, es, es, es_ES, fa, fr, he, hr, it, ja, nl, no_NB, pl, pt, ro, ru, sl, sv, tr, uk, vi, zh_cn, zh_tw
-
-# Contributions
-* djhi - French
-* laosb - Chinese
-* mdede - Czech
-* robhunt3r - Improved Spanish
-* splendido - Italian, Reactivity, Ideas
-* pwldp - Polish
-* ryw - Fix for Blaze
-* eahefnawy - Arabic
-* alanmeira - Portuguese
-* timtch - Russian
-* alesvaupotic - Slovenian
-* timbrandin - Swedish
-* olragon - Vietnamese
-* noamyoungerm - Hebrew
-* larsbuur - Danish
-* SkeLLLa - Ukrainian
-* maomorales - Spanish for Spain
-* kjetilge - Norwegian bokmål
-* pajooh - Farsi
-* mutil - Greek
-* willemx - Dutch
-* victorleungtw - Traditional Chinese (Hong Kong and Taiwan)
-* ixdi - Catalan
-* serkandurusoy - Turkish
-* y-ich - Japanese
-* tnedich - Croatian
-* alexhuszar - Romanian
+Code   | Language             | Contributor(s)
+------ | -------------------- | -------------
+fr     | French               | djhi
+zh_cn  | Simplified Chinese   | laosb
+cs     | Czech                | mdede
+es     | Spanish              | softwarerero, robhunt3r
+it     | Italian              | splendido
+pl     | Polish               | pwldp
+ar     | Arabic               | eahefnawy
+pt     | Portuguese           | alanmeira, Tadeu Caldararo
+ru     | Russian              | timtch
+sl     | Slovenian            | alesvaupotic
+sv     | Swedish              | timbrandin
+vi     | Vietnamese           | olragon
+he     | Hebrew               | noamyoungerm
+da     | Ukrainian            | SkeLLLa
+es_ES  | Spanish for Spaein   | maomorales
+no_NB  | Norwegian bokmål     | kjetilge
+fa     | Farsi                | pajooh
+el     | Greek                | mutil
+da     | Dutch                | willemx
+zh_tw  | Traditional Chinese (Hong Kong and Taiwan) | victorleungtw
+ca     | Catalan              | ixdi
+tr     | Turkish              | serkandurusoy
+ja     | Japanese             | y-ich
+hr     | Croatian             | tnedich
+ro     | Romanian             | alexhuszar
 
 This package is inspired by subhog's just-i18n and included this as a dependency before version 0.0.3.
 

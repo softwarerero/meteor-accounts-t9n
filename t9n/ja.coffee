@@ -1,5 +1,5 @@
-# We need a dummy translation so that a text is found.
-
+#Language: Japanese
+#Translators: y-ich
 
 ja =
 

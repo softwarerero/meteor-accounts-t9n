@@ -29,6 +29,7 @@ args =
   adverb: 'frische'
 sentence = T9n.maps.de.sentence
 console.log T9n.get sentence, true, args
+T9n.map 'de', 'code': 'Hi @{name}'
 
 #console.log T9n.maps.en.hola #.replace /{pal}/, "foo" 
 equals(T9n.get('hola1'), '>hola1<')
