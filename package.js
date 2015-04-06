@@ -6,7 +6,7 @@ Package.describe({
 });
 
 DEFAULT_LANGUAGES = ['ar', 'zh_cn', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 
-  'es_ES', 'fa', 'fr', 'he', 'hr', 'id', 'it', 'ja', 'kh', 'pl', 'pt', 'ro',
+  'es_ES', 'fa', 'fr', 'he', 'hr', 'hu', 'id', 'it', 'ja', 'kh', 'pl', 'pt', 'ro',
   'ru', 'sl', 'sv', 'tr', 'uk', 'vi', 'no_NB', 'nl', 'zh_tw'];
 
 LANGUAGES = DEFAULT_LANGUAGES;
