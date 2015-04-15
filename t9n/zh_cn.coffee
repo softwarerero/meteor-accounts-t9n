@@ -111,4 +111,4 @@ zh_cn =
       "Unknown error": "未知错误"
 
 
-T9n.map "zh-cn", zh_cn
+T9n.map "zh_cn", zh_cn
