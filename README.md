@@ -100,7 +100,7 @@ Code   | Language             | Contributor(s)
 ar     | Arabic               | eahefnawy
 ca     | Catalan              | ixdi
 cs     | Czech                | mdede
-da     | Dutch                | willemx
+da     | Dutch                | willemx, louwers
 de     | German               | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                | mutil
 es     | Spanish              | softwarerero, robhunt3r
