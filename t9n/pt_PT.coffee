@@ -70,7 +70,7 @@ pt_PT =
       "Email already exists.": "O e-mail já existe."
       "Email doesn't match the criteria.": "E-mail inválido."
       "Invalid login token": "Token de início de sessão inválido"
-      "Login forbidden": "Início de sessão proibido"
+      "Login forbidden": "Início de sessão impedido"
     #"Service " + options.service + " already configured"
       "Service unknown": "Serviço desconhecido"
       "Unrecognized options for login request": "Pedido de início de sessão com opções não reconhecidas"
