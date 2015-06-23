@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Norwegian, Polish, Portuguese, Romanian, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
 
 Off course one can easily add add translations for any application. By putting a file like ```myapp.es``` in a folder like ```lib/t9n``` translations can be used on the client and on the server. Example:
 
@@ -95,36 +95,37 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 #Language codes and contributions
 
-Code   | Language             | Contributor(s)
------- | -------------------- | -------------
-ar     | Arabic               | eahefnawy
-ca     | Catalan              | ixdi
-cs     | Czech                | mdede
-da     | Dutch                | willemx, louwers
-de     | German               | softwarerero, robhunt3r, sclausen, sarasate
-el     | Greek                | mutil
-es     | Spanish              | softwarerero, robhunt3r
-es_ES  | Spanish for Spain    | maomorales
-fa     | Farsi                | pajooh
-fr     | French               | djhi
-he     | Hebrew               | noamyoungerm
-hr     | Croatian             | tnedich
-hu     | Hungarian            | balazskiss
-id     | Indonesian           | hellstad
-it     | Italian              | splendido
-ja     | Japanese             | y-ich
-kh     | Khmer                | yuomtheara
-no_NB  | Norwegian bokmål     | kjetilge
-pl     | Polish               | pwldp
-pt     | Portuguese           | alanmeira, Tadeu Caldararo
-ro     | Romanian             | alexhuszar
-ru     | Russian              | timtch
-sl     | Slovenian            | alesvaupotic
-sv     | Swedish              | timbrandin
-tr     | Turkish              | serkandurusoy
-uk     | Ukrainian            | SkeLLLa
-vi     | Vietnamese           | olragon
-zh_cn  | Simplified Chinese   | laosb
+Code   | Language                | Contributor(s)
+------ | ----------------------- | -------------
+ar     | Arabic                  | eahefnawy
+ca     | Catalan                 | ixdi
+cs     | Czech                   | mdede
+da     | Dutch                   | willemx, louwers
+de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
+el     | Greek                   | mutil
+es     | Spanish                 | softwarerero, robhunt3r
+es_ES  | Spanish for Spain       | maomorales
+fa     | Farsi                   | pajooh
+fr     | French                  | djhi
+he     | Hebrew                  | noamyoungerm
+hr     | Croatian                | tnedich
+hu     | Hungarian               | balazskiss
+id     | Indonesian              | hellstad
+it     | Italian                 | splendido
+ja     | Japanese                | y-ich
+kh     | Khmer                   | yuomtheara
+no_NB  | Norwegian bokmål        | kjetilge
+pl     | Polish                  | pwldp
+pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
+pt_PT  | Portuguese (Portugal)    | tdbs
+ro     | Romanian                | alexhuszar
+ru     | Russian                 | timtch
+sl     | Slovenian               | alesvaupotic
+sv     | Swedish                 | timbrandin
+tr     | Turkish                 | serkandurusoy
+uk     | Ukrainian               | SkeLLLa
+vi     | Vietnamese              | olragon
+zh_cn  | Simplified Chinese      | laosb
 zh_tw  | Traditional Chinese (Hong Kong and Taiwan) | victorleungtw
 
 
