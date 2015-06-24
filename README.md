@@ -115,9 +115,9 @@ it     | Italian                 | splendido
 ja     | Japanese                | y-ich
 kh     | Khmer                   | yuomtheara
 no_NB  | Norwegian bokmål        | kjetilge
-pl     | Polish                  | pwldp
+pl     | Polish                  | pwldp, wareczek
 pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
-pt_PT  | Portuguese (Portugal)    | tdbs
+pt_PT  | Portuguese (Portugal)   | tdbs
 ro     | Romanian                | alexhuszar
 ru     | Russian                 | timtch
 sl     | Slovenian               | alesvaupotic
