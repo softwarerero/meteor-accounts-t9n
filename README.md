@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
 
 Off course one can easily add add translations for any application. By putting a file like ```myapp.es``` in a folder like ```lib/t9n``` translations can be used on the client and on the server. Example:
 
@@ -126,7 +126,8 @@ tr     | Turkish                 | serkandurusoy
 uk     | Ukrainian               | SkeLLLa
 vi     | Vietnamese              | olragon
 zh_cn  | Simplified Chinese      | laosb
-zh_tw  | Traditional Chinese (Hong Kong and Taiwan) | victorleungtw
+zh_hk  | Hong Kong Chinese       | daveeel
+zh_tw  | Taiwan Chinese          | victorleungtw
 
 
 # Send only some language files to the client (new in version 1.1.0)
