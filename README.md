@@ -100,7 +100,7 @@ Code   | Language                | Contributor(s)
 ar     | Arabic                  | eahefnawy
 ca     | Catalan                 | ixdi
 cs     | Czech                   | mdede
-da     | Dutch                   | willemx, louwers
+da     | Danish                   | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
 es     | Spanish                 | softwarerero, robhunt3r
@@ -114,6 +114,7 @@ id     | Indonesian              | hellstad
 it     | Italian                 | splendido
 ja     | Japanese                | y-ich
 kh     | Khmer                   | yuomtheara
+nl     | Dutch                   | willemx, louwers
 no_NB  | Norwegian bokmål        | kjetilge
 pl     | Polish                  | pwldp, wareczek
 pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
