@@ -9,7 +9,7 @@ nl =
   changePassword: "Wachtwoord wijzigen"
   choosePassword: "Wachtwoord kiezen"
   clickAgree: "Door te registreren accepteer je onze"
-  configure: "Configureren"
+  configure: "Configureer"
   createAccount: "Account aanmaken"
   currentPassword: "Huidige wachtwoord"
   dontHaveAnAccount: "Nog geen account?"
