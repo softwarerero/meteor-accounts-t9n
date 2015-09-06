@@ -8,7 +8,7 @@ ru =
   back: "назад"
   changePassword: "Сменить пароль"
   choosePassword: "Придумайте пароль"
-  clickAgree: "Нажав на Регистрация вы соглашаетесь с условиями"
+  clickAgree: "Нажав на Регистрация, вы соглашаетесь с условиями"
   configure: "Конфигурировать"
   createAccount: "Создать аккаунт"
   currentPassword: "Текущий пароль"
@@ -39,7 +39,7 @@ ru =
   updateYourPassword: "Обновить пароль"
   username: "Имя пользователя"
   usernameOrEmail: "Имя пользователя или email"
-  with: "с"
+  with: "через"
 
 
   info:
@@ -57,7 +57,7 @@ ru =
     pwOneLetter: "В пароле должна быть хотя бы одна буква."
     signInRequired: "Необходимо войти для чтобы продолжить."
     signupCodeIncorrect: "Неправильный регистрационный код."
-    signupCodeRequired: "Необходим регистрациооный код."
+    signupCodeRequired: "Необходим регистрационый код."
     usernameIsEmail: "Имя пользователя не может быть адресом email."
     usernameRequired: "Имя пользователя обязательно."
 
@@ -86,7 +86,7 @@ ru =
 
 
       #---- accounts-password-client
-      "Password is old. Please reset your password.": "Пароль устарел. Пожалуйста сбросьте Ваш пароль."
+      "Password is old. Please reset your password.": "Пароль устарел. Пожалуйста, сбросьте Ваш пароль."
 
 
       #---- accounts-password
