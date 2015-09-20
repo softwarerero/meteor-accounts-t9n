@@ -103,6 +103,11 @@ de =
       "User not found": "Benutzer nicht gefunden"
       "Verify email link expired": "Link zur E-Mail Verifizierung ist abgelaufen"
       "Verify email link is for unknown address": "Link zur Verifizierung ist für eine unbekannte E-Mail Adresse"
+      "Verification email lost?" : "Verifizierungsemail verloren?"
+      "Send again" : "Erneut senden"
+      "Send the verification email again" : "Verifizierungsemail erneut senden"
+      "Send email again" : "Email erneut senden"
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde an Sie verschickt. Sollte sich die Email nicht in Ihrem Posteingang befinden, prüfen Sie bitten Ihren Spamordner."
 
       #---- match
       "Match failed": "Abgleich fehlgeschlagen"
