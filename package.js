@@ -22,7 +22,7 @@ Package.on_use(function (api, where) {
   if (api.versionsFrom)
     api.versionsFrom("METEOR@0.9.0");
   api.add_files(FILES, ['client', 'server']);
-  api.use(['coffeescript', 'deps'], ['client', 'server']);
+  api.use(['coffeescript', 'deps', 'blaze'], ['client', 'server']);
   api.export('T9n', ['client', 'server']);
 });
 
