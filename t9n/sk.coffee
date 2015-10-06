@@ -1,0 +1,114 @@
+# Slovak translation - sk
+# Translators: Martin Bucko (MartinBucko) and Rober Kamenicky (aladinko) (treecom.sk)
+
+sk =
+
+  add: "pridať"
+  and: "a"
+  back: "späť"
+  changePassword: "Zmena hesla"
+  choosePassword: "Zvoľte si heslo"
+  clickAgree: "Stlačením tlačidla \"Registrovať\" akceptujete"
+  configure: "Nastaviť"
+  createAccount: "Vytvoriť konto"
+  currentPassword: "Súčasné heslo"
+  dontHaveAnAccount: "Nemáte účet?"
+  email: "Email"
+  emailAddress: "Emailová adresa"
+  emailResetLink: "Odoslať na email overovací odkaz"
+  forgotPassword: "Zabudli ste heslo?"
+  ifYouAlreadyHaveAnAccount: "Ak už máte vytvorený účet prejdite na"
+  newPassword: "Nové heslo"
+  newPasswordAgain: "Nové heslo (opakujte)"
+  optional: "Voliteľné"
+  OR: "alebo"
+  password: "Heslo"
+  passwordAgain: "Heslo (opakujte)"
+  privacyPolicy: "pravidlá ochrany súkromia"
+  remove: "odstrániť"
+  resetYourPassword: "Obnovenie hesla"
+  setPassword: "Nastaviť heslo"
+  sign: "Prihlásiť"
+  signIn: "Prihlásenie" #Prihlásiť ?
+  signin: "prihlásenie" #prihlásený ?
+  signOut: "Odhlásiť"
+  signUp: "Registrovať"
+  signupCode: "Registračný kód"
+  signUpWithYourEmailAddress: "Registrácia pomocou emailovej adresy"
+  terms: "pravidlá požívania"
+  updateYourPassword: "Aktualizovať heslo"
+  username: "Užívateľské meno"
+  usernameOrEmail: "Užívateľské meno alebo email"
+  with: "s"
+
+
+  info:
+    emailSent: "Email odoslaný"
+    emailVerified: "Email bol overený"
+    passwordChanged: "Heslo bolo zmenené"
+    passwordReset: "Obnova hesla"
+
+
+  error:
+    emailRequired: "Email je vyžadovaný." #Je potrebné zadať email?
+    minChar: "minimálne 7 znakov heslo."
+    pwdsDontMatch: "Heslá sa nezhodujú"
+    pwOneDigit: "Heslo musí mať aspoň jeden znak."
+    pwOneLetter: "Heslo musí mať aspoň 1 znak.."
+    signInRequired: "Je vyžadované prihlásenie na túto akciu."
+    signupCodeIncorrect: "Registračný kód je nesprávny."
+    signupCodeRequired: "Je vyžadovaný registračný kód."
+    usernameIsEmail: "Užvateľské meno nemôže byť email."
+    usernameRequired: "Je vyžadované užívateľské meno."
+
+
+    accounts:
+
+      #---- accounts-base
+      #"@" + domain + " email required"
+      #"A login handler should return a result or undefined"
+      "Email already exists.": "Email už bol registrovaný."
+      "Email doesn't match the criteria.": "Email nevyhovuje kritériam."
+      "Invalid login token": "Neplatný token prihlásenia"
+      "Login forbidden": "Prihlásenie neuspešné"
+      #"Service " + options.service + " already configured"
+      "Service unknown": "Neznáma služba"
+      "Unrecognized options for login request": "Neroznali sa podmienky pre požiadavku prihlásenia"
+      "User validation failed": "Overenie užívateľa zlyhalo"
+      "Username already exists.": "Užívateľ už existuje."
+      "You are not logged in.": "Vyžaduje sa prihlásenie."
+      "You've been logged out by the server. Please log in again.": "Boli ste odhlásený/á zo servera. Prosím prihláste sa znova." #znovu/znova?
+      "Your session has expired. Please log in again.": "Vaše príhlásenie expirovalo. Prosím prihláste sa znova."#znovu/znova?
+
+
+      #---- accounts-oauth
+      "No matching login attempt found": "Prihlásenie nesúhlasí"
+
+
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "Heslo je zastaralé. Prosím obnovte si ho."
+
+
+      #---- accounts-password
+      "Incorrect password": "Nesprávne heslo"
+      "Invalid email": "Nesprávaný email"
+      "Must be logged in": "Je vyžadované prihlásenie"
+      "Need to set a username or email": "Je potrebné nastaviť užívateľské meno a email"
+      "old password format": "formát starého hesla"
+      "Password may not be empty": "Heslo nesmie byť prázdne"
+      "Signups forbidden": "Prihlásenie je zakázané"
+      "Token expired": "Token expiroval"
+      "Token has invalid email address": "Token obsahuje nesprávnu emailovú adresu"
+      "User has no password set": "Užívateľ nemá nastavené heslo"
+      "User not found": "Užívateľ sa nenašiel"
+      "Verify email link expired": "Odkazu pre overenie emailu vypršala platnosť."
+      "Verify email link is for unknown address": "Overovací odkaz je z nenámej adresy"
+
+      #---- match
+      "Match failed": "Nezhodné"
+
+      #---- Misc...
+      "Unknown error": "Neznáma chyba"
+
+
+T9n.map "sk", sk
