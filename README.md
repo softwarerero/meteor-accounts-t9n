@@ -114,7 +114,7 @@ id     | Indonesian              | hellstad
 it     | Italian                 | splendido
 ja     | Japanese                | y-ich
 kh     | Khmer                   | yuomtheara
-ko     | Korean                  | candicom
+ko     | Korean                  | candicom, buo
 nl     | Dutch                   | willemx, louwers
 no_NB  | Norwegian bokmål        | kjetilge
 pl     | Polish                  | pwldp, wareczek
