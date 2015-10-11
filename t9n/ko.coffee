@@ -64,10 +64,10 @@ ko =
         "Email already exists.": "중복된 이메일입니다."
         "Email doesn't match the criteria.": "이메일이 요구조건에 맞지않습니다."
         "Invalid login token": "잘못된 로그인 토큰"
-        "Login forbidden": "Login forbidden"
+        "Login forbidden": "허용되지 않은 로그인"
       #"Service " + options.service + " already configured"
-        "Service unknown": "Service unknown"
-        "Unrecognized options for login request": "Unrecognized options for login request"
+        "Service unknown": "알 수 없는 서비스"
+        "Unrecognized options for login request": "알 수 없는 로그인 요청 정보입니다"
         "User validation failed": "인증 실패"
         "Username already exists.": "중복된 아이디입니다."
         "You are not logged in.": "로그인 상태가 아닙니다."
@@ -76,7 +76,7 @@ ko =
 
 
       #---- accounts-oauth
-        "No matching login attempt found": "No matching login attempt found"
+        "No matching login attempt found": "해당 로그인 시도를 찾지 못했습니다"
 
 
       #---- accounts-password-client
@@ -88,20 +88,20 @@ ko =
         "Invalid email": "잘못된 이메일 입니다"
         "Must be logged in": "로그인이 필요합니다"
         "Need to set a username or email": "아이디나 이메일을 입력해주세요"
-        "old password format": "old password format"
+        "old password format": "오래된 비밀번호 형식입니다"
         "Password may not be empty": "비밀번호를 입력해주세요"
         "Signups forbidden": "가입이 거부되었습니다"
-        "Token expired": "Token expired"
-        "Token has invalid email address": "Token has invalid email address"
-        "User has no password set": "User has no password set"
+        "Token expired": "토큰이 만료되었습니다"
+        "Token has invalid email address": "토큰에 포함된 이메일 주소가 유효하지 않습니다"
+        "User has no password set": "설정된 암호가 없습니다"
         "User not found": "사용자를 찾을수 없습니다"
         "Verify email link expired": "확인 코드가 만료됬습니다"
-        "Verify email link is for unknown address": "Verify email link is for unknown address"
+        "Verify email link is for unknown address": "알 수 없는 인증 메일 주소입니다"
 
       #---- match
         "Match failed": "매치되지 않습니다"
 
       #---- Misc...
-        "Unknown error": "Unknown error"
+        "Unknown error": "알 수 없는 오류"
 
 T9n.map "ko", ko        
