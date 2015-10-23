@@ -1,73 +1,33 @@
 Package.describe({
-    summary: "Translations for the meteor account's error messages.",
-    version: "1.0.3",
-    name: "softwarerero:accounts-t9n",
-    git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
+  summary: "Almost i18n, with standard translations for basic meteor packages.",
+  version: "1.1.5",
+  name: "softwarerero:accounts-t9n",
+  git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });
 
-Package.on_use(function (api, where) {
-    if (api.versionsFrom)
-        api.versionsFrom("METEOR@0.9.0");
-    
-    api.add_files([
-        't9n.coffee',
-        't9n/ar.coffee',
-        't9n/zh-cn.coffee',
-        't9n/cs.coffee',
-        't9n/da.coffee',
-        't9n/de.coffee',
-        't9n/el.coffee',
-        't9n/en.coffee',
-        't9n/es.coffee',
-        't9n/es_ES.coffee',
-        't9n/fa.coffee',
-        't9n/fr.coffee',
-        't9n/he.coffee',
-        't9n/it.coffee',
-        't9n/pl.coffee',
-        't9n/pt.coffee',
-        't9n/ru.coffee',
-        't9n/sl.coffee',
-        't9n/sv.coffee',
-        't9n/uk.coffee',
-        't9n/vi.coffee',
-        't9n/no_NB.coffee',
-        't9n/nl.coffee',
-        't9n/zh_tw.coffee',
-    ], ['client', 'server']);
+DEFAULT_LANGUAGES = ['ar', 'zh_cn', 'ca', 'cs', 'da', 'de', 'el', 'en', 'es', 
+  'es_ES', 'fa', 'fr', 'he', 'hr', 'hu', 'id', 'it', 'ja', 'kh', 'ko', 'pl', 'pt', 'pt_PT', 'ro',
+  'ru', 'sk', 'sl', 'sv', 'tr', 'uk', 'vi', 'no_NB', 'nl', 'zh_tw', 'zh_hk'];
 
-    api.use(['coffeescript', 'deps'], ['client', 'server']);
-    api.export('T9n', ['client', 'server']);
+LANGUAGES = DEFAULT_LANGUAGES;
+if(process.env.T9N_LANGUAGES) {
+  LANGUAGES = process.env.T9N_LANGUAGES.split(',');
+}
+FILES = ['t9n.coffee'];
+for (var i = 0; i < LANGUAGES.length; i++) {
+  FILES.push('t9n/' + LANGUAGES[i] + '.coffee');
+}
+
+Package.on_use(function (api, where) {
+  if (api.versionsFrom)
+    api.versionsFrom("METEOR@0.9.0");
+  api.add_files(FILES, ['client', 'server']);
+  api.use(['coffeescript', 'deps', 'blaze'], ['client', 'server']);
+  api.export('T9n', ['client', 'server']);
 });
 
 
 Package.on_test(function (api) {
-    api.add_files([
-        't9n.coffee',
-        't9n/ar.coffee',
-        't9n/zh-cn.coffee',
-        't9n/cs.coffee',
-        't9n/da.coffee',
-        't9n/de.coffee',
-        't9n/el.coffee',
-        't9n/en.coffee',
-        't9n/es.coffee',
-        't9n/es_ES.coffee',
-        't9n/fa.coffee',
-        't9n/fr.coffee',
-        't9n/he.coffee',
-        't9n/it.coffee',
-        't9n/pl.coffee',
-        't9n/pt.coffee',
-        't9n/ru.coffee',
-        't9n/sl.coffee',
-        't9n/sv.coffee',
-        't9n/uk.coffee',
-        't9n/vi.coffee',
-        't9n/no_NB.coffee',
-        't9n/nl.coffee',
-        't9n/zh_tw.coffee',
-    ], ['client', 'server']);
-
-    api.use(['coffeescript', 'deps'], ['client', 'server']);
+  api.add_files(FILES, ['client', 'server']);
+  api.use(['coffeescript', 'deps'], ['client', 'server']);
 });

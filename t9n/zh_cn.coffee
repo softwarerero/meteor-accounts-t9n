@@ -29,8 +29,8 @@ zh_cn =
   resetYourPassword: "重置您的密码"
   setPassword: "设置密码"
   sign: "登"
-  signIn: "登陆"
-  signin: "登陆"
+  signIn: "登录"
+  signin: "登录"
   signOut: "登出"
   signUp: "注册"
   signupCode: "注册码"
@@ -55,7 +55,7 @@ zh_cn =
     pwdsDontMatch: "两次密码不一致"
     pwOneDigit: "密码中至少有一位数字"
     pwOneLetter: "密码中至少有一位字母"
-    signInRequired: "您必须登陆后才能查看"
+    signInRequired: "您必须登录后才能查看"
     signupCodeIncorrect: "注册码错误"
     signupCodeRequired: "必须有注册码"
     usernameIsEmail: "是用户名而不是电子邮件地址"
@@ -69,20 +69,20 @@ zh_cn =
       #"A login handler should return a result or undefined"
       "Email already exists.": "该电子邮件地址已被使用。"
       "Email doesn't match the criteria.": "错误的的电子邮件地址。"
-      "Invalid login token": "登陆密匙错误"
-      "Login forbidden": "登陆被阻止"
+      "Invalid login token": "登录密匙错误"
+      "Login forbidden": "登录被阻止"
       #"Service " + options.service + " already configured"
       "Service unknown": "未知服务"
-      "Unrecognized options for login request": "登陆请求存在无法识别的选项"
+      "Unrecognized options for login request": "登录请求存在无法识别的选项"
       "User validation failed": "用户验证失败"
       "Username already exists.": "用户名已被占用。"
-      "You are not logged in.": "您还没有登陆。"
-      "You've been logged out by the server. Please log in again.": "您被服务器登出了。请重新登陆。"
-      "Your session has expired. Please log in again.": "会话过期，请重新登陆。"
+      "You are not logged in.": "您还没有登录。"
+      "You've been logged out by the server. Please log in again.": "您被服务器登出了。请重新登录。"
+      "Your session has expired. Please log in again.": "会话过期，请重新登录。"
 
 
       #---- accounts-oauth
-      "No matching login attempt found": "未发现对应登陆请求"
+      "No matching login attempt found": "未发现对应登录请求"
 
 
       #---- accounts-password-client
@@ -92,7 +92,7 @@ zh_cn =
       #---- accounts-password
       "Incorrect password": "错误的密码"
       "Invalid email": "不合法的电子邮件地址"
-      "Must be logged in": "必须先登陆"
+      "Must be logged in": "必须先登录"
       "Need to set a username or email": "必须设置用户名或电子邮件地址"
       "old password format": "较老的密码格式"
       "Password may not be empty": "密码不应该为空"
@@ -111,4 +111,4 @@ zh_cn =
       "Unknown error": "未知错误"
 
 
-T9n.map "zh-cn", zh_cn
+T9n.map "zh_cn", zh_cn

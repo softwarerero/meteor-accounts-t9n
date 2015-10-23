@@ -15,8 +15,8 @@ sv =
   dontHaveAnAccount: "Har du inget konto?"
   email: "E-postadress"
   emailAddress: "E-postadress"
-  emailResetLink: "E-post återställningslänk"
-  forgotPassword: "Glömt din e-postadress?"
+  emailResetLink: "Återställningslänk för e-post"
+  forgotPassword: "Glömt ditt lösenord?"
   ifYouAlreadyHaveAnAccount: "Om du redan har ett konto"
   newPassword: "Nytt lösenord"
   newPasswordAgain: "Nytt lösenord (upprepa)"
@@ -27,7 +27,7 @@ sv =
   privacyPolicy: "integritetspolicy"
   remove: "ta bort"
   resetYourPassword: "Återställ ditt lösenord"
-  setPassword: "Sätt ett lösenord"
+  setPassword: "Välj lösenord"
   sign: "Logga"
   signIn: "Logga in"
   signin: "logga in"
@@ -35,7 +35,7 @@ sv =
   signUp: "Skapa konto"
   signupCode: "Registreringskod"
   signUpWithYourEmailAddress: "Skapa ett konto med din e-postadress"
-  terms: "användarvilkor"
+  terms: "användarvillkor"
   updateYourPassword: "Uppdatera ditt lösenord"
   username: "Användarnamn"
   usernameOrEmail: "Användarnamn eller e-postadress"
@@ -50,7 +50,7 @@ sv =
 
 
   error:
-    emailRequired: "Det krävs ett lösenord."
+    emailRequired: "Det krävs en e-postaddress."
     minChar: "Det krävs minst 7 tecken i ditt lösenord."
     pwdsDontMatch: "Lösenorden matchar inte."
     pwOneDigit: "Lösenordet måste ha minst 1 siffra."

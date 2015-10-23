@@ -1,0 +1,114 @@
+#Language: Croatian
+#Translators: tnedich
+
+hr =
+
+  add: "dodaj"
+  and: "i"
+  back: "nazad"
+  changePassword: "Promjeni zaporku"
+  choosePassword: "Izaberi zaporku"
+  clickAgree: "Klikom na Registracija, prihvatate naše"
+  configure: "Podesi"
+  createAccount: "Napravite račun"
+  currentPassword: "Trenutna zaporka"
+  dontHaveAnAccount: "Vi nemate račun?"
+  email: "Email"
+  emailAddress: "Email adresa"
+  emailResetLink: "Email reset link"
+  forgotPassword: "Zaboravili ste zaporku?"
+  ifYouAlreadyHaveAnAccount: "Ako već imate račun"
+  newPassword: "Nova zaporka"
+  newPasswordAgain: "Nova zaporka (ponovno)"
+  optional: "neobavezno"
+  OR: "ili"
+  password: "Zaporka"
+  passwordAgain: "Zaporka (ponovno)"
+  privacyPolicy: "Izjava o privatnosti"
+  remove: "ukloni"
+  resetYourPassword: "Resetirajte"
+  setPassword: "Postavite zaporku"
+  sign: "Prijava"
+  signIn: "Prijavi se"
+  signin: "prijavi se"
+  signOut: "Odjavi se"
+  signUp: "Registracija"
+  signupCode: "Registracijski kod"
+  signUpWithYourEmailAddress: "Registrirajte se sa vašom email adresom"
+  terms: "Uslovi korištenja"
+  updateYourPassword: "Ažurirajte lozinku"
+  username: "Korisničko ime"
+  usernameOrEmail: "Korisničko ime ili lozinka"
+  with: "sa"
+
+
+  info:
+    emailSent: "Email je poslan"
+    emailVerified: "Email je verificiran"
+    passwordChanged: "Zaproka promjenjena"
+    passwordReset: "Zaporka resetirana"
+
+
+  error:
+    emailRequired: "Email je potreban."
+    minChar: "Zaporka mora sadržavati više od 7 znakova."
+    pwdsDontMatch: "Zaporke se ne poklapaju."
+    pwOneDigit: "Zaporka mora sadržavati barem jednu brojku."
+    pwOneLetter: "Zaporka mora sadržavati barem jedno slovo."
+    signInRequired: "Morate biti prijavljeni za to."
+    signupCodeIncorrect: "Registracijski kod je netočan."
+    signupCodeRequired: "Registracijski kod je potreban."
+    usernameIsEmail: "Korisničko ime ne može biti email."
+    usernameRequired: "Korisničko ime je potrebno."
+
+
+    accounts:
+
+      #---- accounts-base
+      #"@" + domain + " email required"
+      #"A login handler should return a result or undefined"
+      "Email already exists.": "Email već postoji."
+      "Email doesn't match the criteria.": "Email ne zadovoljava kriterij."
+      "Invalid login token": "Nevažeći  token za prijavu"
+      "Login forbidden": "Prijava zabranjena"
+      #"Service " + options.service + " already configured"
+      "Service unknown": "Servis nepoznat"
+      "Unrecognized options for login request": "Neprepoznate opcije zahtjeva za prijavu"
+      "User validation failed": "Provjera valjanosti za korisnika neuspješna."
+      "Username already exists.": "Korisnik već postoji."
+      "You are not logged in.": "Niste prijavljeni."
+      "You've been logged out by the server. Please log in again.": "Odjavljeni ste sa servera. Molimo Vas ponovno se prijavite."
+      "Your session has expired. Please log in again.": "Vaša sesija je istekla. Molimo prijavite se ponovno."
+
+
+      #---- accounts-oauth
+      "No matching login attempt found": "Pokušaj prijave se ne podudara sa podatcima u bazi."
+
+
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "Zaporka je stara. Molimo resetujte zaporku."
+
+
+      #---- accounts-password
+      "Incorrect password": "Netočna zaporka"
+      "Invalid email": "Nevažeći email"
+      "Must be logged in": "Morate biti prijavljeni"
+      "Need to set a username or email": "Morate postaviti korisničko ime ili email"
+      "old password format": "stari format zaporke"
+      "Password may not be empty": "Zaporka ne može biti prazna"
+      "Signups forbidden": "Prijave zabranjenje"
+      "Token expired": "Token je istekao"
+      "Token has invalid email address": "Token ima nevažeću email adresu"
+      "User has no password set": "Korisnik nema postavljenu zaporku"
+      "User not found": "Korisnik nije pronađen"
+      "Verify email link expired": "Link za verifikaciju emaila je istekao"
+      "Verify email link is for unknown address": "Link za verifikaciju emaila je za nepoznatu adresu"
+
+      #---- match
+      "Match failed": "Usporedba neuspjela"
+
+      #---- Misc...
+      "Unknown error": "Nepoznata pogreška"
+
+
+T9n.map "hr", hr

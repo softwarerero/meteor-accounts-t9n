@@ -1,5 +1,5 @@
 #Language: German
-#Translators: softwarerero, robhunt3r, sclausen
+#Translators: softwarerero, robhunt3r, sclausen, sarasate
 
 de =
 
@@ -10,7 +10,7 @@ de =
   choosePassword: "Passwort auswählen"
   clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
   configure: "Konfigurieren"
-  createAccount: "Konto erzeugen"
+  createAccount: "Konto erstellen"
   currentPassword: "Aktuelles Passwort"
   dontHaveAnAccount: "Noch kein Konto?"
   email: "E-Mail"
@@ -19,7 +19,7 @@ de =
   forgotPassword: "Passwort vergessen?"
   ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
   newPassword: "Neues Passwort"
-  newPasswortAgain: "Neues Passwort (wiederholen)"
+  newPasswordAgain: "Neues Passwort (wiederholen)"
   optional: "Optional"
   OR: "ODER"
   password: "Passwort"
@@ -27,7 +27,7 @@ de =
   privacyPolicy: "Datenschutzerklärung"
   remove: "entfernen"
   resetYourPassword: "Passwort zurücksetzen"
-  setPassword: "Passwort bestimmen"
+  setPassword: "Passwort festlegen"
   sign: "Anmelden"
   signIn: "Anmelden"
   signin: "anmelden"
@@ -45,20 +45,20 @@ de =
   info:
     emailSent: "E-Mail gesendet"
     emailVerified: "E-Mail verifiziert"
-    PasswortChanged: "Passwort geändert"
-    PasswortReset: "Passwort zurückgesetzt"
+    PasswordChanged: "Passwort geändert"
+    PasswordReset: "Passwort zurückgesetzt"
 
 
   error:
     emailRequired: "E-Mail benötigt."
-    minChar: "Passwort muss mindesten 7 Zeichen lang sein."
+    minChar: "Passwort muss mindestens 7 Zeichen lang sein."
     pwdsDontMatch: "Passwörter stimmen nicht überein."
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
     signInRequired: "Sie müssen sich anmelden."
     signupCodeIncorrect: "Registrierungscode ungültig."
     signupCodeRequired: "Registrierungscode benötigt."
-    usernameIsEmail: "Benutzername kann nicht eine E-Mail."
+    usernameIsEmail: "Benutzername darf keine E-Mail Adresse sein."
     usernameRequired: "Benutzername benötigt."
 
 
@@ -67,15 +67,15 @@ de =
       #---- accounts-base
       #"@" + domain + " email required":
       #"A login handler should return a result or undefined":
-      "Email already exists.": "Die E-Mail Adresse ist bereits vergeben."
-      "Email doesn't match the criteria.": "E-Mail Adresse erfüllt nicht die Anforderungen."
-      "Invalid login token": "Ungültiger Login Token"
-      "Login forbidden": "Anmeldung verboten"
+      "Email already exists.": "Die E-Mail Adresse wird bereits verwendet."
+      "Email doesn't match the criteria.": "E-Mail Adresse erfüllt die Anforderungen nicht."
+      "Invalid login token": "Ungültiger Login-Token"
+      "Login forbidden": "Anmeldedaten ungültig"
       #"Service " + options.service + " already configured":
       "Service unknown": "Dienst unbekannt"
       "Unrecognized options for login request": "Unbekannte Optionen für Login Request"
-      "User validation failed": "Die Benutzerdaten scheinen nicht korrekt"
-      "Username already exists.": "Den Benutzer gibt es schon."
+      "User validation failed": "Die Benutzerdaten sind nicht korrekt"
+      "Username already exists.": "Der Benutzer existiert bereits."
       "You are not logged in.": "Sie sind nicht eingeloggt."
       "You've been logged out by the server. Please log in again.": "Der Server hat Dich ausgeloggt. Bitte melde Dich erneut an."
       "Your session has expired. Please log in again.": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an."
@@ -85,24 +85,29 @@ de =
       "No matching login attempt found": "Kein passender Loginversuch gefunden."
 
 
-      #---- accounts-Passwort-client
-      "Passwort is old. Please reset your Passwort.": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
 
 
-      #---- accounts-Passwort
-      "Incorrect Passwort": "Falschen Passwort"
+      #---- accounts-password
+      "Incorrect password": "Falsches Passwort"
       "Invalid email": "Ungültige E-Mail Adresse"
       "Must be logged in": "Sie müssen sich anmelden"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
-#>    "old Passwort format":
-      "Passwort may not be empty": "Das Passwort darf nicht leer sein"
-      "Signups forbidden": "Anmeldungen sind verboten"
+#>    "old password format":
+      "Password may not be empty": "Das Passwort darf nicht leer sein"
+      "Signups forbidden": "Anmeldungen sind nicht erlaubt"
       "Token expired": "Token ist abgelaufen"
       "Token has invalid email address": "E-Mail Adresse passt nicht zum Token"
-      "User has no Passwort set": "Kein Passwort für den Benutzer angegeben"
+      "User has no password set": "Kein Passwort für den Benutzer angegeben"
       "User not found": "Benutzer nicht gefunden"
       "Verify email link expired": "Link zur E-Mail Verifizierung ist abgelaufen"
       "Verify email link is for unknown address": "Link zur Verifizierung ist für eine unbekannte E-Mail Adresse"
+      "Verification email lost?" : "Verifizierungsemail verloren?"
+      "Send again" : "Erneut senden"
+      "Send the verification email again" : "Verifizierungsemail erneut senden"
+      "Send email again" : "Email erneut senden"
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde an Sie verschickt. Sollte sich die Email nicht in Ihrem Posteingang befinden, prüfen Sie bitten Ihren Spamordner."
 
       #---- match
       "Match failed": "Abgleich fehlgeschlagen"

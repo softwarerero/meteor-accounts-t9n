@@ -1,0 +1,114 @@
+#Language: Romanian
+#Translators: alexhuszar
+
+ro =
+
+  add: "adaugă"
+  and: "și"
+  back: "înapoi"
+  changePassword: "Schimbare parolă"
+  choosePassword: "Alege o parolă"
+  clickAgree: "Click pe Register, sunteți de acord"
+  configure: "Configurare"
+  createAccount: "Creați un cont"
+  currentPassword: "Parola curentă"
+  dontHaveAnAccount: "Nu ai un cont?"
+  email: "E-mail"
+  emailAddress: "Adresa de e-mail"
+  emailResetLink: "Link de resetare parolă"
+  forgotPassword: "Ți-ai uitat parola?"
+  ifYouAlreadyHaveAnAccount: "Dacă ai deja un cont"
+  newPassword: "Parolă nouă"
+  newPasswordAgain: "Parolă nouă (din nou)"
+  optional: "Opțional"
+  OR: "SAU"
+  password: "Parolă"
+  passwordAgain: "Parolă (din nou)"
+  privacyPolicy: "Politica de confidentialitate"
+  remove: "Elimină"
+  resetYourPassword: "Schimbati parola"
+  setPassword: "Setati parola"
+  sign: "Înregistrează"
+  signIn: "Autentificare"
+  signin: "Autentificare"
+  signOut: "Deconectare"
+  signUp: "Înregistrare"
+  signupCode: "Codul de înregistrare"
+  signUpWithYourEmailAddress: "Înregistrați-vă adresa de e-mail"
+  terms: "Condiții de utilizare"
+  updateYourPassword: "Actualizați parola dvs."
+  username: "Nume utilizator"
+  usernameOrEmail: "Nume utilizator sau e-mail"
+  with: "cu"
+
+
+  info:
+    emailSent: "Email trimis"
+    emailVerified: "Email verificat"
+    passwordChanged: "Parola a fost schimbata"
+    passwordReset: "Resetare parola"
+
+
+  error:
+    emailRequired: "Introduceti Email-ul."
+    minChar: "Parolă minima de 7 caractere "
+    pwdsDontMatch: "Parolele nu se potrivesc"
+    pwOneDigit: "Parola trebuie să contină cel puțin o cifră."
+    pwOneLetter: "Parola necesită o scrisoare."
+    signInRequired: "Autentificare."
+    signupCodeIncorrect: "Codul de înregistrare este incorectă."
+    signupCodeRequired: "Aveti nevoie de cod de înregistrare."
+    usernameIsEmail: "Numele de utilizator nu poate fi o adresă de e-mail."
+    usernameRequired: "Introduceti numele de utilizator."
+
+
+    accounts:
+
+      #---- accounts-base
+      #"@" + domain + " email required"
+      #"A login handler should return a result or undefined"
+      "Email already exists.": "E-mail există deja."
+      "Email doesn't match the criteria.": "E-mail nu se potrivește cu criteriile."
+      "Invalid login token": "Token invalid"
+      "Login forbidden": "Autentificare interzisă"
+      #"Service " + options.service + " already configured"
+      "Service unknown": "Service necunoscut"
+      "Unrecognized options for login request": "Opțiuni nerecunoscute de cerere de conectare"
+      "User validation failed": "Validare utilizator nereușit"
+      "Username already exists.": "Numele de utilizator existent."
+      "You are not logged in.": "Nu sunteti autentificat."
+      "You've been logged out by the server. Please log in again.": "Ați fost deconectat de către server rugam sa va logati din nou."
+      "Your session has expired. Please log in again.": "Sesiunea a expirat rugam sa va logati din nou."
+
+
+      #---- accounts-oauth
+      "No matching login attempt found": "Autentificare nereusită"
+
+
+      #---- accounts-password-client
+      "Password is old. Please reset your password.": "Parola expirata, Vă rugăm să resetati parola."
+
+
+      #---- accounts-password
+      "Incorrect password": "Parola incorectă"
+      "Invalid email": "E-mail invalid"
+      "Must be logged in": "Trebuie sa fii logat"
+      "Need to set a username or email": "Adaugati un nume utilizator sau un e-mail"
+      "old password format": "Parola cu format vechi"
+      "Password may not be empty": "Parola nu poate fi gol"
+      "Signups forbidden": "Înscrieri interzisă"
+      "Token expired": "Token expirat"
+      "Token has invalid email address": "Token are adresă de email invalidă"
+      "User has no password set": "Utilizator nu are parola setată"
+      "User not found": "Utilizator nu a fost găsit"
+      "Verify email link expired": "Link-ul de e-mail a expirat"
+      "Verify email link is for unknown address": "Link-ul de e-mail nu corespunde"
+
+      #---- match
+      "Match failed": "Potrivire nereușită"
+
+      #---- Misc...
+      "Unknown error": "Eroare necunoscută"
+
+
+T9n.map "ro", ro

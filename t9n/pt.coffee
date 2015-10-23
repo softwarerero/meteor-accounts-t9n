@@ -8,7 +8,7 @@ pt =
   back: "Voltar"
   changePassword: "Alterar senha"
   choosePassword: "Escolha uma senha"
-  clickAgree: "Ao clicar em Registrar, você aceita nossos Termos de Uso"
+  clickAgree: "Ao clicar em Criar Conta, você estará reconhecendo que aceita nossos Termos de Uso"
   configure: "Configurar"
   createAccount: "Criar Conta"
   currentPassword: "Senha Atual"
@@ -32,9 +32,9 @@ pt =
   signIn: "Entrar"
   signin: "entrar"
   signOut: "Sair"
-  signUp: "Registrar"
+  signUp: "Criar conta"
   signupCode: "Código de Registro"
-  signUpWithYourEmailAddress: "Registrar utilizando seu endereço de e-mail"
+  signUpWithYourEmailAddress: "Criar conta utilizando seu endereço de e-mail"
   terms: "Termos de Uso"
   updateYourPassword: "Atualizar senha"
   username: "Nome de usuário"
@@ -70,7 +70,7 @@ pt =
       "Email already exists.": "E-mail já existe."
       "Email doesn't match the criteria.": "E-mail inválido."
       "Invalid login token": "Token de login inválido"
-      "Login forbidden": "Login proibido."
+      "Login forbidden": "Login não permitido"
     #"Service " + options.service + " already configured"
       "Service unknown": "Serviço desconhecido"
       "Unrecognized options for login request": "Opções desconhecidas para solicitação de login"
@@ -96,7 +96,7 @@ pt =
       "Need to set a username or email": "É necessário configurar um Nome de Usuário ou E-mail"
       "old password format": "Formato de senha antigo"
       "Password may not be empty": "Senha não pode estar em branco"
-      "Signups forbidden": "Registros proibidos"
+      "Signups forbidden": "Não permitido Criar Conta"
       "Token expired": "Token expirou"
       "Token has invalid email address": "Token tem endereço de e-mail inválido"
       "User has no password set": "Usuário não possui senha cadastrada"
@@ -105,7 +105,7 @@ pt =
       "Verify email link is for unknown address": "O link de verificação de e-mail está configurado para um endereço desconhecido"
 
     #---- match
-      "Match failed": "Comparação falhou"
+      "Match failed": "Senhas não coincidem"
 
     #---- Misc...
       "Unknown error": "Erro desconhecido"

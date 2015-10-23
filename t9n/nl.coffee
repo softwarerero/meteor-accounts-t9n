@@ -9,7 +9,7 @@ nl =
   changePassword: "Wachtwoord wijzigen"
   choosePassword: "Wachtwoord kiezen"
   clickAgree: "Door te registreren accepteer je onze"
-  configure: "Configureren"
+  configure: "Configureer"
   createAccount: "Account aanmaken"
   currentPassword: "Huidige wachtwoord"
   dontHaveAnAccount: "Nog geen account?"
@@ -24,7 +24,7 @@ nl =
   OR: "OF"
   password: "Wachtwoord"
   passwordAgain: "Wachtwoord (herhalen)"
-  privacyPolicy: "privacy verklaring"
+  privacyPolicy: "privacyverklaring"
   remove: "verwijderen"
   resetYourPassword: "Wachtwoord resetten"
   setPassword: "Wachtwoord instellen"
@@ -36,7 +36,7 @@ nl =
   signupCode: "Registratiecode"
   signUpWithYourEmailAddress: "Met e-mailadres registreren"
   terms: "gebruiksvoorwaarden"
-  updateYourPassword: "Wachtwoord actualiseren"
+  updateYourPassword: "Wachtwoord veranderen"
   username: "Gebruikersnaam"
   usernameOrEmail: "Gebruikersnaam of e-mailadres"
   with: "met"
@@ -69,24 +69,24 @@ nl =
       #"A login handler should return a result or undefined":
       "Email already exists.": "Dit e-mailadres is al in gebruik."
       "Email doesn't match the criteria.": "e-mail voldoet niet aan de voorwaarden."
-      "Invalid login token": "Ongeldig login token"
+      "Invalid login token": "Ongeldig inlogtoken"
       "Login forbidden": "Aanmelding geweigerd"
       #"Service " + options.service + " already configured":
       "Service unknown": "Sevice onbekend"
-      "Unrecognized options for login request": "Onbekende optie voor login request"
-      "User validation failed": "Gebruikers validatie mislukt"
+      "Unrecognized options for login request": "Onbekende optie voor inlogverzoek"
+      "User validation failed": "Gebruikersvalidatie mislukt"
       "Username already exists.": "Gebruikersnaam bestaat al."
       "You are not logged in.": "Je bent niet ingelogd."
-      "You've been logged out by the server. Please log in again.": "Je bent door de server afgemeld. Opnieuw aanmelden svp."
-      "Your session has expired. Please log in again.": "Je sessie is verlopen. Opnieuw aanmelden svp."
+      "You've been logged out by the server. Please log in again.": "Je bent door de server afgemeld. Meld a.u.b. opnieuw aan."
+      "Your session has expired. Please log in again.": "Je sessie is verlopen. Meld a.u.b. opnieuw aan."
 
 
       #---- accounts-oauth
-      "No matching login attempt found": "Geen overeenkomstig login verzoek gevonden."
+      "No matching login attempt found": "Geen overeenkomstig inlogverzoek gevonden."
 
 
       #---- accounts-Password-client
-      "Password is old. Please reset your Password.": "Wachtwoord is verlopen. Wachtwoord resetten svp."
+      "Password is old. Please reset your Password.": "Wachtwoord is verlopen. Reset a.u.b. uw wachtwoord."
 
 
       #---- accounts-Password
@@ -101,8 +101,8 @@ nl =
       "Token has invalid email address": "Token heeft ongeldig e-mailadres"
       "User has no Password set": "Geen wachtwoord ingesteld voor gebruiker"
       "User not found": "Gebruiker niet gevonden"
-      "Verify email link expired": "E-mail verificatie link is verlopen"
-      "Verify email link is for unknown address": "E-mail verificatie link is voor onbekend e-mailadres"
+      "Verify email link expired": "Verificatielink is verlopen"
+      "Verify email link is for unknown address": "Verificatielink is voor onbekend e-mailadres"
 
       #---- match
       "Match failed": "Geen match"
