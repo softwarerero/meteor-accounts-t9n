@@ -103,6 +103,8 @@ pt =
       "User not found": "Usuário não encontrado"
       "Verify email link expired": "O link de verificação de e-mail expirou"
       "Verify email link is for unknown address": "O link de verificação de e-mail está configurado para um endereço desconhecido"
+      "Verify email link expired":"E-mail de verificação recebido?"
+      "Send again": "Renviar"
 
     #---- match
       "Match failed": "Senhas não coincidem"
