@@ -20,9 +20,9 @@ for (var i = 0; i < LANGUAGES.length; i++) {
 
 Package.on_use(function (api, where) {
   if (api.versionsFrom)
-    api.versionsFrom("METEOR@0.9.0");
+    api.versionsFrom("METEOR@1.0.1");
   api.add_files(FILES, ['client', 'server']);
-  api.use(['coffeescript', 'deps', 'blaze'], ['client', 'server']);
+  api.use(['coffeescript', 'deps', 'blaze-html-templates@1.0.1'], ['client', 'server']);
   api.export('T9n', ['client', 'server']);
 });
 
