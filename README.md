@@ -135,6 +135,7 @@ zh_tw  | Taiwan Chinese          | victorleungtw
 
 # Send only some language files to the client (new in version 1.1.0)
 If you have a need to reduce bandwidth you can specify which languages to send to the client by setting an environment variable like ```T9N_LANGUAGES='es,de'```. Now only Spanish and German should go over the wire instead of all translations.
+With the current package manager this does not work anymore. If you need that functionality delete ~/.meteor/packages/softwarerero_accounts-t9n and instead copy it directly into your project (you can go to myproject/packages and issue git clone https://github.com/softwarerero/meteor-accounts-t9n.git). Now it should work again.   
 
 # History
 
