@@ -104,7 +104,7 @@ da     | Danish                   | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
 es     | Spanish                 | softwarerero, robhunt3r
-es_ES  | Spanish for Spain       | maomorales
+es_ES / es-ES  | Spanish for Spain       | maomorales
 fa     | Farsi                   | pajooh
 fr     | French                  | djhi
 he     | Hebrew                  | noamyoungerm
@@ -116,10 +116,10 @@ ja     | Japanese                | y-ich
 kh     | Khmer                   | yuomtheara
 ko     | Korean                  | candicom, buo
 nl     | Dutch                   | willemx, louwers
-no_NB  | Norwegian bokmål        | kjetilge
+no_NB / no-NB  | Norwegian bokmål        | kjetilge
 pl     | Polish                  | pwldp, wareczek
 pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
-pt_PT  | Portuguese (Portugal)   | tdbs
+pt_PT / pt-PT  | Portuguese (Portugal)   | tdbs
 ro     | Romanian                | alexhuszar
 ru     | Russian                 | timtch
 sk     | Slovak                  | MartinBucko, aladinko
@@ -128,10 +128,11 @@ sv     | Swedish                 | timbrandin
 tr     | Turkish                 | serkandurusoy
 uk     | Ukrainian               | SkeLLLa
 vi     | Vietnamese              | olragon
-zh_cn  | Simplified Chinese      | laosb
-zh_hk  | Hong Kong Chinese       | daveeel
-zh_tw  | Taiwan Chinese          | victorleungtw
+zh_cn / zh-CN  | Simplified Chinese      | laosb
+zh_hk / zh-HK  | Hong Kong Chinese       | daveeel
+zh_tw / zh-TW  | Taiwan Chinese          | victorleungtw
 
+Note: "xx" or "xx-XX" is the [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) standard format.
 
 # Send only some language files to the client (new in version 1.1.0)
 If you have a need to reduce bandwidth you can specify which languages to send to the client by setting an environment variable like ```T9N_LANGUAGES='es,de'```. Now only Spanish and German should go over the wire instead of all translations.
