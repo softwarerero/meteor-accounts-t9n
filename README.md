@@ -15,7 +15,7 @@ T9n.map "es", es
 # API
 
 ##  Set a current language for translations:
-`T9n.setLanguage("es")
+`T9n.setLanguage("es")`
 
 
 ## Get a translation in Javascript:
