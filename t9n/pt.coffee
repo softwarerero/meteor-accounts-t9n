@@ -39,7 +39,9 @@ pt =
   updateYourPassword: "Atualizar senha"
   username: "Nome de usuário"
   usernameOrEmail: "Usuário ou e-mail"
-  with: "com"
+  with: "com",
+  "Send the verification email again" : "Reenviar e-mail de verificação",
+  "Send email again" : "Reenviar e-mail"
 
 
   info:
@@ -104,9 +106,7 @@ pt =
       "Verify email link expired": "O link de verificação de e-mail expirou"
       "Verify email link is for unknown address": "O link de verificação de e-mail está configurado para um endereço desconhecido"
       "Verify email link expired":"E-mail de verificação recebido?"
-      "Send again": "Renviar",
-      "Send the verification email again" : "Reenviar e-mail de verificação",
-      "Send email again" : "Reenviar e-mail"
+      "Send again": "Renviar"
 
     #---- match
       "Match failed": "Senhas não coincidem"
