@@ -39,7 +39,9 @@ pt =
   updateYourPassword: "Atualizar senha"
   username: "Nome de usuário"
   usernameOrEmail: "Usuário ou e-mail"
-  with: "com"
+  with: "com",
+  "Send the verification email again" : "Reenviar e-mail de verificação",
+  "Send email again" : "Reenviar e-mail"
 
 
   info:
