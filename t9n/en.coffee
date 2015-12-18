@@ -1,6 +1,5 @@
 # We need a dummy translation so that a text is found.
 
-
 en =
 
   add: "add"
@@ -40,7 +39,11 @@ en =
   username: "Username"
   usernameOrEmail: "Username or email"
   with: "with"
-
+  maxAllowedLength: "Maximum allowed length"
+  minRequiredLength: "Minimum required length"
+  resendVerificationEmail: "Send email again"
+  resendVerificationEmailLink_pre: "Verification email lost?"
+  resendVerificationEmailLink_link: "Send again"
 
   info:
     emailSent: "Email sent"
@@ -63,7 +66,6 @@ en =
 
 
     accounts:
-
       #---- accounts-base
       #"@" + domain + " email required"
       #"A login handler should return a result or undefined"
@@ -79,6 +81,7 @@ en =
       "You are not logged in.": "You are not logged in."
       "You've been logged out by the server. Please log in again.": "You've been logged out by the server. Please log in again."
       "Your session has expired. Please log in again.": "Your session has expired. Please log in again."
+      "Already verified": "Already verified"
 
 
       #---- accounts-oauth
@@ -103,6 +106,9 @@ en =
       "User not found": "User not found"
       "Verify email link expired": "Verify email link expired"
       "Verify email link is for unknown address": "Verify email link is for unknown address"
+      "At least 1 digit, 1 lowercase and 1 uppercase": "At least 1 digit, 1 lowercase and 1 uppercase"
+      "Please verify your email first. Check the email and follow the link!": "Please verify your email first. Check the email and follow the link!"
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder."
 
       #---- match
       "Match failed": "Match failed"
