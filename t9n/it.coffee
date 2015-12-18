@@ -40,7 +40,11 @@ it =
   username: "Username"
   usernameOrEmail: "Nome utente o email"
   with: "con"
-
+  maxAllowedLength: "Lunghezza massima consentita"
+  minRequiredLength: "Lunghezza minima consentita"
+  resendVerificationEmail: "Invia di nuovo l' email"
+  resendVerificationEmailLink_pre: "Hai smarrito l' email di verifica?"
+  resendVerificationEmailLink_link: "Invia di nuovo"
 
   info:
     emailSent: "Email inviata"
@@ -79,7 +83,7 @@ it =
       "You are not logged in.": "Non hai effettuato l'accesso."
       "You've been logged out by the server. Please log in again.": "Sei stato disconnesso dal server. Per favore accedi di nuovo."
       "Your session has expired. Please log in again.": "La tua sessione è scaduta. Per favore accedi di nuovo."
-
+      "Already verified": "Gi\à verificato"
 
       #---- accounts-oauth
       "No matching login attempt found": "Tentativo di accesso corrispondente non trovato"
@@ -103,6 +107,9 @@ it =
       "User not found": "Utente non trovato"
       "Verify email link expired": "Link per la verifica dell'email scaduto"
       "Verify email link is for unknown address": "Il link per la verifica dell'email fa riferimento ad un indirizzo sconosciuto"
+      "At least 1 digit, 1 lowercase and 1 uppercase": "Almeno un numero, 1 carattere minuscolo e 1 maiuscolo"
+      "Please verify your email first. Check the email and follow the link!": "Per favore, verifica prima la tua email. Controlla la tua email e segui il collegamento che ti è stato inviato."
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Ti è stata inviata una nuova email. Se non trovi l' email nella tua posta in arrivo controllate che non sia stata spostata nella cartella SPAM."
 
       #---- match
       "Match failed": "Riscontro fallito"
