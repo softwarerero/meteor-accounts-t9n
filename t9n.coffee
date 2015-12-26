@@ -58,7 +58,7 @@ class T9n
       re = new RegExp "@{#{key}}", 'g'
       str = str.replace re, value
     str
-    
+
 
 @T9n = T9n
 @t9n = (x, includePrefix, params) -> T9n.get(x)
