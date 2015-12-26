@@ -7,7 +7,7 @@ Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Ch
 # Installation
 ```meteor add softwarerero:accounts-t9n```
 
-Off course one can easily add add translations for any application. By putting a file like ```myapp.es``` in a folder like ```lib/t9n``` translations can be used on the client and on the server. Example:
+Off course one can easily add translations for applications. By putting a file like ```myapp.es``` in a folder under ```lib``` translations can be used on the client and on the server. Example:
 
 ``` myapp.es
 es =
