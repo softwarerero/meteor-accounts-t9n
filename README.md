@@ -95,12 +95,12 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
 ## Language variants (v1.2)
 
-  T9n.language = 'en'
-  equals T9n.get('error.accounts.Incorrect password'), 'Incorrect password'
-  
-  T9n.map 'en_GB', 'error.accounts.Incorrect password': 'You might want to enter a more correct version of your password'
-  T9n.language = 'en_GB'
-  equals T9n.get('error.accounts.Incorrect password'), 'You might want to enter a more correct version of your password'
+    T9n.language = 'en'
+    equals T9n.get('error.accounts.Incorrect password'), 'Incorrect password'
+    
+    T9n.map 'en_GB', 'error.accounts.Incorrect password': 'You might want to enter a more correct version of your password'
+    T9n.language = 'en_GB'
+    equals T9n.get('error.accounts.Incorrect password'), 'You might want to enter a more correct version of your password'
 
 
 #Language codes and contributions
