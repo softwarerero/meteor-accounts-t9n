@@ -3,6 +3,8 @@
 
 pt =
 
+  t9Name: 'Português'
+  
   add: "Adicionar"
   and: "e"
   back: "Voltar"

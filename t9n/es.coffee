@@ -3,6 +3,8 @@
 
 es =
 
+  t9Name: 'Español'
+
   add: "agregar"
   and: "y"
   back: "atrás"

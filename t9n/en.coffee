@@ -2,6 +2,8 @@
 
 en =
 
+  t9Name: 'English'
+  
   add: "add"
   and: "and"
   back: "back"

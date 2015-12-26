@@ -13,3 +13,5 @@ equals T9n.get('error.accounts.Incorrect password'), 'Enter better password'
 T9n.language = 'en_GB_pidgin_us'
 equals T9n.get('error.accounts.Incorrect password'), 'Dude, enter a less shitty password'
 
+console.log 'process.env.T9N_LANGUAGES', process.env.T9N_LANGUAGES
+console.log 'getLanguageInfo', T9n.getLanguageInfo()

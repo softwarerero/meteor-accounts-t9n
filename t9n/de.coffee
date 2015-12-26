@@ -3,6 +3,8 @@
 
 de =
 
+  t9Name: 'Deutsch'
+  
   add: "hinzufügen"
   and: "und"
   back: "zurück"

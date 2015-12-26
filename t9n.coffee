@@ -55,6 +55,12 @@ class T9n
     @dep.depend()
     return Object.keys(@maps).sort()
 
+  @getLanguageInfo: () ->
+    @dep.depend()
+    keys = Object.keys(@maps).sort()
+    for k in keys
+      {name: @maps[k]['t9Name'], code: k}
+
   @setLanguage: (language) ->
     if(!@maps[language] || @language == language) 
       return;
