@@ -20,14 +20,22 @@ class T9n
     @registerMap(language, '', false, map)
     @dep.changed()
 
-  @get: (label, markIfMissing = true, args = {}) ->
+  @get: (label, markIfMissing = true, args = {}, language) ->
     @dep.depend()
     @depLanguage.depend()
-    if typeof label != 'string' 
-      return ''
-    ret = @maps[@language]?[label] ||
-      @maps[@defaultLanguage]?[label] ||
-      if markIfMissing then @missingPrefix + label + @missingPostfix else label
+    if typeof label != 'string' then return ''
+    language ?= @language
+    ret = @maps[language]?[label]
+    unless ret
+      index = language.lastIndexOf '_'
+      if index 
+        parent = language.substring 0, index 
+        if parent
+          return @get label, markIfMissing, args, parent
+    unless ret
+      ret = @maps[@defaultLanguage]?[label]
+    unless ret
+      return if markIfMissing then @missingPrefix + label + @missingPostfix else label
     if Object.keys(args).length == 0 then ret else @replaceParams ret, args
   
   @registerMap = (language, prefix, dot, map) ->
