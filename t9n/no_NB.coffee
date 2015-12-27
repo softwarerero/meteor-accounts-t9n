@@ -112,3 +112,4 @@ no_NB =
 
 
 T9n.map "no_NB", no_NB
+T9n.map "no-NB", no_NB

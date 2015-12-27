@@ -3,6 +3,8 @@
 
 fr =
 
+  t9Name: 'Français'
+
   add: "Ajouter"
   and: "et"
   back: "retour"

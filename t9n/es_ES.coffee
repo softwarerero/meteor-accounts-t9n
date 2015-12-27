@@ -110,3 +110,4 @@ es_ES =
 
 
 T9n.map "es_ES", es_ES
+T9n.map "es-ES", es_ES

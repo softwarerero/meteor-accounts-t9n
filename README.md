@@ -4,7 +4,10 @@ This package offers translations for accounts-base, accounts-passwords, accounts
 
 Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
 
-Off course one can easily add add translations for any application. By putting a file like ```myapp.es``` in a folder like ```lib/t9n``` translations can be used on the client and on the server. Example:
+# Installation
+```meteor add softwarerero:accounts-t9n```
+
+Off course one can easily add translations for applications. By putting a file like ```myapp.es``` in a folder under ```lib``` translations can be used on the client and on the server. Example:
 
 ``` myapp.es
 es =
@@ -15,7 +18,7 @@ T9n.map "es", es
 # API
 
 ##  Set a current language for translations:
-`T9n.setLanguage("es")
+`T9n.setLanguage("es")`
 
 
 ## Get a translation in Javascript:
@@ -93,6 +96,16 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
           'User not found': 'Not for you'
           'Incorrect password': 'Not for you'
 
+## Language variants (v1.2)
+
+    T9n.language = 'en'
+    equals T9n.get('error.accounts.Incorrect password'), 'Incorrect password'
+    
+    T9n.map 'en_GB', 'error.accounts.Incorrect password': 'You might want to enter a more correct version of your password'
+    T9n.language = 'en_GB'
+    equals T9n.get('error.accounts.Incorrect password'), 'You might want to enter a more correct version of your password'
+
+
 #Language codes and contributions
 
 Code   | Language                | Contributor(s)
@@ -104,7 +117,7 @@ da     | Danish                   | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
 es     | Spanish                 | softwarerero, robhunt3r
-es_ES  | Spanish for Spain       | maomorales
+es_ES / es-ES  | Spanish for Spain       | maomorales
 fa     | Farsi                   | pajooh
 fr     | French                  | djhi
 he     | Hebrew                  | noamyoungerm
@@ -116,10 +129,10 @@ ja     | Japanese                | y-ich
 kh     | Khmer                   | yuomtheara
 ko     | Korean                  | candicom, buo
 nl     | Dutch                   | willemx, louwers
-no_NB  | Norwegian bokmål        | kjetilge
+no_NB / no-NB  | Norwegian bokmål        | kjetilge
 pl     | Polish                  | pwldp, wareczek
 pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
-pt_PT  | Portuguese (Portugal)   | tdbs
+pt_PT / pt-PT  | Portuguese (Portugal)   | tdbs
 ro     | Romanian                | alexhuszar
 ru     | Russian                 | timtch
 sk     | Slovak                  | MartinBucko, aladinko
@@ -128,13 +141,15 @@ sv     | Swedish                 | timbrandin
 tr     | Turkish                 | serkandurusoy
 uk     | Ukrainian               | SkeLLLa
 vi     | Vietnamese              | olragon
-zh_cn  | Simplified Chinese      | laosb
-zh_hk  | Hong Kong Chinese       | daveeel
-zh_tw  | Taiwan Chinese          | victorleungtw
+zh_cn / zh-CN  | Simplified Chinese      | laosb
+zh_hk / zh-HK  | Hong Kong Chinese       | daveeel
+zh_tw / zh-TW  | Taiwan Chinese          | victorleungtw
 
+Note: "xx" or "xx-XX" is the [IETF language tag](https://en.wikipedia.org/wiki/IETF_language_tag) standard format.
 
 # Send only some language files to the client (new in version 1.1.0)
 If you have a need to reduce bandwidth you can specify which languages to send to the client by setting an environment variable like ```T9N_LANGUAGES='es,de'```. Now only Spanish and German should go over the wire instead of all translations.
+With the current package manager this does not work anymore. If you need that functionality delete ~/.meteor/packages/softwarerero_accounts-t9n and instead copy it directly into your project (you can go to myproject/packages and issue git clone https://github.com/softwarerero/meteor-accounts-t9n.git). Now it should work again.   
 
 # History
 

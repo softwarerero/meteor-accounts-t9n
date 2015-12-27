@@ -112,3 +112,4 @@ zh_tw =
 
 
 T9n.map "zh_tw", zh_tw
+T9n.map "zh-TW", zh_tw

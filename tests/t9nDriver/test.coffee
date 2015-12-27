@@ -1,7 +1,3 @@
-equals = (a, b) ->
-  if a != b
-    console.error a + " != " + b
-
 T9n.language = "en"
 equals(T9n.language, 'en')
 

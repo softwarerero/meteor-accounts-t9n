@@ -3,6 +3,8 @@
 
 it =
 
+  t9Name: 'Italiano'
+
   add: "aggiungi"
   and: "e"
   back: "indietro"
