@@ -10,7 +10,7 @@ de =
   back: "zurück"
   changePassword: "Passwort ändern"
   choosePassword: "Passwort auswählen"
-  clickAgree: "Durch die Registrierung akzeptieren Sie unsere"
+  clickAgree: "Die Registrierung impliziert die Akzeptanz unserer"
   configure: "Konfigurieren"
   createAccount: "Konto erstellen"
   currentPassword: "Aktuelles Passwort"
@@ -19,7 +19,7 @@ de =
   emailAddress: "E-Mail Adresse"
   emailResetLink: "Senden"
   forgotPassword: "Passwort vergessen?"
-  ifYouAlreadyHaveAnAccount: "Falls Sie ein Konto haben, bitte hier"
+  ifYouAlreadyHaveAnAccount: "Falls noch kein Konto existiert, bitte hier"
   newPassword: "Neues Passwort"
   newPasswordAgain: "Neues Passwort (wiederholen)"
   optional: "Optional"
@@ -57,7 +57,7 @@ de =
     pwdsDontMatch: "Passwörter stimmen nicht überein."
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
-    signInRequired: "Sie müssen sich anmelden."
+    signInRequired: "Ein Anmeldung ist erforderlich."
     signupCodeIncorrect: "Registrierungscode ungültig."
     signupCodeRequired: "Registrierungscode benötigt."
     usernameIsEmail: "Benutzername darf keine E-Mail Adresse sein."
@@ -78,9 +78,9 @@ de =
       "Unrecognized options for login request": "Unbekannte Optionen für Login Request"
       "User validation failed": "Die Benutzerdaten sind nicht korrekt"
       "Username already exists.": "Der Benutzer existiert bereits."
-      "You are not logged in.": "Sie sind nicht eingeloggt."
-      "You've been logged out by the server. Please log in again.": "Der Server hat Dich ausgeloggt. Bitte melde Dich erneut an."
-      "Your session has expired. Please log in again.": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an."
+      "You are not logged in.": "Eine Anmeldung ist erforderlich."
+      "You've been logged out by the server. Please log in again.": "Die Sitzung ist abgelaufen, eine neue Anmeldung ist nötig."
+      "Your session has expired. Please log in again.": "Die Sitzung ist abgelaufen, eine neue Anmeldung ist nötig."
 
 
       #---- accounts-oauth
@@ -88,13 +88,13 @@ de =
 
 
       #---- accounts-password-client
-      "Password is old. Please reset your password.": "Passwort ist abgelaufen. Bitte setzen Sie es zurück."
+      "Password is old. Please reset your password.": "Das Passwort ist abgelaufen, ein Zurücksetzen ist erforderlich."
 
 
       #---- accounts-password
       "Incorrect password": "Falsches Passwort"
       "Invalid email": "Ungültige E-Mail Adresse"
-      "Must be logged in": "Sie müssen sich anmelden"
+      "Must be logged in": "Ein Anmeldung ist erforderlich"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
 #>    "old password format":
       "Password may not be empty": "Das Passwort darf nicht leer sein"
@@ -109,7 +109,7 @@ de =
       "Send again" : "Erneut senden"
       "Send the verification email again" : "Verifizierungsemail erneut senden"
       "Send email again" : "Email erneut senden"
-      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde an Sie verschickt. Sollte sich die Email nicht in Ihrem Posteingang befinden, prüfen Sie bitten Ihren Spamordner."
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde verschickt. Sollte sich die Email nicht im Posteingang befinden, empfiehlt es sich, den Spamordner zu überprüfen."
 
       #---- match
       "Match failed": "Abgleich fehlgeschlagen"
