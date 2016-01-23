@@ -104,6 +104,8 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
     T9n.map 'en_GB', 'error.accounts.Incorrect password': 'You might want to enter a more correct version of your password'
     T9n.language = 'en_GB'
     equals T9n.get('error.accounts.Incorrect password'), 'You might want to enter a more correct version of your password'
+    
+Starting from (v.1.2.2) you can also do `setLanguage('en-GB')` and it gets converted internally to 'en_GB'. This is usefull for taking the language string directly from an http header. 
 
 
 #Language codes and contributions

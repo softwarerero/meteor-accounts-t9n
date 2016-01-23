@@ -3,7 +3,7 @@
   "description": "Translations for the meteor account's error messages",
   "homepage": "https://github.com/softwarerero/meteor-accounts-t9n",
   "author": "Stefan Undorf <el@softwarerero.com>",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "git": "https://github.com/softwarerero/meteor-accounts-t9n.git",
   "packages": {}
 }
