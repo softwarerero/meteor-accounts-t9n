@@ -43,13 +43,23 @@ it =
   usernameOrEmail: "Nome utente o email"
   with: "con"
 
+  "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Ti è stata inviata una nuova email. Se non trovi l' email nella tua posta in arrivo controllate che non sia stata spostata nella cartella SPAM."
+  "Already verified": "Gi\à verificato"
+  "At least 1 digit, 1 lowercase and 1 uppercase": "Almeno @{digit} numero, @{lowercase} carattere minuscolo e @{uppercase} maiuscolo"
+  "Maximum allowed length": "Lunghezza massima consentita"
+  "Minimum required length": "Lunghezza minima consentita"
+  "Please verify your email first. Check the email and follow the link!": "Per favore, verifica prima la tua email. Controlla la tua email e segui il collegamento che ti è stato inviato."
+  "Required Field": "Campo richiesto"
+  "Send again": "Invia di nuovo"
+  "Send email again": "Invia di nuovo l' email"
+  "Send the verification email again": "Invia di nuovo l' email di verifica"
+  "Verification email lost?": "Hai smarrito l' email di verifica?"
 
   info:
     emailSent: "Email inviata"
     emailVerified: "Email verificata"
     passwordChanged: "Password cambiata"
     passwordReset: "Password reimpostata"
-
 
   error:
     emailRequired: "L'Email è obbligatoria."
@@ -62,7 +72,6 @@ it =
     signupCodeRequired: "Il Codice di Registrazione è obbligatorio."
     usernameIsEmail: "Il Nome Utente non può essere un indirizzo email."
     usernameRequired: "Il Nome utente è obbligatorio."
-
 
     accounts:
 
@@ -82,14 +91,11 @@ it =
       "You've been logged out by the server. Please log in again.": "Sei stato disconnesso dal server. Per favore accedi di nuovo."
       "Your session has expired. Please log in again.": "La tua sessione è scaduta. Per favore accedi di nuovo."
 
-
       #---- accounts-oauth
       "No matching login attempt found": "Tentativo di accesso corrispondente non trovato"
 
-
       #---- accounts-password-client
       "Password is old. Please reset your password.": "La password è vecchia. Per favore reimposta la tua password."
-
 
       #---- accounts-password
       "Incorrect password": "Password non corretta"
@@ -112,5 +118,6 @@ it =
       #---- Misc...
       "Unknown error": "Errore Sconosciuto"
 
+T9n.get 'At least 1 digit, 1 lowercase and 1 uppercase', true, {digit: 'un', lowercase: 1, uppercase: 1}
 
 T9n.map "it", it
