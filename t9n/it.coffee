@@ -45,7 +45,7 @@ it =
 
   "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Ti è stata inviata una nuova email. Se non trovi l' email nella tua posta in arrivo controllate che non sia stata spostata nella cartella SPAM."
   "Already verified": "Gi\à verificato"
-  "At least 1 digit, 1 lowercase and 1 uppercase": "Almeno @{digit} numero, @{lowercase} carattere minuscolo e @{uppercase} maiuscolo"
+  "At least 1 digit, 1 lowercase and 1 uppercase": "Almeno 1 numero, 1 carattere minuscolo e 1 maiuscolo"
   "Maximum allowed length": "Lunghezza massima consentita"
   "Minimum required length": "Lunghezza minima consentita"
   "Please verify your email first. Check the email and follow the link!": "Per favore, verifica prima la tua email. Controlla la tua email e segui il collegamento che ti è stato inviato."
@@ -117,7 +117,5 @@ it =
 
       #---- Misc...
       "Unknown error": "Errore Sconosciuto"
-
-T9n.get 'At least 1 digit, 1 lowercase and 1 uppercase', true, {digit: 'un', lowercase: 1, uppercase: 1}
 
 T9n.map "it", it
