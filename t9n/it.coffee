@@ -46,8 +46,7 @@ it =
   "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Ti è stata inviata una nuova email. Se non trovi l' email nella tua posta in arrivo controllate che non sia stata spostata nella cartella SPAM."
   "Already verified": "Gi\à verificato"
   "At least 1 digit, 1 lowercase and 1 uppercase": "Almeno 1 numero, 1 carattere minuscolo e 1 maiuscolo"
-  "Maximum allowed length": "Lunghezza massima consentita"
-  "Minimum required length": "Lunghezza minima consentita"
+  "Invalid email": "Email non valida"
   "Please verify your email first. Check the email and follow the link!": "Per favore, verifica prima la tua email. Controlla la tua email e segui il collegamento che ti è stato inviato."
   "Required Field": "Campo richiesto"
   "Send again": "Invia di nuovo"
@@ -99,7 +98,6 @@ it =
 
       #---- accounts-password
       "Incorrect password": "Password non corretta"
-      "Invalid email": "Email non valida"
       "Must be logged in": "Devi aver eseguito l'accesso"
       "Need to set a username or email": "È necessario specificare un nome utente o un indirizzo email"
       "old password format": "vecchio formato password"
