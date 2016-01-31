@@ -63,9 +63,8 @@ class T9n
 
   @setLanguage: (language) ->
     language = language.replace(new RegExp('-', 'g'), '_')
-    if !Object.keys(@maps[language]).length
-      throw Error "language #{language} does not exist"
-      return
+    unless @maps[language] then return throw Error "language #{language} does not exist"
+    if !Object.keys(@maps[language]).length then return
     if @language == language then return # silent
     @language = language
     @depLanguage.changed()
