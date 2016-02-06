@@ -16,7 +16,12 @@ equals T9n.get('error.accounts.Incorrect password'), 'Enter better password'
 T9n.language = 'en_GB_pidgin_us'
 equals T9n.get('error.accounts.Incorrect password'), 'Dude, enter a less shitty password'
 
+T9n.setLanguage 'pt_SOMETHINGINEXISTANT'
+equals T9n.language, 'pt'
+T9n.setLanguage 'pt_SOMETHINGINEXISTANT_1_2_3_4_5'
+equals T9n.language, 'pt'
+
 try
-  T9n.setLanguage 'pt_SOMETHINGINEXISTANT'
+  T9n.setLanguage 'NOTTHERE_SOMETHINGINEXISTANT'
 catch e
-  equals e.message, 'language pt_SOMETHINGINEXISTANT does not exist'
+  equals e.message, 'language NOTTHERE does not exist'

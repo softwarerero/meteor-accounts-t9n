@@ -62,10 +62,13 @@ class T9n
       {name: @maps[k]['t9Name'], code: k}
 
   @setLanguage: (language) ->
+    if @language is language then return # silent
     language = language.replace(new RegExp('-', 'g'), '_')
-    unless @maps[language] then return throw Error "language #{language} does not exist"
-    if !Object.keys(@maps[language]).length then return
-    if @language == language then return # silent
+    unless @maps[language] # try parent variants
+      return if language.indexOf('_') > 1         
+        @setLanguage language.substring 0, language.lastIndexOf '_'
+      else 
+        throw Error "language #{language} does not exist"
     @language = language
     @depLanguage.changed()
 
