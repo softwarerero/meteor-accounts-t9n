@@ -19,7 +19,7 @@ de =
   emailAddress: "E-Mail Adresse"
   emailResetLink: "Senden"
   forgotPassword: "Passwort vergessen?"
-  ifYouAlreadyHaveAnAccount: "Falls noch kein Konto existiert, bitte hier"
+  ifYouAlreadyHaveAnAccount: "Falls noch ein Konto existiert, bitte hier"
   newPassword: "Neues Passwort"
   newPasswordAgain: "Neues Passwort (wiederholen)"
   optional: "Optional"
