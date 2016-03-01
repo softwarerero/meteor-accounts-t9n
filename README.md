@@ -127,7 +127,7 @@ hr     | Croatian                | tnedich
 hu     | Hungarian               | balazskiss
 id     | Indonesian              | hellstad
 it     | Italian                 | splendido
-ja     | Japanese                | y-ich
+ja     | Japanese                | y-ich, exKAZUu
 kh     | Khmer                   | yuomtheara
 ko     | Korean                  | candicom, buo
 nl     | Dutch                   | willemx, louwers
