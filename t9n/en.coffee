@@ -7,6 +7,7 @@ en =
   add: "add"
   and: "and"
   back: "back"
+  cancel: "Cancel"
   changePassword: "Change Password"
   choosePassword: "Choose a Password"
   clickAgree: "By clicking Register, you agree to our"
@@ -46,6 +47,12 @@ en =
   resendVerificationEmail: "Send email again"
   resendVerificationEmailLink_pre: "Verification email lost?"
   resendVerificationEmailLink_link: "Send again"
+  enterPassword: "Enter password"
+  enterNewPassword: "Enter new password"
+  enterEmail: "Enter email"
+  enterUsername: "Enter username"
+  enterUsernameOrEmail: "Enter username or email"
+  orUse: "Or use"
 
   info:
     emailSent: "Email sent"
@@ -84,6 +91,9 @@ en =
       "You've been logged out by the server. Please log in again.": "You've been logged out by the server. Please log in again."
       "Your session has expired. Please log in again.": "Your session has expired. Please log in again."
       "Already verified": "Already verified"
+      "Invalid email or username": "Invalid email or username"
+      "Internal server error": "Internal server error"
+      "undefined": "Somthing went wrong"
 
 
       #---- accounts-oauth
