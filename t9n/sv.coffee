@@ -6,6 +6,7 @@ sv =
   add: "lägg till"
   and: "och"
   back: "tillbaka"
+  cancel: "Avbryt"
   changePassword: "Ändra lösenord"
   choosePassword: "Välj lösenord"
   clickAgree: "När du väljer att skapa ett konto så godkänner du också vår"
@@ -40,6 +41,12 @@ sv =
   username: "Användarnamn"
   usernameOrEmail: "Användarnamn eller e-postadress"
   with: "med"
+  enterPassword: "Lösenord"
+  enterNewPassword: "Nytt lösenord"
+  enterEmail: "E-post"
+  enterUsername: "Användarnamn"
+  enterUsernameOrEmail: "Användarnamn eller e-post"
+  orUse: "Eller använd"
 
 
   info:
@@ -79,6 +86,9 @@ sv =
       "You are not logged in.": "Du är inte inloggad."
       "You've been logged out by the server. Please log in again.": "Du har loggats ut av servern. Vänligen logga in igen."
       "Your session has expired. Please log in again.": "Din session har gått ut. Vänligen ligga in igen."
+      "Invalid email or username": "Ogiltig e-post eller användarnamn"
+      "Internal server error": "Internt server problem"
+      "undefined": "Något gick fel"
 
 
         #---- accounts-oauth
