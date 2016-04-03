@@ -6,7 +6,7 @@ zh_tw =
   add: "添加"
   and: "和"
   back: "返回"
-  cancel: "Cancel"
+  cancel: "取消"
   changePassword: "修改密碼"
   choosePassword: "選擇密碼"
   clickAgree: "點擊註冊, 您同意我們的"
