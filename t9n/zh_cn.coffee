@@ -1,11 +1,12 @@
 #Language: Simplified Chinese
-#Translators: laosb
+#Translators: laosb, ArthurPai
 
 zh_cn =
 
   add: "添加"
   and: "和"
   back: "返回"
+  cancel: "取消"
   changePassword: "修改密码"
   choosePassword: "新密码"
   clickAgree: "点击注册表示您同意"
@@ -40,7 +41,12 @@ zh_cn =
   username: "用户名"
   usernameOrEmail: "用户名或电子邮箱"
   with: "与"
-
+  enterPassword: "输入密码"
+  enterNewPassword: "输入新密码"
+  enterEmail: "输入电子邮件"
+  enterUsername: "输入用户名"
+  enterUsernameOrEmail: "输入用户名或电子邮件"
+  orUse: "或是使用"
 
   info:
     emailSent: "邮件已发出"
@@ -79,6 +85,9 @@ zh_cn =
       "You are not logged in.": "您还没有登录。"
       "You've been logged out by the server. Please log in again.": "您被服务器登出了。请重新登录。"
       "Your session has expired. Please log in again.": "会话过期，请重新登录。"
+      "Invalid email or username": "不合法的电子邮件或用户名"
+      "Internal server error": "内部服务器错误"
+      "undefined": "未知错误"
 
 
       #---- accounts-oauth
