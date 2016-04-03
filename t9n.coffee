@@ -1,6 +1,6 @@
 Meteor.startup ->
   if Meteor.isClient
-    Template.registerHelper 't9n', (x, params) ->
+    Template?.registerHelper 't9n', (x, params) ->
       T9n.get(x, true, params.hash)
 
 
