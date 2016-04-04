@@ -1,11 +1,12 @@
 #Language: Traditional Chinese
-#Translators: victorleungtw
+#Translators: victorleungtw, ArthurPai
 
 zh_tw =
 
   add: "添加"
   and: "和"
   back: "返回"
+  cancel: "取消"
   changePassword: "修改密碼"
   choosePassword: "選擇密碼"
   clickAgree: "點擊註冊, 您同意我們的"
@@ -40,6 +41,12 @@ zh_tw =
   username: "用戶名"
   usernameOrEmail: "用戶名或電子郵箱"
   with: "與"
+  enterPassword: "輸入密碼"
+  enterNewPassword: "輸入新密碼"
+  enterEmail: "輸入電子郵件"
+  enterUsername: "輸入用戶名"
+  enterUsernameOrEmail: "輸入用戶名或電子郵件"
+  orUse: "或是使用"
 
 
   info:
@@ -79,6 +86,9 @@ zh_tw =
       "You are not logged in.": "您尚未登入。"
       "You've been logged out by the server. Please log in again.": "你已被伺服器登出，請重新登入。"
       "Your session has expired. Please log in again.": "您的協定已過期，請重新登入。"
+      "Invalid email or username": "無效的電子郵件或用戶名"
+      "Internal server error": "内部服务器错误"
+      "undefined": "未知錯誤"
 
 
       #---- accounts-oauth
