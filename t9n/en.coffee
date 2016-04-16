@@ -60,6 +60,12 @@ en =
     passwordChanged: "Password changed"
     passwordReset: "Password reset"
 
+  alert:
+    ok: 'Ok'
+    type:
+      info: 'Notice'
+      error: 'Error'
+      warning: 'Warning'
 
   error:
     emailRequired: "Email is required."
