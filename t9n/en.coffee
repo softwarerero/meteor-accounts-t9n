@@ -127,6 +127,7 @@ en =
 
       #---- Misc...
       "Unknown error": "Unknown error"
+      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again."
 
 
 T9n.map "en", en
