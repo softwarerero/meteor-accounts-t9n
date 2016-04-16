@@ -55,6 +55,12 @@ sv =
     passwordChanged: "Lösenordet har ändrats"
     passwordReset: "Återställ lösenordet"
 
+  alert:
+    ok: 'Ok'
+    type:
+      info: 'Info'
+      error: 'Fel'
+      warning: 'Varning'
 
   error:
     emailRequired: "Det krävs en e-postaddress."
