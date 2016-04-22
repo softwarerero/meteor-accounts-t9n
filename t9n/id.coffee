@@ -8,16 +8,16 @@ id =
   back: "kembali"
   changePassword: "Ganti Password"
   choosePassword: "Masukkan Password"
-  clickAgree: "Dengan anda mendaftar, anda setuju dengan"
+  clickAgree: "Dengan Anda mendaftar, Anda setuju dengan"
   configure: "Mengaturkan"
   createAccount: "Buat Account"
   currentPassword: "Password Anda Saat Ini"
   dontHaveAnAccount: "Tidak punya account?"
   email: "Email"
-  emailAddress: "Alamat Email"
-  emailResetLink: "Link untuk Email Reset"
+  emailAddress: "Alamat email"
+  emailResetLink: "Link untuk email reset"
   forgotPassword: "Lupa password?"
-  ifYouAlreadyHaveAnAccount: "Jika anda belum punya account"
+  ifYouAlreadyHaveAnAccount: "Jika Anda sudah punya akun"
   newPassword: "Password Baru"
   newPasswordAgain: "Password Baru (ulang)"
   optional: "Opsional"
@@ -34,9 +34,9 @@ id =
   signOut: "Sign Out"
   signUp: "Mendaftar"
   signupCode: "Kode Registrasi"
-  signUpWithYourEmailAddress: "Mendaftar dengan alamat email anda"
+  signUpWithYourEmailAddress: "Mendaftar dengan alamat email Anda"
   terms: "Persyaratan Layanan"
-  updateYourPassword: "Perbarui password anda"
+  updateYourPassword: "Perbarui password Anda"
   username: "Username"
   usernameOrEmail: "Username atau email"
   with: "dengan"
@@ -58,7 +58,7 @@ id =
     signInRequired: "Anda harus sign in untuk melakukan itu."
     signupCodeIncorrect: "Kode registrasi salah."
     signupCodeRequired: "Kode registrasi dibutuhkan."
-    usernameIsEmail: "Username anda tidak bisa sama dengan email address."
+    usernameIsEmail: "Username Anda tidak bisa sama dengan email address."
     usernameRequired: "Username dibutuhkan."
 
 
@@ -78,7 +78,7 @@ id =
       "Username already exists.": "Username sudah dipakai."
       "You are not logged in.": "Anda belum login."
       "You've been logged out by the server. Please log in again.": "Anda belum dilogout oleh server. Silahkan coba login lagi."
-      "Your session has expired. Please log in again.": "Session anda telah kedaluarsa. Silahkan coba login lagi."
+      "Your session has expired. Please log in again.": "Session Anda telah kadaluarsa. Silahkan coba login lagi."
 
 
       #---- accounts-oauth
@@ -86,7 +86,7 @@ id =
 
 
       #---- accounts-password-client
-      "Password is old. Please reset your password.": "Password anda terlalu tua. Silahkan ganti password anda."
+      "Password is old. Please reset your password.": "Password Anda terlalu tua. Silahkan ganti password Anda."
 
 
       #---- accounts-password
@@ -97,11 +97,11 @@ id =
       "old password format": "format password lama"
       "Password may not be empty": "Password tidak boleh kosong"
       "Signups forbidden": "Signup dilarang"
-      "Token expired": "Token telah kedaluarsa"
+      "Token expired": "Token telah kadaluarsa"
       "Token has invalid email address": "Token memberikan alamat email yang tidak valid"
       "User has no password set": "User belum memasukkan password"
       "User not found": "User tidak ditemukan"
-      "Verify email link expired": "Link untuk verifikasi alamat email telah kedaluarsa"
+      "Verify email link expired": "Link untuk verifikasi alamat email telah kadaluarsa"
       "Verify email link is for unknown address": "Link untuk verifikasi alamat email memberikan alamat email yang tidak dikenalkan"
 
       #---- match
