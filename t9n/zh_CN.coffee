@@ -1,7 +1,7 @@
 #Language: Simplified Chinese
 #Translators: laosb, ArthurPai
 
-zh_cn =
+zh_CN =
 
   add: "添加"
   and: "和"
@@ -120,5 +120,5 @@ zh_cn =
       "Unknown error": "未知错误"
 
 
-T9n.map "zh_cn", zh_cn
-T9n.map "zh-CN", zh_cn
+T9n.map "zh_CN", zh_CN
+T9n.map "zh-CN", zh_CN
