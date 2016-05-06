@@ -1,7 +1,7 @@
 #Language: Traditional Chinese
 #Translators: victorleungtw, ArthurPai
 
-zh_tw =
+zh_TW =
 
   add: "添加"
   and: "和"
@@ -121,5 +121,5 @@ zh_tw =
       "Unknown error": "未知錯誤"
 
 
-T9n.map "zh_tw", zh_tw
-T9n.map "zh-TW", zh_tw
+T9n.map "zh_TW", zh_TW
+T9n.map "zh-TW", zh_TW

@@ -1,7 +1,7 @@
 #Language: Traditional Chinese (Hong Kong)
 #Translators: daveeel
 
-zh_hk =
+zh_HK =
 
   add: "新增"
   and: "和"
@@ -111,5 +111,5 @@ zh_hk =
       "Unknown error": "無法確認的系統問題"
 
 
-T9n.map "zh_hk", zh_hk
-T9n.map "zh-HK", zh_hk
+T9n.map "zh_HK", zh_HK
+T9n.map "zh-HK", zh_HK
