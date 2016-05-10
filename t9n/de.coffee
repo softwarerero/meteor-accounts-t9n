@@ -4,7 +4,7 @@
 de =
 
   t9Name: 'Deutsch'
-  
+
   add: "hinzufügen"
   and: "und"
   back: "zurück"
@@ -42,7 +42,11 @@ de =
   username: "Benutzername"
   usernameOrEmail: "Benutzername oder E-Mail"
   with: "mit"
-
+  "Verification email lost?" : "Verifizierungsemail verloren?"
+  "Send again" : "Erneut senden"
+  "Send the verification email again" : "Verifizierungsemail erneut senden"
+  "Send email again" : "Email erneut senden"
+  "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde verschickt. Sollte sich die Email nicht im Posteingang befinden, empfiehlt es sich, den Spamordner zu überprüfen."
 
   info:
     emailSent: "E-Mail gesendet"
@@ -62,7 +66,6 @@ de =
     signupCodeRequired: "Registrierungscode benötigt."
     usernameIsEmail: "Benutzername darf keine E-Mail Adresse sein."
     usernameRequired: "Benutzername benötigt."
-
 
     accounts:
 
@@ -105,11 +108,7 @@ de =
       "User not found": "Benutzer nicht gefunden"
       "Verify email link expired": "Link zur E-Mail Verifizierung ist abgelaufen"
       "Verify email link is for unknown address": "Link zur Verifizierung ist für eine unbekannte E-Mail Adresse"
-      "Verification email lost?" : "Verifizierungsemail verloren?"
-      "Send again" : "Erneut senden"
-      "Send the verification email again" : "Verifizierungsemail erneut senden"
-      "Send email again" : "Email erneut senden"
-      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde verschickt. Sollte sich die Email nicht im Posteingang befinden, empfiehlt es sich, den Spamordner zu überprüfen."
+      "Already verified" : "Diese E-Mail-Adresse ist bereits verifiziert"
 
       #---- match
       "Match failed": "Abgleich fehlgeschlagen"
