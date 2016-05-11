@@ -90,7 +90,7 @@ nl =
 
 
       #---- accounts-Password
-      "Incorrect Password": "Onjuist wachtwoord"
+      "Incorrect password": "Onjuist wachtwoord"
       "Invalid email": "Ongeldig e-mailadres"
       "Must be logged in": "U moet aangemeld zijn"
       "Need to set a username or email": "Gebruikersnaam of e-mailadres moet ingesteld zijn"
