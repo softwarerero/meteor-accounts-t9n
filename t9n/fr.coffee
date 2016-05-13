@@ -10,7 +10,7 @@ fr =
   back: "retour"
   changePassword: "Modifier le mot de passe"
   choosePassword: "Choisir le mot de passe"
-  clickAgree: "En cliquant sur « S'enregistrer », vous acceptez notre"
+  clickAgree: "En cliquant sur « S'enregistrer », vous acceptez nos"
   configure: "Configurer"
   createAccount: "Créer un compte"
   currentPassword: "Mot de passe actuel"
@@ -43,12 +43,24 @@ fr =
   usernameOrEmail: "Nom d'utilisateur ou adresse e-mail"
   with: "avec"
 
+  "Verification email lost?": "Vous n'avez pas reçu votre email de vérification?"
+  "Send again": "Recevoir un nouvel email"
+  "Send the verification email again": "Recevoir un nouvel email de vérification"
+  "Send email again": "Renvoyer un email"
+  "Minimum required length: 6": "Veuillez entrer au moins 6 caractères"
+  "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nouvel email vient de vous être envoyé. Si vous ne le trouvez pas dans votre boite de réception, vérifiez dans vos spams.",
+  "Required Field" : "Ce champ est obligatoire"
+  "Successful Registration! Please check your email and follow the instructions.": "Votre compte est enregistré. Vous allez recevoir un email contenant les instructions pour valider votre compte"
 
   info:
     emailSent: "E-mail envoyé"
     emailVerified: "Adresse e-mail verifiée"
     passwordChanged: "Mot de passe modifié"
     passwordReset: "Mot de passe réinitialisé"
+    emailSent: "L'email est envoyé"
+    emailVerified: "L'email est vérifié"
+    passwordChanged: "Le mot de passe a été modifié"
+    passwordReset: "Le mot de passe a été mis à jour"
 
 
   error:
@@ -72,7 +84,7 @@ fr =
       "Email already exists.": "Adresse e-mail déjà utilisée."
       "Email doesn't match the criteria.": "L'adresse e-mail ne correspond pas aux critères."
       "Invalid login token": "Jeton d'authentification invalide"
-      "Login forbidden": "Authentification interdite"
+      "Login forbidden": "Votre identifiant ou votre mot de passe est incorrect"
       #"Service " + options.service + " already configured": "Le service " + options.service + " est déjà configuré"
       "Service unknown": "Service inconnu"
       "Unrecognized options for login request": "Options inconnues pour la requête d'authentification"
@@ -104,6 +116,7 @@ fr =
       "User has no password set": "L'utilisateur n'a pas de mot de passe"
       "User not found": "Utilisateur inconnu"
       "Verify email link expired": "Lien de vérification d'e-mail expiré"
+      "Please verify your email first. Check the email and follow the link!": "Votre email n'est pas validé. Merci de cliquer sur le lien que vous avez reçu"
       "Verify email link is for unknown address": "Le lien de vérification d'e-mail réfère à une adresse inconnue"
 
       #---- match
