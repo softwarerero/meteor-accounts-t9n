@@ -115,7 +115,7 @@ Code   | Language                | Contributor(s)
 ar     | Arabic                  | eahefnawy
 ca     | Catalan                 | ixdi
 cs     | Czech                   | mdede
-da     | Danish                   | LarsBuur
+da     | Danish                  | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
 es     | Spanish                 | softwarerero, robhunt3r
