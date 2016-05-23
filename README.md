@@ -2,7 +2,7 @@
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
 
-Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
+Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Estoninan, Farsi, French, German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Turkish, Ukrainian and Vietnamese.
 
 ## Installation
 ```meteor add softwarerero:accounts-t9n```
@@ -120,6 +120,7 @@ de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
 es     | Spanish                 | softwarerero, robhunt3r
 es_ES / es-ES  | Spanish for Spain       | maomorales
+et     | Estonian                | krishaamer
 fa     | Farsi                   | pajooh
 fr     | French                  | djhi
 he     | Hebrew                  | noamyoungerm
