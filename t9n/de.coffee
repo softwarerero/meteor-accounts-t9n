@@ -61,7 +61,7 @@ de =
     pwdsDontMatch: "Passwörter stimmen nicht überein."
     pwOneDigit: "Passwort muss mindestens eine Ziffer enthalten."
     pwOneLetter: "Passwort muss mindestens einen Buchstaben enthalten."
-    signInRequired: "Ein Anmeldung ist erforderlich."
+    signInRequired: "Eine Anmeldung ist erforderlich."
     signupCodeIncorrect: "Registrierungscode ungültig."
     signupCodeRequired: "Registrierungscode benötigt."
     usernameIsEmail: "Benutzername darf keine E-Mail Adresse sein."
