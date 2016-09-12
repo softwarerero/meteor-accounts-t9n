@@ -97,7 +97,7 @@ de =
       #---- accounts-password
       "Incorrect password": "Falsches Passwort"
       "Invalid email": "Ungültige E-Mail Adresse"
-      "Must be logged in": "Ein Anmeldung ist erforderlich"
+      "Must be logged in": "Eine Anmeldung ist erforderlich"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
 #>    "old password format":
       "Password may not be empty": "Das Passwort darf nicht leer sein"
