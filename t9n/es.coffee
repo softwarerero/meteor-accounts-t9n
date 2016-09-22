@@ -18,7 +18,7 @@ es =
   email: "Email"
   emailAddress: "Dirección de email"
   emailResetLink: "Reiniciar email"
-  forgotPassword: "Olvidó su contraseña?"
+  forgotPassword: "¿Olvidó su contraseña?"
   ifYouAlreadyHaveAnAccount: "Si ya tiene una cuenta"
   newPassword: "Nueva contraseña"
   newPasswordAgain: "Nueva contraseña (repetir)"
