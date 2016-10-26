@@ -3,7 +3,7 @@
 en =
 
   t9Name: 'English'
-  
+
   add: "add"
   and: "and"
   back: "back"
@@ -99,7 +99,7 @@ en =
       "Already verified": "Already verified"
       "Invalid email or username": "Invalid email or username"
       "Internal server error": "Internal server error"
-      "undefined": "Somthing went wrong"
+      "undefined": "Something went wrong"
 
 
       #---- accounts-oauth
