@@ -109,7 +109,7 @@ es =
 
 
       #---- accounts-password
-      "Incorrect password": "Contraseña inválida"No estas autenticado.
+      "Incorrect password": "Contraseña inválida. No estas autenticado."
       "Invalid email": "Email inválida"
       "Must be logged in": "Debes ingresar"
       "Need to set a username or email": "Tienes que especificar un usuario o un email"
