@@ -4,3 +4,4 @@ smart.lock
 .meteor
 packages
 .versions
+.DS_Store
