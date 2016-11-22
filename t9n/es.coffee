@@ -98,6 +98,10 @@ es =
       "You are not logged in.": "No estas autenticado."
       "You've been logged out by the server. Please log in again.": "Has sido desconectado por el servidor. Por favor ingresa de nuevo."
       "Your session has expired. Please log in again.": "Tu sesión ha expirado. Por favor ingresa de nuevo."
+      "Already verified": "Ya ha sido verificada"
+      "Invalid email or username": "Email o nombre de usuario no validos"
+      "Internal server error": "Error interno del servidor"
+      "undefined": "Algo ha ido mal"
 
 
       #---- accounts-oauth
@@ -122,12 +126,16 @@ es =
       "User not found": "Usuario no encontrado"
       "Verify email link expired": "El enlace para verificar el email ha expirado"
       "Verify email link is for unknown address": "El enlace para verificar el email contiene una dirección desconocida"
+      "At least 1 digit, 1 lowercase and 1 uppercase": "Almenos tiene que contener 1 numero, 1 miniscula y 1 mayuscula"
+      "Please verify your email first. Check the email and follow the link!": "Por favor compruebe su email primero. Siga el link que le ha sido enviado."
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nuevo correo te ha sido enviado. Si no ves el correo en tu bandeja comprueba tu carpeta de spam."
 
       #---- match
       "Match failed": "Encontrar pareja coincidente ha fallado"
 
       #---- Misc...
       "Unknown error": "Error desconocido"
+      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Error, demasiadas peticiones. Por favor no vaya tan rapido. Tienes que esperar almenos 1 segundo antes de provar otra vez."
 
 
 T9n.map "es", es
