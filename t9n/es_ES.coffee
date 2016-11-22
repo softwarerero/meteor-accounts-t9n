@@ -40,6 +40,7 @@ es_ES =
   username: "Usuario"
   usernameOrEmail: "Usuario o email"
   with: "con"
+  orUse: "O puedes usar"
 
   info:
     emailSent: "Email enviado"
