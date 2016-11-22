@@ -100,12 +100,12 @@ Tip: If you do not want to expose the reason why a login was unsuccessful for se
 
     T9n.language = 'en'
     equals T9n.get('error.accounts.Incorrect password'), 'Incorrect password'
-    
+
     T9n.map 'en_GB', 'error.accounts.Incorrect password': 'You might want to enter a more correct version of your password'
     T9n.language = 'en_GB'
     equals T9n.get('error.accounts.Incorrect password'), 'You might want to enter a more correct version of your password'
-    
-Starting from (v.1.2.2) you can also do `setLanguage('en-GB')` and it gets converted internally to 'en_GB'. This is usefull for taking the language string directly from an http header. 
+
+Starting from (v.1.2.2) you can also do `setLanguage('en-GB')` and it gets converted internally to 'en_GB'. This is usefull for taking the language string directly from an http header.
 
 
 #Language codes and contributions
@@ -118,8 +118,8 @@ cs     | Czech                   | mdede
 da     | Danish                  | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
-es     | Spanish                 | softwarerero, robhunt3r
-es_ES / es-ES  | Spanish for Spain       | maomorales
+es     | Spanish                 | softwarerero, robhunt3r, PolGuixe
+es_ES / es-ES  | Spanish for Spain       | maomorales, PolGuixe
 et     | Estonian                | krishaamer
 fa     | Farsi                   | pajooh
 fr     | French                  | djhi
