@@ -133,7 +133,7 @@ kh     | Khmer                   | yuomtheara
 ko     | Korean                  | candicom, buo
 nl     | Dutch                   | willemx, louwers
 no_NB / no-NB  | Norwegian bokmål        | kjetilge
-pl     | Polish                  | pwldp, wareczek
+pl     | Polish                  | pwldp, wareczek, spiotr12
 pt     | Portuguese (Brasil)     | alanmeira, Tadeu Caldararo
 pt_PT / pt-PT  | Portuguese (Portugal)   | tdbs
 ro     | Romanian                | alexhuszar
