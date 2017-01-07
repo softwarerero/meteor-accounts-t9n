@@ -99,7 +99,7 @@ pl =
       "Already verified": "Już zweryfikowano"
       "Invalid email or username": "Niewłaściwy adress e-mail lub nazwa użytkownika"
       "Internal server error": "Błąd wewnętrzny serwera"
-      "undefined": "Usp, coś poszło nie tak"
+      "undefined": "Ups, coś poszło nie tak"
 
 
       #---- accounts-oauth
