@@ -1,11 +1,13 @@
-#Language: Polish, translators: pwldp
-
+#Language: Polish, translators: pwldp, spiotr12
 
 pl =
+
+  t9Name: 'Polski'
 
   add: "dodaj"
   and: "i"
   back: "powrót"
+  cancel: "Anuluj"
   changePassword: "Zmień hasło"
   choosePassword: "Wybierz hasło"
   clickAgree: "Klikając na Zarejestruj się zgadzasz się z naszą"
@@ -40,7 +42,17 @@ pl =
   username: "Nazwa użytkownika"
   usernameOrEmail: "Nazwa użytkownika lub adres e-mail"
   with: "z"
-
+  maxAllowedLength: "Maksymalna dopuszczalna długość"
+  minRequiredLength: "Minimalna wymagana długość"
+  resendVerificationEmail: "Wyślij maila ponownie"
+  resendVerificationEmailLink_pre: "Zgubiłeś mail weryfikacyjny?"
+  resendVerificationEmailLink_link: "Wyślij ponownie"
+  enterPassword: "Wprowadź hasło"
+  enterNewPassword: "Wprowadź nowe hasło"
+  enterEmail: "Wprowadź adres e-mail"
+  enterUsername: "Wprowadź nazwę użytkownika"
+  enterUsernameOrEmail: "Wprowadź nazwę użytkownika lub adres e-mail"
+  orUse: "Lub użyj",
 
   info:
     emailSent: "Adres e-mail wysłany"
@@ -48,6 +60,12 @@ pl =
     passwordChanged: "Hasło zmienione"
     passwordReset: "Hasło wyzerowane"
 
+  alert:
+    ok: 'Ok'
+    type:
+      info: 'Uwaga'
+      error: 'Błąd'
+      warning: 'Ostrzeżenie'
 
   error:
     emailRequired: "Wymagany jest adres e-mail."
@@ -63,7 +81,6 @@ pl =
 
 
     accounts:
-
       #---- accounts-base
       #"@" + domain + " email required":
       #"A login handler should return a result or undefined":
@@ -79,6 +96,10 @@ pl =
       "You are not logged in.": "Nie jesteś zalogowany."
       "You've been logged out by the server. Please log in again.": "Zostałeś wylogowane przez serwer. Zaloguj się ponownie."
       "Your session has expired. Please log in again.": "Twoja sesja wygasła. Zaloguj się ponownie."
+      "Already verified": "Już zweryfikowano"
+      "Invalid email or username": "Niewłaściwy adress e-mail lub nazwa użytkownika"
+      "Internal server error": "Błąd wewnętrzny serwera"
+      "undefined": "Ups, coś poszło nie tak"
 
 
       #---- accounts-oauth
@@ -103,12 +124,16 @@ pl =
       "User not found": "Nie znaleziono użytkownika"
       "Verify email link expired": "Link weryfikacyjny wygasł"
       "Verify email link is for unknown address": "Link weryfikacyjny jest dla nieznanego adresu"
+      "At least 1 digit, 1 lowercase and 1 uppercase": "Przynajmniej jedna cyfra, 1 mała i 1 duża litera"
+      "Please verify your email first. Check the email and follow the link!": "Proszę najpierw zweryfikowac adres e-mail. Sprawdź swojego maila i podążaj za linkiem!"
+      "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Nowy e-mail został wysłany na twój adres. Jeśli wiadomość nie pojawi się w skrzynce odbiorczej, proszę sprawdzić w folderze ze sapmem."
 
       #---- match
       "Match failed": "Błędne dopasowanie"
 
       #---- Misc...
       "Unknown error": "Nieznany błąd"
+      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Błąd, zbyt dużo żądań. Proszę zwolnić. Prosimy odczekać 1 sekundę przed kolejną próbą."
 
 
 T9n.map "pl", pl
