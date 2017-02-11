@@ -122,6 +122,7 @@ es     | Spanish                 | softwarerero, robhunt3r, PolGuixe
 es_ES / es-ES  | Spanish for Spain       | maomorales, PolGuixe
 et     | Estonian                | krishaamer
 fa     | Farsi                   | pajooh
+fi     | Finnish                 | xet7
 fr     | French                  | djhi
 he     | Hebrew                  | noamyoungerm
 hr     | Croatian                | tnedich
