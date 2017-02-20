@@ -142,6 +142,7 @@ ru     | Russian                 | timtch
 sk     | Slovak                  | MartinBucko, aladinko
 sl     | Slovenian               | alesvaupotic
 sv     | Swedish                 | timbrandin
+th     | Thai                    | Prawee
 tr     | Turkish                 | serkandurusoy
 uk     | Ukrainian               | SkeLLLa
 vi     | Vietnamese              | olragon
