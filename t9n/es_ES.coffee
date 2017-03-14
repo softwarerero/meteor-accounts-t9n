@@ -1,5 +1,5 @@
 #Language: Spanish
-#Translators: softwarerero, maomorales
+#Translators: softwarerero, maomorales, mortaldraw
 
 es_ES =
 
@@ -7,7 +7,7 @@ es_ES =
 
   add: "agregar"
   and: "y"
-  back: "atrás"
+  back: "regresar"
   cancel: "Cancelar"
   changePassword: "Cambiar Contraseña"
   choosePassword: "Eligir Contraseña"
@@ -16,11 +16,11 @@ es_ES =
   createAccount: "Crear cuenta"
   currentPassword: "Contraseña actual"
   dontHaveAnAccount: "¿No estás registrado?"
-  email: "Email"
-  emailAddress: "Dirección de email"
-  emailResetLink: "Restaurar email"
+  email: "Correo electrónico"
+  emailAddress: "Correo electrónico"
+  emailResetLink: "Restaurar dirección de correo electrónico"
   forgotPassword: "¿Has olvidado tu contraseña?"
-  ifYouAlreadyHaveAnAccount: "Ya tienes una cuenta, "
+  ifYouAlreadyHaveAnAccount: "Si ya tienes una cuenta, "
   newPassword: "Nueva Contraseña"
   newPasswordAgain: "Nueva Contraseña (repetición)"
   optional: "Opcional"
@@ -29,7 +29,7 @@ es_ES =
   passwordAgain: "Contraseña (repetición)"
   privacyPolicy: "Póliza de Privacidad"
   remove: "remover"
-  resetYourPassword: "Recuperar tu contraseña"
+  resetYourPassword: "Recuperar contraseña"
   setPassword: "Definir Contraseña"
   sign: "Entrar"
   signIn: "Entrar"
@@ -37,28 +37,28 @@ es_ES =
   signOut: "Salir"
   signUp: "Regístrate"
   signupCode: "Código para registrarte"
-  signUpWithYourEmailAddress: "Regístrate con tu email"
+  signUpWithYourEmailAddress: "Regístrate con tu correo electrónico"
   terms: "Términos de Uso"
   updateYourPassword: "Actualizar tu contraseña"
   username: "Usuario"
-  usernameOrEmail: "Usuario o email"
+  usernameOrEmail: "Usuario o correo electrónico"
   with: "con"
   maxAllowedLength: "Longitud máxima permitida"
   minRequiredLength: "Longitud máxima requerida"
-  resendVerificationEmail: "Mandar email de nuevo"
-  resendVerificationEmailLink_pre: "Email de verificación perdida?"
+  resendVerificationEmail: "Mandar correo de nuevo"
+  resendVerificationEmailLink_pre: "Correo de verificación perdido?"
   resendVerificationEmailLink_link: "Volver a mandar"
   enterPassword: "Introducir contraseña"
   enterNewPassword: "Introducir contraseña nueva"
-  enterEmail: "Introducir email"
-  enterUsername: "Introducir nombre de usario"
-  enterUsernameOrEmail: "Introducir nombre de usario o email"
+  enterEmail: "Introducir correo electrónico"
+  enterUsername: "Introducir nombre de usuario"
+  enterUsernameOrEmail: "Introducir nombre de usuario o correo electrónico"
   orUse: "O puedes usar"
 
   info:
-    emailSent: "Email enviado"
-    emailVerified: "Email verificado"
-    passwordChanged: "Contraseña cambiado"
+    emailSent: "Mensaje enviado"
+    emailVerified: "Dirección de correo verificada"
+    passwordChanged: "Contraseña cambiada"
     passwordReset: "Resetar Contraseña"
 
   alert:
@@ -69,7 +69,7 @@ es_ES =
       warning: 'Advertencia'
 
   error:
-    emailRequired: "El email es necesario."
+    emailRequired: "La dirección de correo electrónico es necesaria."
     minChar: "7 carácteres mínimo."
     pwdsDontMatch: "Contraseñas no coninciden"
     pwOneDigit: "mínimo un dígito."
@@ -78,7 +78,7 @@ es_ES =
     signupCodeIncorrect: "Código de registro inválido."
     signupCodeRequired: "Se requiere un código de registro."
     usernameIsEmail: "El usuario no puede ser una dirección de correo."
-    usernameRequired: "Se quiere nombre de usuario."
+    usernameRequired: "Se requiere nombre de usuario."
 
 
     accounts:
@@ -88,18 +88,18 @@ es_ES =
       #"A login handler should return a result or undefined":
       "Email already exists.": "El correo ya existe."
       "Email doesn't match the criteria.": "El correo no coincide."
-      "Invalid login token": "Token de inicio de sesión invalido"
+      "Invalid login token": "Token de inicio de sesión inválido"
       "Login forbidden": "Inicio de sesión prohibido"
       #"Service " + options.service + " already configured":
       "Service unknown": "Servicio desconocido"
       "Unrecognized options for login request": "Opciones desconocidas para solicitud de inicio de sesión"
       "User validation failed": "No se ha podido validar el usuario"
       "Username already exists.": "El usuario ya existe."
-      "You are not logged in.": "No estas conectado."
+      "You are not logged in.": "No estás conectado."
       "You've been logged out by the server. Please log in again.": "Has sido desconectado por el servidor. Por favor inicie sesión de nuevo."
       "Your session has expired. Please log in again.": "Tu sesión ha expirado. Por favor inicie sesión de nuevo."
       "Already verified": "Ya ha sido verificada"
-      "Invalid email or username": "Email o nombre de usuario no validos"
+      "Invalid email or username": "Dirección electrónica o nombre de usuario no validos"
       "Internal server error": "Error interno del servidor"
       "undefined": "Algo ha ido mal"
 
@@ -113,20 +113,20 @@ es_ES =
 
       #---- accounts-password
       "Incorrect password": "Contraseña inválida."
-      "Invalid email": "Email inválida"
+      "Invalid email": "Correo electrónico inválido"
       "Must be logged in": "Debes ingresar"
-      "Need to set a username or email": "Tienes que especificar un usuario o un email"
+      "Need to set a username or email": "Tienes que especificar un usuario o una dirección de correo"
       "old password format": "formato viejo de contraseña"
-      "Password may not be empty": "Contraseña no puede quedar vacía"
+      "Password may not be empty": "Contraseña no debe quedar vacía"
       "Signups forbidden": "Registro prohibido"
       "Token expired": "Token expirado"
-      "Token has invalid email address": "Token contiene un email inválido"
+      "Token has invalid email address": "Token contiene una dirección electrónica inválido"
       "User has no password set": "Usuario no tiene contraseña"
       "User not found": "Usuario no encontrado"
-      "Verify email link expired": "El enlace para verificar el email ha expirado"
-      "Verify email link is for unknown address": "El enlace para verificar el email contiene una dirección desconocida"
-      "At least 1 digit, 1 lowercase and 1 uppercase": "Almenos tiene que contener 1 numero, 1 miniscula y 1 mayuscula"
-      "Please verify your email first. Check the email and follow the link!": "Por favor compruebe su email primero. Siga el link que le ha sido enviado."
+      "Verify email link expired": "El enlace para verificar el correo electrónico ha expirado"
+      "Verify email link is for unknown address": "El enlace para verificar el correo electrónico contiene una dirección desconocida"
+      "At least 1 digit, 1 lowercase and 1 uppercase": "Al menos tiene que contener un número, una minúscula y una mayúscula"
+      "Please verify your email first. Check the email and follow the link!": "Por favor comprueba tu correo electrónico primero. Sigue el link que te ha sido enviado."
       "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nuevo correo te ha sido enviado. Si no ves el correo en tu bandeja comprueba tu carpeta de spam."
 
       #---- match
@@ -134,7 +134,7 @@ es_ES =
 
       #---- Misc...
       "Unknown error": "Error desconocido"
-      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Error, demasiadas peticiones. Por favor no vaya tan rapido. Tienes que esperar almenos 1 segundo antes de provar otra vez."
+      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Error, demasiadas peticiones. Por favor no vayas tan rapido. Tienes que esperar al menos un segundo antes de probar otra vez."
 
 
 T9n.map "es_ES", es_ES
