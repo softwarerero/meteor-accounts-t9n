@@ -118,8 +118,10 @@ cs     | Czech                   | mdede
 da     | Danish                  | LarsBuur
 de     | German                  | softwarerero, robhunt3r, sclausen, sarasate
 el     | Greek                   | mutil
-es     | Spanish                 | softwarerero, robhunt3r, PolGuixe
-es_ES / es-ES  | Spanish for Spain       | maomorales, PolGuixe
+es     | Spanish                 | softwarerero, robhunt3r, PolGuixe, mortaldraw
+es_formal     | Spanish                 | softwarerero, robhunt3r, PolGuixe, mortaldraw
+es_ES / es-ES  | Spanish for Spain       | maomorales, PolGuixe, mortaldraw
+es_ES_formal / es-ES  | Spanish for Spain       | maomorales, PolGuixe, mortaldraw
 et     | Estonian                | krishaamer
 fa     | Farsi                   | pajooh
 fi     | Finnish                 | xet7
