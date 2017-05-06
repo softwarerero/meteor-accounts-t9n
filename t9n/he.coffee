@@ -39,7 +39,7 @@ he =
   terms: "לתנאי השימוש"
   updateYourPassword: "עדכון סיסמא"
   username: "שם משתמש"
-  usernameOrEmail: "שם משמש או דוא\"ל"
+  usernameOrEmail: "שם משתמש או דוא\"ל"
   with: "עם"
 
 
