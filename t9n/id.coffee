@@ -111,4 +111,5 @@ id =
       "Unknown error": "Error tidak dikenalkan"
 
 
-T9n.map "id", id
+T9n?.map "id", id
+module.exports = id

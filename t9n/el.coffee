@@ -111,4 +111,5 @@ el =
       "Unknown error": "Άγνωστο σφάλμα"
 
 
-T9n.map "el", el
+T9n?.map "el", el
+module.exports = el

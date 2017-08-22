@@ -112,4 +112,5 @@ he =
       "Unknown error": "שגיאה לא ידועה"
 
 
-T9n.map "he", he
+T9n?.map "he", he
+module.exports = he

@@ -111,4 +111,5 @@ ar =
       "Unknown error": "خطأ غير معروف"
 
 
-T9n.map "ar", ar
+T9n?.map "ar", ar
+module.exports = ar

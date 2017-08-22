@@ -111,4 +111,5 @@ da =
       "Unknown error": "Ukendt fejl"
 
 
-T9n.map "da", da
+T9n?.map "da", da
+module.exports = da

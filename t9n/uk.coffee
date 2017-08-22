@@ -111,4 +111,5 @@ uk =
       "Unknown error": "Невідома помилка"
 
 
-T9n.map "uk", uk
+T9n?.map "uk", uk
+module.exports = uk

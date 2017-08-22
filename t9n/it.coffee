@@ -116,4 +116,5 @@ it =
       #---- Misc...
       "Unknown error": "Errore Sconosciuto"
 
-T9n.map "it", it
+T9n?.map "it", it
+module.exports = it

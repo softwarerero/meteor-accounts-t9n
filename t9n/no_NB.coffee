@@ -111,5 +111,6 @@ no_NB =
       "Unknown error": "Ukjent feil"
 
 
-T9n.map "no_NB", no_NB
-T9n.map "no-NB", no_NB
+T9n?.map "no_NB", no_NB
+T9n?.map "no-NB", no_NB
+module.exports = no_NB

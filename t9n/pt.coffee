@@ -3,7 +3,7 @@
 pt =
 
   t9Name: 'Português'
-  
+
   add: "Adicionar"
   and: "e"
   back: "Voltar"
@@ -124,7 +124,7 @@ pt =
       "User not found": "Usuário não encontrado"
       "Verify email link expired": "O link de verificação de e-mail expirou"
       "Verify email link is for unknown address": "O link de verificação de e-mail está configurado para um endereço desconhecido"
-      "At least 1 digit, 1 lowercase and 1 uppercase": "Pelo menos 1 número, 1 letra minúscula and 1 maiúscula"      
+      "At least 1 digit, 1 lowercase and 1 uppercase": "Pelo menos 1 número, 1 letra minúscula and 1 maiúscula"
       "Please verify your email first. Check the email and follow the link!": "Por favor, verifique seu e-mail primeiro. Verifique o e-mail e abra o link!"
       "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Um novo e-mail foi enviado para você. Se o e-mail não aparecer na sua caixa de entrada, verifique a sua caixa de spam."
 
@@ -136,4 +136,5 @@ pt =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Erro, muitas tentativas. Por favor, diminua o ritmo. Você deve aguardar 1 segundo antes de tentar novamente."
 
 
-T9n.map "pt", pt
+T9n?.map "pt", pt
+module.exports = pt

@@ -4,7 +4,7 @@
 et =
 
   t9Name: 'Estonian'
-  
+
   add: "lisa"
   and: "ja"
   back: "tagasi"
@@ -137,4 +137,5 @@ et =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Viga, liiga palju proovimisi. Palun võta aeg maha. Pead ootama vähemalt 1 sekundi, enne kui uuesti proovid."
 
 
-T9n.map "et", et
+T9n?.map "et", et
+module.exports = et

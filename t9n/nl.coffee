@@ -111,4 +111,5 @@ nl =
       "Unknown error": "Onbekende fout"
 
 
-T9n.map "nl", nl
+T9n?.map "nl", nl
+module.exports = nl

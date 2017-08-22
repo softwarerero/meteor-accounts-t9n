@@ -111,4 +111,5 @@ tr =
       "Unknown error": "Bilinmeyen hata"
 
 
-T9n.map "tr", tr
+T9n?.map "tr", tr
+module.exports = tr

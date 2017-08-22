@@ -111,5 +111,6 @@ zh_HK =
       "Unknown error": "無法確認的系統問題"
 
 
-T9n.map "zh_HK", zh_HK
-T9n.map "zh-HK", zh_HK
+T9n?.map "zh_HK", zh_HK
+T9n?.map "zh-HK", zh_HK
+module.exports = zh_HK

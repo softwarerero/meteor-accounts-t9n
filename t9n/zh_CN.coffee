@@ -120,5 +120,6 @@ zh_CN =
       "Unknown error": "未知错误"
 
 
-T9n.map "zh_CN", zh_CN
-T9n.map "zh-CN", zh_CN
+T9n?.map "zh_CN", zh_CN
+T9n?.map "zh-CN", zh_CN
+module.exports = zh_CN

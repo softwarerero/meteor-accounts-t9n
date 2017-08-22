@@ -111,4 +111,5 @@ hr =
       "Unknown error": "Nepoznata pogreška"
 
 
-T9n.map "hr", hr
+T9n?.map "hr", hr
+module.exports = hr

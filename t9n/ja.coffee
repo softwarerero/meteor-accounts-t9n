@@ -121,4 +121,5 @@ ja =
       "Unknown error": "不明なエラー"
 
 
-T9n.map "ja", ja
+T9n?.map "ja", ja
+module.exports = ja

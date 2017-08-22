@@ -111,4 +111,5 @@ hu =
       "Unknown error": "Ismeretlen hiba"
 
 
-T9n.map "hu", hu
+T9n?.map "hu", hu
+module.exports = hu

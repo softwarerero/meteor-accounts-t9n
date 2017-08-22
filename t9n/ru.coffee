@@ -111,4 +111,5 @@ ru =
       "Unknown error": "Неизвестная ошибка"
 
 
-T9n.map "ru", ru
+T9n?.map "ru", ru
+module.exports = ru

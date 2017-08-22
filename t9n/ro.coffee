@@ -111,4 +111,5 @@ ro =
       "Unknown error": "Eroare necunoscută"
 
 
-T9n.map "ro", ro
+T9n?.map "ro", ro
+module.exports = ro

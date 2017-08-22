@@ -5,3 +5,4 @@ smart.lock
 packages
 .versions
 .DS_Store
+node_modules

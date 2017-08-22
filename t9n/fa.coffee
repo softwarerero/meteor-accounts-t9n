@@ -111,4 +111,5 @@ fa =
       "Unknown error": "خطای ناشناخته"
 
 
-T9n.map "fa", fa
+T9n?.map "fa", fa
+module.exports = fa

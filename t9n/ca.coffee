@@ -120,4 +120,5 @@ ca =
       "Unknown error": "Error desconegut"
 
 
-T9n.map "ca", ca
+T9n?.map "ca", ca
+module.exports = ca

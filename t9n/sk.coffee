@@ -111,4 +111,5 @@ sk =
       "Unknown error": "Neznáma chyba"
 
 
-T9n.map "sk", sk
+T9n?.map "sk", sk
+module.exports = sk

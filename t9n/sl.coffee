@@ -111,4 +111,5 @@ sl =
       "Unknown error": "Neznana napaka"
 
 
-T9n.map "sl", sl
+T9n?.map "sl", sl
+module.exports = sl

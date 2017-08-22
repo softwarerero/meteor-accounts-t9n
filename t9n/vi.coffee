@@ -111,4 +111,5 @@ vi =
       "Unknown error": "Lỗi chưa được biết"
 
 
-T9n.map "vi", vi
+T9n?.map "vi", vi
+module.exports = vi

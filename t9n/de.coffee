@@ -117,4 +117,5 @@ de =
       "Unknown error": "Unbekannter Fehler"
 
 
-T9n.map "de", de
+T9n?.map "de", de
+module.exports = de

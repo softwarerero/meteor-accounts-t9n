@@ -111,4 +111,5 @@ accounts:
       "Unknown error":"Neznámá chyba"
 
 
-T9n.map "cs", cs
+T9n?.map "cs", cs
+module.exports = cs

@@ -126,4 +126,5 @@ fr =
       "Unknown error": "Erreur inconnue"
 
 
-T9n.map "fr", fr
+T9n?.map "fr", fr
+module.exports = fr

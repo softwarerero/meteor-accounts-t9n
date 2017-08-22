@@ -121,5 +121,6 @@ zh_TW =
       "Unknown error": "未知錯誤"
 
 
-T9n.map "zh_TW", zh_TW
-T9n.map "zh-TW", zh_TW
+T9n?.map "zh_TW", zh_TW
+T9n?.map "zh-TW", zh_TW
+module.exports = zh_TW

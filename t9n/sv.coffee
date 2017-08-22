@@ -127,4 +127,5 @@ sv =
       "Unknown error": "Okänt fel"
 
 
-T9n.map "sv", sv
+T9n?.map "sv", sv
+module.exports = sv

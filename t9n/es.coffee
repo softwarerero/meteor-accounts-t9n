@@ -138,4 +138,5 @@ es =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Error, demasiadas peticiones. Por favor ve más lento. Debes esperar al menos un segundo antes de probar otra vez."
 
 
-T9n.map "es", es
+T9n?.map "es", es
+module.exports = es

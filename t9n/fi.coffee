@@ -137,4 +137,5 @@ fi =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Virhe, liian monta pyyntöä. Ole hyvä ja hidasta. Sinun täytyy odottaa 1 sekunti ennenkuin yrität uudelleen."
 
 
-T9n.map "fi", fi
+T9n?.map "fi", fi
+module.exports = fi

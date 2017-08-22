@@ -138,4 +138,5 @@ th =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "ผิดพลาด ตอนนี้มีการร้องขอมากเกินไปโปรดรอ 1 วินาทีก่อนค่อยทำอีกครั้ง"
 
 
-T9n.map "th", th
+T9n?.map "th", th
+module.exports = th

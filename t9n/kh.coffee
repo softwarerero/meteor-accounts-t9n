@@ -111,4 +111,5 @@ kh =
       "Unknown error": "មិនស្គាល់កំហុស"
 
 
-T9n.map "kh", kh
+T9n?.map "kh", kh
+module.exports = kh

@@ -4,6 +4,16 @@ This package offers translations for accounts-base, accounts-passwords, accounts
 
 Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Estoninan, Farsi, Finish, French, French (Canada), German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Thai, Turkish, Ukrainian and Vietnamese.
 
+
+## Version 2.0.0
+- The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plan Node.js applications, not only within Meteor.js, see in `./examples/npm` how this could work.
+
+When using `npm` the translation files will not be loaded eagerly any longer. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
+
+To make it work with `npm` the files have been translated to Javascript, so CoffeeScript is an optional dependency from now on.
+
+Reactivity for the language and translations are no longer available. This is a Meteor functionality which is not available in a plain Node environment, which also consumed a lot of resources and many applications never used it. If this is a critical feature for somebody please open a ticket, this could be maybe implemented in a separate package.
+
 ## Installation
 ```meteor add softwarerero:accounts-t9n```
 

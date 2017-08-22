@@ -138,4 +138,5 @@ es_formal =
       "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Error, demasiadas peticiones. Por favor vaya más lento. Debe esperar al menos un segundo antes de probar otra vez."
 
 
-T9n.map "es_formal", es_formal
+T9n?.map "es_formal", es_formal
+module.exports = es_formal
