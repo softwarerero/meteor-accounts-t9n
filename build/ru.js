@@ -94,6 +94,8 @@
     T9n.map("ru", ru);
   }
 
-  module.exports = ru;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = ru;
+  }
 
 }).call(this);

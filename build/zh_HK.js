@@ -98,6 +98,8 @@
     T9n.map("zh-HK", zh_HK);
   }
 
-  module.exports = zh_HK;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = zh_HK;
+  }
 
 }).call(this);

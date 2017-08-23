@@ -113,4 +113,4 @@ pt_PT =
 
 T9n?.map "pt_PT", pt_PT
 T9n?.map "pt-PT", pt_PT
-module.exports = pt_PT
+module?.exports = pt_PT

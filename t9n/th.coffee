@@ -139,4 +139,4 @@ th =
 
 
 T9n?.map "th", th
-module.exports = th
+module?.exports = th

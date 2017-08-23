@@ -15,15 +15,13 @@ T9n.language = "none"
 @equalsCode 'error.anError', '>error.anError<'
 
 T9n.language = "de"
-T9n.map 'de', 'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
-args = 
-  pal: 'buddy'
+T9n.map 'de', 'pun': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
+args =
   subject: "Fischer's Fritz"
   predicate: 'fischt'
   object: 'Fische'
   adverb: 'frische'
-sentence = T9n.get 'sentence', true, args
+sentence = T9n.get 'pun', true, args
 @equals sentence, "Fischer's Fritz fischt frische Fische. Frische Fische fischt Fischer's Fritz."
 
 console.log "tested with #{errors || 'no'} errors."
-

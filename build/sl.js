@@ -94,6 +94,8 @@
     T9n.map("sl", sl);
   }
 
-  module.exports = sl;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = sl;
+  }
 
 }).call(this);

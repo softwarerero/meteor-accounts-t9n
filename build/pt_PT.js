@@ -98,6 +98,8 @@
     T9n.map("pt-PT", pt_PT);
   }
 
-  module.exports = pt_PT;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = pt_PT;
+  }
 
 }).call(this);

@@ -98,6 +98,8 @@
     T9n.map("no-NB", no_NB);
   }
 
-  module.exports = no_NB;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = no_NB;
+  }
 
 }).call(this);

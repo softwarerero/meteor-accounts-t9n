@@ -93,6 +93,8 @@
     T9n.map("nl", nl);
   }
 
-  module.exports = nl;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = nl;
+  }
 
 }).call(this);

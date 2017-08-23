@@ -123,6 +123,8 @@
     T9n.map("et", et);
   }
 
-  module.exports = et;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = et;
+  }
 
 }).call(this);

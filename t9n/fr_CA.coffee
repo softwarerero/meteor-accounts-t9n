@@ -122,4 +122,4 @@ fr_CA =
 
 
 T9n?.map "fr_CA", fr_CA
-module.exports = fr_CA
+module?.exports = fr_CA

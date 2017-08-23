@@ -95,6 +95,8 @@
     T9n.map("vi", vi);
   }
 
-  module.exports = vi;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = vi;
+  }
 
 }).call(this);

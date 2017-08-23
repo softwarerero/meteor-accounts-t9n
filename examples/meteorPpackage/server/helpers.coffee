@@ -14,4 +14,3 @@
   if code
     errText += ", code: #{code}"
   console.error errText
-  

@@ -6,13 +6,20 @@ Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Ch
 
 
 ## Version 2.0.0
-- The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plan Node.js applications, not only within Meteor.js, see in `./examples/npm` how this could work.
+The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plain Node.js applications, not only within Meteor, see in `./examples/npm` how this could work.
 
 When using `npm` the translation files will not be loaded eagerly any longer. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
 
-To make it work with `npm` the files have been translated to Javascript, so CoffeeScript is an optional dependency from now on.
+To make it work with `npm` the files have been translated to JavaScript, so if you use CoffeeScript you can require from the main directory and if you use JavaScript you would import/require from `build`.
 
-Reactivity for the language and translations are no longer available. This is a Meteor functionality which is not available in a plain Node environment, which also consumed a lot of resources and many applications never used it. If this is a critical feature for somebody please open a ticket, this could be maybe implemented in a separate package.
+Breaking change: Reactivity for the language and translations are no longer available. This used a Meteor functionality which is not available in a plain Node environment, which also consumed a lot of resources and many applications never used it. If this is a critical feature for somebody please open a ticket, this could be maybe implemented in a separate package.
+
+The `examples` show different use cases:
+
+- meteorPackage: This is way it has been used in former versions as a meteor package.
+- meteorNpm: Use t9n as npm package within Meteor.
+- nodeJS: Use t9n on the server, also with npm.
+- requireJS: Use t9n on the client with help of requireJS.
 
 ## Installation
 ```meteor add softwarerero:accounts-t9n```
@@ -65,7 +72,7 @@ Example:
 
   If you define a string in your language file like
 
-    'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
+    'pun': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'
 
   and have an object like
 
@@ -77,7 +84,7 @@ Example:
 
   you could call
 
-    T9n.get 'sentence', true, args
+    T9n.get 'pun', true, args
 
   and that should give you
 

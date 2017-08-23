@@ -123,6 +123,8 @@
     T9n.map("th", th);
   }
 
-  module.exports = th;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = th;
+  }
 
 }).call(this);

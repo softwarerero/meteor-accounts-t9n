@@ -112,4 +112,4 @@ ru =
 
 
 T9n?.map "ru", ru
-module.exports = ru
+module?.exports = ru

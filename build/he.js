@@ -93,6 +93,8 @@
     T9n.map("he", he);
   }
 
-  module.exports = he;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = he;
+  }
 
 }).call(this);

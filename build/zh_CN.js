@@ -108,6 +108,8 @@
     T9n.map("zh-CN", zh_CN);
   }
 
-  module.exports = zh_CN;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = zh_CN;
+  }
 
 }).call(this);

@@ -122,4 +122,4 @@ ja =
 
 
 T9n?.map "ja", ja
-module.exports = ja
+module?.exports = ja

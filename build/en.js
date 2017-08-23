@@ -123,6 +123,8 @@
     T9n.map("en", en);
   }
 
-  module.exports = en;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = en;
+  }
 
 }).call(this);

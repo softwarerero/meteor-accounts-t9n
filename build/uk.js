@@ -94,6 +94,8 @@
     T9n.map("uk", uk);
   }
 
-  module.exports = uk;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = uk;
+  }
 
 }).call(this);

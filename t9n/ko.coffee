@@ -105,4 +105,4 @@ ko =
         "Unknown error": "알 수 없는 오류"
 
 T9n?.map "ko", ko
-module.exports = ko
+module?.exports = ko

@@ -112,6 +112,8 @@
     T9n.map("sv", sv);
   }
 
-  module.exports = sv;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = sv;
+  }
 
 }).call(this);

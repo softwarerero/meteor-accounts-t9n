@@ -108,6 +108,8 @@
     T9n.map("fr", fr);
   }
 
-  module.exports = fr;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = fr;
+  }
 
 }).call(this);

@@ -94,6 +94,8 @@
     T9n.map("ko", ko);
   }
 
-  module.exports = ko;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = ko;
+  }
 
 }).call(this);

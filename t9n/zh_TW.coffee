@@ -123,4 +123,4 @@ zh_TW =
 
 T9n?.map "zh_TW", zh_TW
 T9n?.map "zh-TW", zh_TW
-module.exports = zh_TW
+module?.exports = zh_TW

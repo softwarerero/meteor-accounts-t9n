@@ -69,4 +69,4 @@ class T9n
 
 @T9n = T9n
 @t9n = (x, includePrefix, params) -> T9n.get(x)
-module.exports.T9n = T9n
+module?.exports.T9n = T9n

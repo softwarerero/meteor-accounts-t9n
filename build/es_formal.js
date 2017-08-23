@@ -123,6 +123,8 @@
     T9n.map("es_formal", es_formal);
   }
 
-  module.exports = es_formal;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = es_formal;
+  }
 
 }).call(this);

@@ -138,4 +138,4 @@ es_ES_formal =
 
 
 T9n?.map "es_ES_formal", es_ES_formal
-module.exports = es_ES_formal
+module?.exports = es_ES_formal

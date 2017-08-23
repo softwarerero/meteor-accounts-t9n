@@ -112,4 +112,4 @@ id =
 
 
 T9n?.map "id", id
-module.exports = id
+module?.exports = id

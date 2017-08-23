@@ -147,6 +147,8 @@
     return T9n.get(x);
   };
 
-  module.exports.T9n = T9n;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports.T9n = T9n;
+  }
 
 }).call(this);

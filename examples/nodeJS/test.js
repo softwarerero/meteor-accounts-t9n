@@ -1,3 +1,11 @@
+// This example shows how to use meteor-accounts-t9n with npm.
+//
+// Starting from version 2.0 meteor-accounts-t9n can be used in any node.js application, not only Meteor applications. The module name only stays the same for historical reasons.
+//
+// Please look at the example code to see how it can be used:
+//
+// Run the example with `node ./test.js`.
+
 const { T9n } = require('meteor-accounts-t9n');
 const es = require('./node_modules/meteor-accounts-t9n/build/es');
 
@@ -9,12 +17,11 @@ const equals = (a, b) => {
   }
 }
 
-T9n.map('de', {'sentence': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'});
+T9n.map('de', {'pun': '@{subject} @{predicate} @{adverb} @{object}. Frische @{object} @{predicate} @{subject}.'});
 T9n.setLanguage('de');
 equals('de', T9n.getLanguage());
 
-const sentence = T9n.get('sentence', true, {
-  pal: 'buddy',
+const sentence = T9n.get('pun', true, {
   subject: 'Fischer\'s Fritz',
   predicate: 'fischt',
   object: 'Fische',

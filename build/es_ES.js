@@ -123,6 +123,8 @@
     T9n.map("es_ES", es_ES);
   }
 
-  module.exports = es_ES;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = es_ES;
+  }
 
 }).call(this);

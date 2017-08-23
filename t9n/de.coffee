@@ -118,4 +118,4 @@ de =
 
 
 T9n?.map "de", de
-module.exports = de
+module?.exports = de

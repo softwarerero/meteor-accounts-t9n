@@ -123,6 +123,8 @@
     T9n.map("fi", fi);
   }
 
-  module.exports = fi;
+  if (typeof module !== "undefined" && module !== null) {
+    module.exports = fi;
+  }
 
 }).call(this);

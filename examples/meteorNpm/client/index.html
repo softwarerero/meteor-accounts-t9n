@@ -1,0 +1,17 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>T9n Test</title>
+</head>
+
+<body>
+  {{> app}}
+</body>
+
+<template name="app">
+  Lang: {{currentLang}}
+  <h1>{{t9n 'hello' name='Meteor'}}</h1>
+  {{t9n 'pun' subject='Fischer\'s Fritz' predicate='fischt' object='Fische' adverb='frische'}}
+  <br/>
+  <br/>
+  <button>{{t9n 'emailResetLink'}}</button>
+</template>
