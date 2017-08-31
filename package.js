@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Almost i18n, with standard translations for basic meteor packages.",
-  version: "2.0.0-beta.2",
+  version: "2.0.0",
   name: "softwarerero:accounts-t9n",
   git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });
@@ -19,14 +19,14 @@ for (var i = 0; i < LANGUAGES.length; i++) {
 
 Package.on_use(function (api, where) {
   if (api.versionsFrom)
-    api.versionsFrom("METEOR@1.0.1");
+    api.versionsFrom("METEOR@1.1");
   api.add_files(FILES, ['client', 'server']);
-  api.use(['coffeescript', 'deps'], ['client', 'server']);
+  api.use(['coffeescript', 'tracker'], ['client', 'server']);
   api.export('T9n', ['client', 'server']);
 });
 
 
 Package.on_test(function (api) {
   api.add_files(FILES, ['client', 'server']);
-  api.use(['coffeescript', 'deps'], ['client', 'server']);
+  api.use(['coffeescript', 'tracker'], ['client', 'server']);
 });

@@ -12,9 +12,9 @@ When using `npm` the translation files will not be loaded eagerly any longer. Se
 
 To make it work with `npm` the files have been translated to JavaScript, so if you use CoffeeScript you can require from the main directory and if you use JavaScript you would import/require from `build`.
 
-Breaking change: Reactivity for the language and translations are no longer available. This used a Meteor functionality which is not available in a plain Node environment, which also consumed a lot of resources and many applications never used it. If this is a critical feature for somebody please open a ticket, this could be maybe implemented in a separate package.
+In theory this package can be used in any JavaScript project, but reactivity is only available within a Meteor environment.
 
-The `examples` show different use cases:
+These `examples` show different use cases:
 
 - meteorPackage: This is way it has been used in former versions as a meteor package.
 - meteorNpm: Use t9n as npm package within Meteor.

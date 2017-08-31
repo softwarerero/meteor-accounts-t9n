@@ -1,3 +1,5 @@
+tracker = require 'meteor/tracker'
+
 Meteor?.startup ->
   if Meteor.isClient
     Template?.registerHelper 't9n', (x, params) ->
@@ -7,6 +9,9 @@ class T9n
   @maps: {}
   @defaultLanguage: 'en'
   @language: ''
+  @dep: new tracker.Tracker.Dependency() if tracker.Tracker
+  @depLanguage: new tracker.Tracker.Dependency() if tracker.Tracker
+
   @missingPrefix = ">"
   @missingPostfix = "<"
 
@@ -14,8 +19,11 @@ class T9n
     if(!@maps[language])
       @maps[language] = {}
     @registerMap(language, '', false, map)
+    @dep?.changed()
 
   @get: (label, markIfMissing = true, args = {}, language) ->
+    @dep?.depend()
+    @depLanguage?.depend()
     if typeof label != 'string' then return ''
     language ?= @language
     ret = @maps[language]?[label]
@@ -41,12 +49,15 @@ class T9n
         @registerMap(language, prefix + key, true, value)
 
   @getLanguage: () ->
+    @depLanguage?.depend()
     return @language
 
   @getLanguages: () ->
+    @dep?.depend()
     return Object.keys(@maps).sort()
 
   @getLanguageInfo: () ->
+    @dep?.depend()
     keys = Object.keys(@maps).sort()
     for k in keys
       {name: @maps[k]['t9Name'], code: k}
@@ -60,6 +71,8 @@ class T9n
       else
         throw Error "language #{language} does not exist"
     @language = language
+    @depLanguage?.changed()
+
 
   @replaceParams = (str, args) ->
     for key, value of args
