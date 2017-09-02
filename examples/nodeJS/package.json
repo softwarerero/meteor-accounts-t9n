@@ -1,9 +1,0 @@
-{
-  "name": "meteor-t9n-testdriver",
-  "version": "1.0.0",
-  "description": "Test translations for Meteor projects, almost i18n",
-  "main": "test.js",
-  "dependencies": {
-    "meteor-accounts-t9n": "file:////../.."
-  }
-}

@@ -8,18 +8,14 @@ Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Ch
 ## Version 2.0.0
 The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plain Node.js applications, not only within Meteor, see in `./examples/npm` how this could work.
 
-When using `npm` the translation files will not be loaded eagerly any longer. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
+When using `npm` the translation files will no longer be eagerly loaded. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
 
 To make it work with `npm` the files have been translated to JavaScript, so if you use CoffeeScript you can require from the main directory and if you use JavaScript you would import/require from `build`.
-
-In theory this package can be used in any JavaScript project, but reactivity is only available within a Meteor environment.
 
 These `examples` show different use cases:
 
 - meteorPackage: This is way it has been used in former versions as a meteor package.
 - meteorNpm: Use t9n as npm package within Meteor.
-- nodeJS: Use t9n on the server, also with npm.
-- requireJS: Use t9n on the client with help of requireJS.
 
 ## Installation
 ```meteor add softwarerero:accounts-t9n```

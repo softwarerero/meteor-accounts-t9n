@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Almost i18n, with standard translations for basic meteor packages.",
-  version: "2.0.0",
+  version: "2.0.1",
   name: "softwarerero:accounts-t9n",
   git: "https://github.com/softwarerero/meteor-accounts-t9n.git",
 });
