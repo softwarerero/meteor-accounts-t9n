@@ -54,6 +54,7 @@ es_ES =
   enterUsername: "Introducir nombre de usuario"
   enterUsernameOrEmail: "Introducir nombre de usuario o correo electrónico"
   orUse: "O puedes usar"
+  "Required Field": "Compo requerido"
 
   info:
     emailSent: "Mensaje enviado"

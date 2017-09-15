@@ -47,6 +47,7 @@ de =
   "Send the verification email again" : "Verifizierungsemail erneut senden"
   "Send email again" : "Email erneut senden"
   "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde verschickt. Sollte sich die Email nicht im Posteingang befinden, empfiehlt es sich, den Spamordner zu überprüfen."
+  "Required Field": "Feld benötig"
 
   info:
     emailSent: "E-Mail gesendet"

@@ -47,6 +47,7 @@ zh_CN =
   enterUsername: "输入用户名"
   enterUsernameOrEmail: "输入用户名或电子邮件"
   orUse: "或是使用"
+  "Required Field": "必填项目"
 
   info:
     emailSent: "邮件已发出"

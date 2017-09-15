@@ -40,6 +40,7 @@
     username: "ឈ្មោះអ្នកប្រើ",
     usernameOrEmail: "ឈ្មោះអ្នកប្រើ ឬអ៊ីម៉ែល",
     "with": "ជាមួយនឹង",
+    "Required Field": "វាលដែលត្រូវការ",
     info: {
       emailSent: "អ៊ីម៉ែលដែលបានផ្ញើរ",
       emailVerified: "អ៊ីម៉ែលបានផ្ទៀងផ្ទាត់",

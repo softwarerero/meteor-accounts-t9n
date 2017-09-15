@@ -54,6 +54,7 @@ es_formal =
   enterUsername: "Introducir nombre de usario"
   enterUsernameOrEmail: "Introducir nombre de usario o dirección de correos"
   orUse: "O usar"
+  "Required Field": "Compo requerido"
 
   info:
     emailSent: "Correo enviado"

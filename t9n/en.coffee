@@ -53,6 +53,7 @@ en =
   enterUsername: "Enter username"
   enterUsernameOrEmail: "Enter username or email"
   orUse: "Or use"
+  "Required Field": "Required Field"
 
   info:
     emailSent: "Email sent"
