@@ -142,16 +142,16 @@ fr =
 
       #---- Misc...
       "Unknown error": "Erreur inconnue"
-      "Error, too many requests. Please slow down. You must wait 10 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 10 secondes"
-      "Error, too many requests. Please slow down. You must wait 9 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 9 secondes"
-      "Error, too many requests. Please slow down. You must wait 8 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 8 secondes"
-      "Error, too many requests. Please slow down. You must wait 7 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 7 secondes"
-      "Error, too many requests. Please slow down. You must wait 6 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 6 secondes"
-      "Error, too many requests. Please slow down. You must wait 5 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 5 secondes"
-      "Error, too many requests. Please slow down. You must wait 4 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 4 secondes"
-      "Error, too many requests. Please slow down. You must wait 3 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 3 secondes"
-      "Error, too many requests. Please slow down. You must wait 2 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 2 secondes"
-      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Trop d`essais en peu de temps. Veuillez réessayer dans 1 seconde"
+      "Error, too many requests. Please slow down. You must wait 10 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 10 secondes"
+      "Error, too many requests. Please slow down. You must wait 9 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 9 secondes"
+      "Error, too many requests. Please slow down. You must wait 8 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 8 secondes"
+      "Error, too many requests. Please slow down. You must wait 7 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 7 secondes"
+      "Error, too many requests. Please slow down. You must wait 6 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 6 secondes"
+      "Error, too many requests. Please slow down. You must wait 5 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 5 secondes"
+      "Error, too many requests. Please slow down. You must wait 4 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 4 secondes"
+      "Error, too many requests. Please slow down. You must wait 3 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 3 secondes"
+      "Error, too many requests. Please slow down. You must wait 2 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 2 secondes"
+      "Error, too many requests. Please slow down. You must wait 1 seconds before trying again.": "Trop d'essais en peu de temps. Veuillez réessayer dans 1 seconde"
 
 T9n?.map "fr", fr
 module?.exports = fr
