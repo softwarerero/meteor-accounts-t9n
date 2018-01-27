@@ -1,10 +1,6 @@
 {
   "dependencies": [
     [
-      "coffeescript",
-      "1.0.3"
-    ],
-    [
       "deps",
       "1.0.3"
     ],

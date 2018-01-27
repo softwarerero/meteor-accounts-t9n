@@ -1,6 +1,6 @@
 {
   "name": "meteor-accounts-t9n",
-  "version": "2.0.4",
+  "version": "2.1.0",
   "description": "Translations for Meteor projects, almost i18n",
   "repository": "https://github.com/softwarerero/meteor-accounts-t9n",
   "bugs": "https://github.com/softwarerero/meteor-accounts-t9n/issues",
@@ -9,11 +9,11 @@
     "El Softwarerero <el@softwarerero.com>"
   ],
   "main": "build/t9n.js",
-  "devDependencies": {
-    "coffee-script": "^1.12.7"
-  },
   "dependencies": {},
   "scripts": {
     "build": "coffee -c -o build/ *.coffee && coffee -c -o build/ t9n/*.coffee"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.1.1"
   }
 }
