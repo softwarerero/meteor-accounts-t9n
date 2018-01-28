@@ -1,5 +1,3 @@
-tracker = require 'meteor/tracker'
-
 Meteor?.startup ->
   if Meteor.isClient
     Template?.registerHelper 't9n', (x, params) ->
@@ -9,11 +7,16 @@ class T9n
   @maps: {}
   @defaultLanguage: 'en'
   @language: ''
-  @dep: new tracker.Tracker.Dependency() if tracker.Tracker
-  @depLanguage: new tracker.Tracker.Dependency() if tracker.Tracker
+  @dep: undefined
+  @depLanguage: undefined
 
   @missingPrefix = ">"
   @missingPostfix = "<"
+
+  @setTracker = (tracker) ->
+    @tracker = tracker
+    @dep = new tracker.Tracker.Dependency()
+    @depLanguage = new @tracker.Tracker.Dependency()
 
   @map: (language, map) ->
     if(!@maps[language])

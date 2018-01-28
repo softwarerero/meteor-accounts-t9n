@@ -6,7 +6,7 @@ Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Ch
 
 
 ## Version 2.0.0
-The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plain Node.js applications, not only within Meteor, see in `./examples/npm` how this could work.
+The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plain Node.js applications, not only within Meteor, see in `./examples/npm` how this could work. In Version 2.2.0 the examples have moved to the seperate repository https://github.com/softwarerero/meteor-accounts-t9n-examples.
 
 When using `npm` the translation files will no longer be eagerly loaded. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
 
@@ -19,6 +19,8 @@ These `examples` show different use cases:
 
 ## Installation
 ```meteor add softwarerero:accounts-t9n```
+
+## Starting from Version 2.2.0 the dependencies to `coffeescript` and `tracker` are optional, so you can bring your own, see examples for this.
 
 Off course one can easily add translations for applications. By putting a file like ```myapp.es``` in a folder under ```lib``` translations can be used on the client and on the server. Example:
 
