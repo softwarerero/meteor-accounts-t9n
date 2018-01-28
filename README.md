@@ -5,30 +5,26 @@ This package offers translations for accounts-base, accounts-passwords, accounts
 Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Estoninan, Farsi, Finish, French, French (Canada), German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Thai, Turkish, Ukrainian and Vietnamese.
 
 
-## Version 2.0.0
-The second generation of meteor-accounts-t9n is able to run with `npm` alone. This means it can even be used with plain Node.js applications, not only within Meteor, see in `./examples/npm` how this could work. In Version 2.2.0 the examples have moved to the seperate repository https://github.com/softwarerero/meteor-accounts-t9n-examples.
+## Version 2.3.0
+`meteor-accounts-t9n` now only works as an npm package, it is not possible to add it as meteor package any longer. Also the dependencies on `CoffeeScript` and `Tracker` do not exist any more, so there integration is optional and you have to do it manually, see https://github.com/softwarerero/meteor-accounts-t9n-example for some inspiration.
 
-When using `npm` the translation files will no longer be eagerly loaded. Several people asked for this feature to safe bandwidth and it is possible now, this closes #161.
+## Installation and initialisation
+`meteor npm install --save meteor-accounts-t9n`
 
-To make it work with `npm` the files have been translated to JavaScript, so if you use CoffeeScript you can require from the main directory and if you use JavaScript you would import/require from `build`.
+### Require (or import) T9n (this was a global variable in former versions)
+`T9n = (require 'meteor-accounts-t9n').T9n`
 
-These `examples` show different use cases:
+### Add English default translations (to this for any language you want)
+T9n.map 'en', require 'meteor-accounts-t9n/build/en'
+`T9n.map 'en', # add another t9n to the English dictionary
+  'another cool t9n', 'another cool translation'`
 
-- meteorPackage: This is way it has been used in former versions as a meteor package.
-- meteorNpm: Use t9n as npm package within Meteor.
+### Register Tracker (optional and client only)
+`T9n.setTracker require 'meteor/tracker'`
 
-## Installation
-```meteor add softwarerero:accounts-t9n```
+### Register `t9n` template helper (client only, this was done automatically before)
+`Template.registerHelper 't9n', (x, params) -> T9n.get(x, true, params.hash)`
 
-## Starting from Version 2.2.0 the dependencies to `coffeescript` and `tracker` are optional, so you can bring your own, see examples for this.
-
-Off course one can easily add translations for applications. By putting a file like ```myapp.es``` in a folder under ```lib``` translations can be used on the client and on the server. Example:
-
-``` myapp.es
-es =
-  meteor: "meteoro"
-T9n.map "es", es
-```
 
 # API
 
