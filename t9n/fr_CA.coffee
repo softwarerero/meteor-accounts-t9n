@@ -14,7 +14,7 @@ fr_CA =
   configure: "Configurer"
   createAccount: "Créer un compte"
   currentPassword: "Mot de passe actuel"
-  dontHaveAnAccount: "Vous n'avez pas de compte ?"
+  dontHaveAnAccount: "Vous n'avez pas de compte?"
   email: "Courriel"
   emailAddress: "Adresse courriel"
   emailResetLink: "Envoyer un courriel de réinitialisation"
@@ -30,13 +30,13 @@ fr_CA =
   remove: "Supprimer"
   resetYourPassword: "Reinitialiser votre mot de passe"
   setPassword: "Saisir le mot de passe"
-  sign: "S'enregistrer"
+  sign: "Inscrivez-vous"
   signIn: "Ouvrir une session"
   signin: "ouvrir une session"
   signOut: "Quitter"
-  signUp: "S'enregistrer"
+  signUp: "Inscrivez-vous"
   signupCode: "Code d'inscription"
-  signUpWithYourEmailAddress: "S'enregistrer avec une adresse courriel"
+  signUpWithYourEmailAddress: "S'inscrire avec une adresse courriel"
   terms: "Conditions d'utilisation"
   updateYourPassword: "Mettre à jour le mot de passe"
   username: "Nom d'utilisateur"
@@ -75,7 +75,7 @@ fr_CA =
 
       #---- accounts-base
       #"@" + domain + " email requis":
-      #"A login handler should return a result or undefined": "Un gestionnaire d'authentification doit retourner un résultat ou undefined"
+      #"A login handler should return a result or undefined": "Un gestionnaire d'authentification doit retourner un résultat ou la valeur 'undefined'"
       "Email already exists.": "L'adresse courriel existe déjà."
       "Email doesn't match the criteria.": "L'adresse courriel semble incorrectement formatée."
       "Invalid login token": "Jeton d'authentification invalide"
@@ -111,7 +111,7 @@ fr_CA =
       "User has no password set": "L'utilisateur n'a pas de mot de passe"
       "User not found": "Utilisateur inconnu"
       "Verify email link expired": "Lien de vérification de courriel expiré"
-      "Please verify your email first. Check the email and follow the link!": "Votre courriel n'a pas encore été vérifié. Veuillez cliquer le lien que vous avez reçu précédemment."
+      "Please verify your email first. Check the email and follow the link!": "Votre courriel n'a pas encore été vérifié. Veuillez cliquer le lien que nous vous avons envoyé."
       "Verify email link is for unknown address": "Le lien de vérification de courriel réfère à une adresse inconnue"
 
       #---- match
