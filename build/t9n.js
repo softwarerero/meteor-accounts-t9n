@@ -144,7 +144,7 @@
         while (index1 > -1) {
           index1 = strCopy.indexOf('@{');
           if (index1 > -1) {
-            index2 = strCopy.substring(index1).indexOf('}'); // no nested tokens
+            index2 = strCopy.indexOf('}'); // no nested tokens
             token = strCopy.substring(index1, index2 + 1);
             if (token.indexOf('->') > -1) {
               value = this.handleSelector(strCopy, args, token);

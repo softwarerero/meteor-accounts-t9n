@@ -1,6 +1,6 @@
 {
   "name": "meteor-accounts-t9n",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "Translations for Meteor projects, almost i18n",
   "repository": "https://github.com/softwarerero/meteor-accounts-t9n",
   "bugs": "https://github.com/softwarerero/meteor-accounts-t9n/issues",
