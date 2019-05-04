@@ -8,12 +8,13 @@
   "authors": [
     "El Softwarerero <el@softwarerero.com>"
   ],
-  "main": "build/t9n.js",
+  "main1": "build/t9n.js",
+  "main": "t9n.coffee",
   "dependencies": {},
   "scripts": {
     "build": "coffee -c -o build/ *.coffee && coffee -c -o build/ t9n/*.coffee"
   },
   "devDependencies": {
-    "coffee-script": "^1.12.7"
+    "coffeescript": "^2.4.1"
   }
 }
