@@ -5,6 +5,9 @@ This package offers translations for accounts-base, accounts-passwords, accounts
 Translations are currently available for Arabic, Catalan, Chinese (Mandarin), Chinese (Traditional), Chinese (Hong Kong), Croatian, Czech, Danish, Dutch, Estoninan, Farsi, Finish, French, French (Canada), German, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Khmer, Korean, Norwegian, Polish, Portuguese (Brasil), Portugues (Portugal), Romanian, Russian, Slovak, Slovenian, Spanish (South America), Spanish (Spain), Swedish, Thai, Turkish, Ukrainian and Vietnamese.
 
 
+## Version 2.4.0
+Add variable replacement which allows variants for a language key, for example for handling singular and plural, see https://github.com/softwarerero/meteor-accounts-t9n/issues/193.
+
 ## Version 2.3.0
 `meteor-accounts-t9n` now only works as an npm package, it is not possible to add it as meteor package any longer. Also the dependencies on `CoffeeScript` and `Tracker` do not exist any more, so there integration is optional and you have to do it manually, see https://github.com/softwarerero/meteor-accounts-t9n-example for some inspiration.
 
