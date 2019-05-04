@@ -1,6 +1,5 @@
 Meteor?.startup ->
   if Meteor.isClient
-    console.log('startup4')
     Template?.registerHelper 't9n', (x, params) ->
       T9n.get(x, true, params.hash)
 
@@ -75,35 +74,35 @@ class T9n
         throw Error "language #{language} does not exist"
     @language = language
     @depLanguage?.changed()
-
-    
+ 
   @replaceParams = (str, args) ->
     index1 = 0
     strCopy = str
     while index1 > -1
         index1 = strCopy.indexOf('@{')
         if index1 > -1
-            index2 = strCopy.substring(index1).indexOf('}')
+            index2 = strCopy.substring(index1).indexOf('}') # no nested tokens
             token = strCopy.substring(index1, index2 + 1)
-            if token.indexOf('->') > -1
-                lines = strCopy.split(/\n/)
-                tokenName = token.substring(2, token.indexOf(' '))
-                arg = args[tokenName]
-                line = lines.find((l) -> l.indexOf("[#{arg}]") > -1)
-                if line
-                    value = line.substring(line.lastIndexOf(']') + 1).trim()
-                else
-                    line = lines.find((l) -> l.indexOf('[*]') > -1)
-                    value = 
-                        line.substring(line.lastIndexOf(']') + 1)
-                        .trim()
-                        .replace(new RegExp("\\$#{tokenName}"), args[tokenName])
+            if token.indexOf('->') > -1 
+                value = @handleSelector(strCopy, args, token)
                 str = str.replace(token, value)
-            else
+            else # no selector, simply replace the token
                 tokenName = token.substring(2, token.indexOf('}'))
-                str = str.replace(token, args[tokenName])
+                str = str.replace(new RegExp(token, 'g'), args[tokenName])
+                str = str.replace(new RegExp("\\$#{tokenName}", 'g'), args[tokenName])
             strCopy = strCopy.substring(index2+2).trim()
     return str
+
+  @handleSelector = (str, args, token) ->
+    tokenName = token.substring(2, token.indexOf(' '))
+    lineMap = str.split(/\n/).slice(1).map (line) -> 
+        regexString = line.trim().split(/\s/)[0]
+        {regexString, line: line.substring(line.indexOf(regexString) + regexString.length)}
+    foundLine = lineMap.find (map) -> new RegExp(map.regexString).test(args[tokenName])
+    if foundLine
+        foundLine.line.substring(foundLine.line.lastIndexOf(']') + 1)
+            .trim()
+            .replace(new RegExp("\\$#{tokenName}"), args[tokenName])
 
 @T9n = T9n
 @t9n = (x, includePrefix, params) -> T9n.get(x)

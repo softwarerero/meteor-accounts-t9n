@@ -5,7 +5,6 @@
   if (typeof Meteor !== "undefined" && Meteor !== null) {
     Meteor.startup(function() {
       if (Meteor.isClient) {
-        console.log('startup4');
         return typeof Template !== "undefined" && Template !== null ? Template.registerHelper('t9n', function(x, params) {
           return T9n.get(x, true, params.hash);
         }) : void 0;
@@ -139,38 +138,45 @@
       }
 
       static replaceParams(str, args) {
-        var arg, index1, index2, line, lines, strCopy, token, tokenName, value;
+        var index1, index2, strCopy, token, tokenName, value;
         index1 = 0;
         strCopy = str;
         while (index1 > -1) {
           index1 = strCopy.indexOf('@{');
           if (index1 > -1) {
-            index2 = strCopy.substring(index1).indexOf('}');
+            index2 = strCopy.substring(index1).indexOf('}'); // no nested tokens
             token = strCopy.substring(index1, index2 + 1);
             if (token.indexOf('->') > -1) {
-              lines = strCopy.split(/\n/);
-              tokenName = token.substring(2, token.indexOf(' '));
-              arg = args[tokenName];
-              line = lines.find(function(l) {
-                return l.indexOf(`[${arg}]`) > -1;
-              });
-              if (line) {
-                value = line.substring(line.lastIndexOf(']') + 1).trim();
-              } else {
-                line = lines.find(function(l) {
-                  return l.indexOf('[*]') > -1;
-                });
-                value = line.substring(line.lastIndexOf(']') + 1).trim().replace(new RegExp(`\\$${tokenName}`), args[tokenName]);
-              }
-              str = str.replace(token, value);
+              value = this.handleSelector(strCopy, args, token);
+              str = str.replace(token, value); // no selector, simply replace the token
             } else {
               tokenName = token.substring(2, token.indexOf('}'));
-              str = str.replace(token, args[tokenName]);
+              str = str.replace(new RegExp(token, 'g'), args[tokenName]);
+              str = str.replace(new RegExp(`\\$${tokenName}`, 'g'), args[tokenName]);
             }
             strCopy = strCopy.substring(index2 + 2).trim();
           }
         }
         return str;
+      }
+
+      static handleSelector(str, args, token) {
+        var foundLine, lineMap, tokenName;
+        tokenName = token.substring(2, token.indexOf(' '));
+        lineMap = str.split(/\n/).slice(1).map(function(line) {
+          var regexString;
+          regexString = line.trim().split(/\s/)[0];
+          return {
+            regexString,
+            line: line.substring(line.indexOf(regexString) + regexString.length)
+          };
+        });
+        foundLine = lineMap.find(function(map) {
+          return new RegExp(map.regexString).test(args[tokenName]);
+        });
+        if (foundLine) {
+          return foundLine.line.substring(foundLine.line.lastIndexOf(']') + 1).trim().replace(new RegExp(`\\$${tokenName}`), args[tokenName]);
+        }
       }
 
     };
