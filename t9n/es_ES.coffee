@@ -10,7 +10,7 @@ es_ES =
   back: "regresar"
   cancel: "Cancelar"
   changePassword: "Cambiar Contraseña"
-  choosePassword: "Eligir Contraseña"
+  choosePassword: "Elegir Contraseña"
   clickAgree: "Si haces clic en Crear Cuenta estás de acuerdo con la"
   configure: "Configurar"
   createAccount: "Crear cuenta"

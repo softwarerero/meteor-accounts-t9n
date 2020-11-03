@@ -10,7 +10,7 @@ es_ES_formal =
   back: "regresar"
   cancel: "Cancelar"
   changePassword: "Cambiar Contraseña"
-  choosePassword: "Eligir Contraseña"
+  choosePassword: "Elegir Contraseña"
   clickAgree: "Si hace clic en Crear Cuenta acepta la"
   configure: "Configurar"
   createAccount: "Crear cuenta"
