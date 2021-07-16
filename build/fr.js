@@ -64,6 +64,11 @@
     "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nouvel email vient de vous être envoyé. Si vous ne le trouvez pas dans votre boite de réception, vérifiez dans vos spams.",
     "Required Field": "Ce champ est obligatoire",
     "Successful Registration! Please check your email and follow the instructions.": "Votre compte est enregistré. Vous allez recevoir un email contenant les instructions pour valider votre compte",
+    "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nouvel e-mail vous a été envoyé. Si l'e-mail n'apparaît pas dans votre boîte de réception, vérifiez bien votre dossier spam.",
+    "Already verified": "Déjà vérifié",
+    "At least 1 digit, 1 lowercase and 1 uppercase": "Au moins 1 chiffre, 1 minuscule et 1 majuscule",
+    "Invalid email": "Email invalide",
+    "Required Field": "Champs requis",
     info: {
       emailSent: "E-mail envoyé",
       emailVerified: "Adresse e-mail verifiée",

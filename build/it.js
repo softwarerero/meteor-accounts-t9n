@@ -86,6 +86,7 @@
         "You are not logged in.": "Non hai effettuato l'accesso.",
         "You've been logged out by the server. Please log in again.": "Sei stato disconnesso dal server. Per favore accedi di nuovo.",
         "Your session has expired. Please log in again.": "La tua sessione è scaduta. Per favore accedi di nuovo.",
+        "Already verified": "Gi\à verificato",
         //---- accounts-oauth
         "No matching login attempt found": "Tentativo di accesso corrispondente non trovato",
         //---- accounts-password-client
@@ -103,6 +104,8 @@
         "User not found": "Utente non trovato",
         "Verify email link expired": "Link per la verifica dell'email scaduto",
         "Verify email link is for unknown address": "Il link per la verifica dell'email fa riferimento ad un indirizzo sconosciuto",
+        "Please verify your email first. Check the email and follow the link!": "Per favore, verifica prima la tua email. Controlla la tua email e segui il collegamento che ti è stato inviato.",
+        
         //---- match
         "Match failed": "Riscontro fallito",
         //---- Misc...
