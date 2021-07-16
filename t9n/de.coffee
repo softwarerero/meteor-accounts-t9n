@@ -49,6 +49,12 @@ de =
   "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder." : "Eine neue Email wurde verschickt. Sollte sich die Email nicht im Posteingang befinden, empfiehlt es sich, den Spamordner zu überprüfen."
   "Required Field": "Feld benötigt"
 
+  "Already verified": "Bereits bestätigt"
+  "At least 1 digit, 1 lowercase and 1 uppercase": "Mindestens eine Zahl, ein Klein- und ein Großbuchstabe"
+  "Invalid email": "Ungültige E-Mail Adresse"
+  "Maximum allowed length: 6": "Maximallänge: 6"
+  "Minimum required length: 6": "Mindestlänge: 6"
+
   info:
     emailSent: "E-Mail gesendet"
     emailVerified: "E-Mail verifiziert"
@@ -86,7 +92,6 @@ de =
       "You've been logged out by the server. Please log in again.": "Die Sitzung ist abgelaufen, eine neue Anmeldung ist nötig."
       "Your session has expired. Please log in again.": "Die Sitzung ist abgelaufen, eine neue Anmeldung ist nötig."
 
-
       #---- accounts-oauth
       "No matching login attempt found": "Kein passender Loginversuch gefunden."
 
@@ -100,7 +105,6 @@ de =
       "Invalid email": "Ungültige E-Mail Adresse"
       "Must be logged in": "Eine Anmeldung ist erforderlich"
       "Need to set a username or email": "Benutzername oder E-Mail Adresse müssen angegeben werden"
-#>    "old password format":
       "Password may not be empty": "Das Passwort darf nicht leer sein"
       "Signups forbidden": "Anmeldungen sind nicht erlaubt"
       "Token expired": "Token ist abgelaufen"
@@ -109,7 +113,8 @@ de =
       "User not found": "Benutzer nicht gefunden"
       "Verify email link expired": "Link zur E-Mail Verifizierung ist abgelaufen"
       "Verify email link is for unknown address": "Link zur Verifizierung ist für eine unbekannte E-Mail Adresse"
-      "Already verified" : "Diese E-Mail-Adresse ist bereits verifiziert"
+      "Already verified" : "Diese E-Mail-Adresse ist bereits bestätigt"
+      "Please verify your email first. Check the email and follow the link!": "Bitte bestätigen Sie als erstes Ihre Email-Adresse. Prüfen Sie Ihre Emails und folgen Sie dem Link!"
 
       #---- match
       "Match failed": "Abgleich fehlgeschlagen"

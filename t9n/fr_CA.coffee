@@ -51,6 +51,11 @@ fr_CA =
   "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nouveau courriel vous a été envoyé. Si vous ne le recevez pas sous peu, vérifiez votre dossier destiné aux courriels indésirables.",
   "Required Field" : "Ce champ est obligatoire"
   "Successful Registration! Please check your email and follow the instructions.": "Votre compte a été créé! Vous recevrez sous peu un courriel de confirmation et la marche à suivre pour valider votre inscription."
+  "A new email has been sent to you. If the email doesn't show up in your inbox, be sure to check your spam folder.": "Un nouvel e-mail vous a été envoyé. Si l'e-mail n'apparaît pas dans votre boîte de réception, vérifiez bien votre dossier spam."
+  "Already verified": "Déjà vérifié"
+  "At least 1 digit, 1 lowercase and 1 uppercase": "Au moins 1 chiffre, 1 minuscule et 1 majuscule"
+  "Invalid email": "Email invalide"
+  "Required Field": "Champs requis"
 
   info:
     emailSent: "Courriel envoyé"
