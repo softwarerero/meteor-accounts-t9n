@@ -14,6 +14,7 @@
     "build": "coffee -c -o build/ *.coffee && coffee -c -o build/ t9n/*.coffee"
   },
   "devDependencies": {
-    "coffeescript": "^2.4.1"
+    "coffeescript": "^2.4.1",
+    "commander": "^8.0.0"
   }
 }
