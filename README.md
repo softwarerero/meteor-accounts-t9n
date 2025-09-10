@@ -1,3 +1,5 @@
+This repository moved to https://git.softwarerero.com/softwarerero/meteor-accounts-t9n.
+
 # Translations for the meteor standard packages (almost i18n)
 
 This package offers translations for accounts-base, accounts-passwords, accounts-entry, accounts-templates-core and billing. Contributions for other packages are welcome. We try to translate only messages that might pop up at a users screen as developers are expected to understand English errors anyway.
